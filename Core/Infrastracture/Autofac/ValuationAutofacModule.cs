@@ -4,7 +4,7 @@ using System.Text;
 using Autofac;
 using Cibc.Pricing.ValuationModels;
 
-namespace Core.Infrastracture.Autofac
+namespace Cibc.Core.Infrastracture.Autofac
 {
     public class ValuationAutofacModule : Module
     {

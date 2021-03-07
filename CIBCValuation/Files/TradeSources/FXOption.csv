@@ -1,0 +1,1001 @@
+CurrencyPair,Strike,OptionType,ExpiryDate,TradeId,Counterparty,Quantity,TradeType
+SEK/MRO,83.78,Put,2027-04-16,1101,Turcotte - Hoppe,835140.31,FXOption
+SDG/QAR,47.62,Call,2024-01-12,1102,Kovacek Inc,117914.57,FXOption
+THB/ISK,28.61,Put,2022-03-09,1103,O'Conner Inc,865048.34,FXOption
+CUP/ZWL,43.35,Call,2025-08-06,1104,Okuneva Inc,628693.87,FXOption
+MZN/FKP,50.91,Call,2028-04-28,1105,Trantow and Sons,436254.06,FXOption
+XOF/JPY,56.36,Call,2029-04-06,1106,Renner - Stracke,170041.58,FXOption
+NPR/PYG,50.62,Put,2030-09-11,1107,"Leuschke, Christiansen and Ziemann",549044.20,FXOption
+EUR/HKD,44.09,Put,2025-02-02,1108,Grant - Farrell,684404.08,FXOption
+XBB/SHP,37.63,Call,2021-05-10,1109,"Bernhard, West and Hermiston",49904.48,FXOption
+LTL/XBD,21.17,Call,2021-07-05,1110,"Schmitt, Bergnaum and Hills",809589.35,FXOption
+GIP/CVE,33.39,Put,2021-07-31,1111,"Sawayn, Blanda and Hahn",916043.79,FXOption
+BRL/AED,17.96,Call,2021-12-02,1112,"Kunze, Adams and Schumm",27324.00,FXOption
+TND/BTN,91.84,Call,2025-04-16,1113,"Farrell, Murphy and Hegmann",234942.50,FXOption
+LSL/AED,99.31,Call,2027-06-17,1114,Brekke - Jacobs,52821.91,FXOption
+GTQ/DZD,79.49,Call,2023-08-02,1115,"Prosacco, Hudson and Harber",417807.27,FXOption
+MKD/MOP,15.25,Call,2028-06-03,1116,"Kub, Reynolds and Christiansen",945774.80,FXOption
+UZS/FJD,74.25,Put,2022-01-19,1117,Waelchi and Sons,916009.13,FXOption
+HKD/JMD,43.34,Call,2030-02-05,1118,"Bahringer, Casper and Hilll",739660.21,FXOption
+MZN/SHP,71.58,Put,2027-03-26,1119,Adams Group,120439.93,FXOption
+FJD/MVR,31.56,Call,2029-07-05,1120,Lemke - Kiehn,853134.05,FXOption
+BYR/UYU,40.90,Put,2024-04-21,1121,Kub - Crist,568732.08,FXOption
+BHD/PHP,94.06,Call,2028-02-01,1122,Ziemann Group,554147.02,FXOption
+BYR/PLN,76.56,Call,2027-06-30,1123,Schmidt LLC,190993.54,FXOption
+KMF/LRD,97.08,Call,2030-09-12,1124,Cummings - Stoltenberg,809071.45,FXOption
+SDG/EUR,15.59,Put,2027-02-08,1125,Kohler Group,155627.74,FXOption
+XBD/MWK,48.76,Call,2022-12-29,1126,Turcotte and Sons,802518.61,FXOption
+LYD/KHR,1.27,Put,2022-08-15,1127,"Graham, Heller and Lakin",803113.40,FXOption
+BWP/DOP,88.50,Call,2023-06-10,1128,Marks and Sons,583338.50,FXOption
+AOA/NPR,73.68,Put,2030-11-19,1129,"Borer, Kilback and Barton",532500.07,FXOption
+KRW/EUR,67.47,Put,2021-10-09,1130,Gulgowski and Sons,235908.77,FXOption
+BOB/KYD,29.19,Put,2021-08-06,1131,Hirthe - Rippin,698699.96,FXOption
+HRK/GIP,21.62,Call,2030-08-10,1132,Halvorson LLC,27624.56,FXOption
+SYP/KWD,41.88,Call,2030-01-23,1133,Schumm and Sons,203027.65,FXOption
+CHF/HTG,57.10,Call,2029-05-03,1134,"Hartmann, Toy and Harber",454077.87,FXOption
+NAD/SZL,41.87,Call,2027-09-22,1135,Hauck - McGlynn,240671.85,FXOption
+LVL/LSL,42.58,Call,2023-08-05,1136,Wintheiser Inc,19710.89,FXOption
+DKK/ARS,30.59,Put,2028-04-04,1137,Morissette - Greenholt,279900.13,FXOption
+LBP/LSL,55.86,Put,2030-06-11,1138,"Stoltenberg, Jones and Pollich",761034.86,FXOption
+TJS/JPY,66.66,Put,2025-07-27,1139,Kulas - Kertzmann,340891.41,FXOption
+XBC/FJD,11.22,Put,2023-03-06,1140,Jacobs and Sons,28336.91,FXOption
+FKP/UAH,43.01,Put,2029-02-08,1141,Cassin LLC,934687.05,FXOption
+XFU/AWG,76.35,Put,2027-10-26,1142,Doyle - Mann,39437.86,FXOption
+MRO/NIO,35.22,Put,2025-02-11,1143,Gorczany LLC,875323.30,FXOption
+PLN/FJD,3.79,Put,2025-08-03,1144,Skiles - Langworth,427819.31,FXOption
+XBC/LSL,81.26,Call,2022-05-29,1145,Nolan Inc,612830.65,FXOption
+FKP/EGP,68.28,Put,2022-01-05,1146,Gorczany - Konopelski,298191.36,FXOption
+NGN/VUV,28.08,Put,2028-12-30,1147,Feil - McClure,957091.73,FXOption
+AED/LTL,24.17,Call,2027-08-13,1148,Brekke LLC,305432.47,FXOption
+BAM/KGS,35.01,Call,2030-10-02,1149,Jast - Hickle,531128.15,FXOption
+SRD/MWK,32.93,Call,2027-03-12,1150,Heathcote LLC,274632.19,FXOption
+HRK/BSD,1.55,Call,2028-06-14,1151,Crist Inc,355878.73,FXOption
+OMR/DJF,32.63,Put,2027-12-01,1152,"Boehm, Goodwin and Wunsch",56478.54,FXOption
+SRD/CZK,44.54,Put,2025-01-31,1153,"D'Amore, Cruickshank and Mohr",618379.23,FXOption
+GBP/ALL,49.40,Call,2030-10-15,1154,Zieme - Wolf,393323.21,FXOption
+JOD/QAR,88.14,Call,2029-08-18,1155,Flatley LLC,328826.40,FXOption
+XAF/SYP,70.95,Call,2021-07-02,1156,Wilkinson Inc,418685.77,FXOption
+RUB/PAB,92.98,Put,2027-08-31,1157,Kihn - Moore,126978.64,FXOption
+BSD/ERN,32.57,Call,2027-02-22,1158,Thompson LLC,42114.55,FXOption
+SOS/XAU,11.16,Call,2022-09-12,1159,Sporer - Runolfsson,943668.11,FXOption
+EEK/XPF,94.48,Call,2026-05-15,1160,"West, Carroll and Effertz",683837.96,FXOption
+ZAR/THB,97.16,Call,2024-12-15,1161,"Mann, Treutel and Jacobi",741426.38,FXOption
+HNL/CVE,29.71,Put,2027-03-03,1162,"Schuster, Bosco and Gorczany",439219.34,FXOption
+SDG/MYR,89.35,Call,2023-01-29,1163,"Armstrong, Leannon and Daniel",189474.77,FXOption
+PLN/SVC,48.58,Call,2025-07-26,1164,Dare LLC,937888.68,FXOption
+NZD/XCD,85.29,Put,2029-07-16,1165,"Windler, VonRueden and Reinger",913706.13,FXOption
+TZS/RON,93.53,Put,2021-08-04,1166,Batz - O'Keefe,339277.95,FXOption
+THB/XBC,15.33,Call,2027-09-09,1167,Bartoletti and Sons,881241.04,FXOption
+STN/GBP,63.48,Put,2028-07-16,1168,Mueller LLC,840570.12,FXOption
+VEF/SLL,11.96,Call,2029-07-02,1169,Mitchell LLC,269368.02,FXOption
+SEK/SDG,76.38,Put,2023-06-21,1170,Smith - Treutel,271984.30,FXOption
+SYP/XPF,81.75,Call,2028-02-03,1171,Bode - Considine,817841.86,FXOption
+SCR/BGN,86.37,Call,2027-08-02,1172,Larson and Sons,381824.92,FXOption
+SYP/XOF,47.39,Put,2028-04-06,1173,Weimann Inc,670670.60,FXOption
+BGN/MGA,27.83,Put,2021-10-04,1174,Tillman Group,971023.26,FXOption
+KYD/CHF,50.99,Call,2021-05-19,1175,Kovacek - Sporer,614418.14,FXOption
+KES/BBD,26.69,Call,2027-03-11,1176,Bednar Inc,819178.60,FXOption
+AUD/BYR,61.19,Call,2029-04-04,1177,"Tromp, Hammes and Durgan",343985.44,FXOption
+PHP/KGS,20.59,Put,2022-11-18,1178,Kiehn Group,103570.32,FXOption
+SLL/OMR,32.86,Put,2027-09-13,1179,Kuhn - Auer,160801.31,FXOption
+LBP/DOP,46.05,Call,2022-10-05,1180,Krajcik - Smith,704136.74,FXOption
+USD/HUF,19.56,Put,2030-03-01,1181,Cassin - Schmeler,483929.69,FXOption
+CZK/XAU,66.77,Put,2021-10-10,1182,Wilderman - Kulas,403160.86,FXOption
+ISK/KWD,22.55,Call,2024-07-05,1183,"Ritchie, McDermott and Mertz",15426.53,FXOption
+LKR/BDT,75.63,Put,2021-08-14,1184,Witting - Macejkovic,642991.71,FXOption
+UGX/SLL,95.99,Call,2028-03-04,1185,O'Connell LLC,965094.50,FXOption
+KES/QAR,42.59,Put,2028-09-10,1186,"Goldner, Weissnat and Bashirian",402724.62,FXOption
+AED/SEK,48.75,Put,2030-03-21,1187,Jerde Inc,614515.22,FXOption
+UYU/VUV,0.85,Call,2022-09-13,1188,Auer and Sons,446077.49,FXOption
+ERN/ERN,6.70,Call,2026-06-23,1189,"Romaguera, Stoltenberg and Bednar",680355.48,FXOption
+GYD/XBB,93.95,Call,2024-12-27,1190,Corkery - Wyman,49297.80,FXOption
+TZS/CDF,39.61,Put,2022-11-27,1191,Ortiz Inc,342253.35,FXOption
+MNT/PLN,0.33,Call,2031-01-16,1192,"Bradtke, Cummings and Huels",252333.14,FXOption
+BOB/HUF,66.24,Put,2024-05-19,1193,"Schmeler, Hintz and Wehner",180484.83,FXOption
+ZMK/BWP,45.86,Call,2026-05-15,1194,Little Group,479587.69,FXOption
+NIO/EGP,43.68,Call,2023-03-27,1195,Ullrich and Sons,65900.91,FXOption
+XAG/PYG,21.84,Put,2027-09-24,1196,"Klein, Hyatt and Hahn",907853.87,FXOption
+BBD/DJF,63.96,Call,2023-12-06,1197,Feil and Sons,487400.07,FXOption
+NIO/XPF,14.99,Put,2025-08-04,1198,"Jacobs, Champlin and Bins",126492.49,FXOption
+SZL/WST,57.09,Put,2028-02-18,1199,"Predovic, Roberts and Tremblay",167659.72,FXOption
+SHP/KZT,17.67,Call,2026-09-22,1200,Senger Group,463027.41,FXOption
+EGP/MKD,77.33,Call,2028-10-15,1201,Steuber Group,958816.31,FXOption
+DJF/LTL,87.77,Call,2021-06-18,1202,Reichert Group,733947.08,FXOption
+PHP/XOF,64.44,Put,2022-11-18,1203,Hahn - Reichel,193516.06,FXOption
+KGS/JMD,73.16,Put,2023-06-11,1204,O'Reilly - Heidenreich,668650.64,FXOption
+ZWL/LYD,30.01,Put,2030-12-01,1205,"Ritchie, Kuvalis and Hilpert",394380.28,FXOption
+SAR/BYR,83.52,Put,2023-08-10,1206,Morissette and Sons,585300.87,FXOption
+BAM/PYG,14.67,Call,2022-02-22,1207,Emard Inc,314437.88,FXOption
+ZAR/NZD,4.25,Put,2024-01-31,1208,Hackett - Maggio,2402.71,FXOption
+XPT/XTS,89.15,Call,2023-08-09,1209,"VonRueden, Reichert and Powlowski",340386.74,FXOption
+CAD/AOA,21.16,Put,2027-09-27,1210,O'Keefe LLC,578865.16,FXOption
+XBA/LBP,69.79,Call,2027-11-05,1211,Kessler - Rau,247704.60,FXOption
+JOD/GYD,86.55,Put,2024-06-06,1212,Nitzsche LLC,542796.66,FXOption
+COP/KES,80.77,Call,2021-05-08,1213,Swift Inc,351818.90,FXOption
+SYP/XPF,21.84,Call,2029-11-05,1214,Rempel and Sons,968650.78,FXOption
+PKR/GHS,84.48,Put,2027-03-13,1215,Ortiz Group,226876.25,FXOption
+SEK/TTD,5.69,Put,2029-12-17,1216,Leuschke - Gibson,222860.53,FXOption
+WST/BIF,63.09,Put,2030-07-23,1217,"Bernier, Gleichner and Hackett",439990.53,FXOption
+MKD/XFU,61.07,Call,2027-09-24,1218,Thiel LLC,324458.87,FXOption
+MWK/TRY,14.60,Call,2025-12-25,1219,Feeney Group,506977.51,FXOption
+CHF/KYD,80.17,Put,2022-04-03,1220,"Armstrong, Moore and Veum",878028.97,FXOption
+HTG/CDF,29.38,Put,2028-05-23,1221,Wilderman Inc,11607.92,FXOption
+CDF/XBB,78.50,Call,2026-09-08,1222,Ritchie and Sons,102790.78,FXOption
+ISK/LSL,78.66,Call,2030-05-28,1223,Prosacco - Lakin,294005.02,FXOption
+SGD/TWD,66.30,Call,2025-06-06,1224,Abbott - Marquardt,876280.58,FXOption
+BDT/DKK,27.49,Put,2024-11-16,1225,"Ernser, Keeling and Herzog",270052.75,FXOption
+KYD/EGP,41.04,Put,2025-07-11,1226,"Kohler, Adams and Bosco",601439.87,FXOption
+BBD/XAU,72.70,Call,2024-09-21,1227,Crona - Fahey,410157.38,FXOption
+SDG/TZS,33.75,Call,2026-10-23,1228,Krajcik and Sons,716589.23,FXOption
+NPR/EEK,1.68,Call,2027-04-26,1229,Kerluke - Block,110289.40,FXOption
+DOP/LYD,63.09,Put,2029-03-11,1230,"Wisozk, Keebler and Kub",406155.39,FXOption
+UZS/XOF,35.70,Call,2021-11-17,1231,Greenholt and Sons,345734.57,FXOption
+AOA/LSL,0.74,Call,2029-09-03,1232,"Gusikowski, Goodwin and Gislason",877946.29,FXOption
+LYD/TZS,39.17,Put,2030-03-09,1233,Zboncak - Huels,444811.59,FXOption
+AFN/HUF,54.95,Call,2030-04-04,1234,Erdman Inc,75681.81,FXOption
+CHF/MRO,87.36,Put,2022-01-27,1235,Farrell Inc,243606.52,FXOption
+PHP/COP,25.12,Put,2021-02-27,1236,"Lubowitz, Kling and Keeling",214467.22,FXOption
+TZS/AFN,25.49,Call,2026-05-17,1237,"Torp, Legros and Koepp",31514.89,FXOption
+XCD/XCD,62.90,Call,2023-12-23,1238,Waelchi and Sons,115481.37,FXOption
+RWF/ILS,8.41,Call,2027-07-07,1239,"Stanton, Marquardt and Jacobi",184292.01,FXOption
+XCD/BBD,17.07,Put,2026-09-22,1240,Turcotte - Rowe,337955.39,FXOption
+IDR/WST,37.27,Call,2028-12-14,1241,Kassulke Inc,289215.80,FXOption
+XAG/XOF,17.20,Call,2028-11-21,1242,Lang - Grimes,10778.54,FXOption
+SOS/BTN,25.13,Call,2030-07-24,1243,Heathcote - Ryan,674486.18,FXOption
+STN/ILS,86.30,Put,2022-07-30,1244,McDermott - Jaskolski,48950.21,FXOption
+XBB/BYR,74.66,Put,2022-06-09,1245,"Macejkovic, Fadel and Legros",811514.31,FXOption
+CAD/TND,68.53,Put,2023-04-20,1246,Armstrong - Schuster,165938.03,FXOption
+JPY/MUR,87.10,Put,2023-02-13,1247,Pfeffer - Sawayn,37908.76,FXOption
+SOS/AWG,49.04,Call,2023-04-16,1248,Roob Group,147757.84,FXOption
+EEK/MRO,37.45,Put,2024-03-07,1249,"Lemke, Swaniawski and Lindgren",989394.21,FXOption
+BZD/WST,68.11,Put,2023-02-20,1250,Gibson - Gerlach,65956.31,FXOption
+SCR/HKD,45.81,Put,2024-11-14,1251,Schuster - Wolff,940495.70,FXOption
+XDR/SOS,72.69,Call,2027-12-28,1252,Goodwin - Ryan,675535.66,FXOption
+ERN/CUC,78.28,Call,2026-08-28,1253,"Price, Lowe and Kunze",28098.71,FXOption
+NIO/SBD,23.17,Put,2030-12-02,1254,"Schmeler, Gorczany and Beier",845437.55,FXOption
+THB/XPF,3.20,Put,2030-02-28,1255,Ernser LLC,858509.82,FXOption
+SVC/SVC,50.45,Call,2024-08-06,1256,Lebsack - Hayes,451440.96,FXOption
+KMF/RWF,97.29,Call,2022-08-02,1257,"Rice, Rohan and VonRueden",764275.51,FXOption
+BMD/XPD,70.50,Put,2022-10-12,1258,"Boehm, Feeney and Labadie",746136.56,FXOption
+DOP/MDL,35.16,Put,2024-07-31,1259,"Blick, Ebert and Grant",40721.28,FXOption
+KRW/ERN,84.18,Call,2023-08-23,1260,Heaney Inc,668052.77,FXOption
+TWD/ZAR,65.92,Call,2022-02-22,1261,D'Amore Group,804571.37,FXOption
+HTG/PYG,30.44,Put,2028-04-13,1262,Hermann - Schowalter,50293.13,FXOption
+HRK/PEN,62.57,Put,2030-03-23,1263,Thiel - Little,921028.64,FXOption
+SAR/ETB,6.39,Put,2026-04-16,1264,"Maggio, Bergstrom and Kutch",255402.95,FXOption
+BRL/LVL,75.88,Put,2031-01-14,1265,Huels and Sons,381440.18,FXOption
+SGD/SGD,37.98,Put,2024-11-10,1266,Abernathy LLC,363727.95,FXOption
+XBB/ISK,82.04,Put,2026-07-06,1267,Smitham Inc,178930.54,FXOption
+GBP/BZD,38.02,Call,2025-07-25,1268,Boyle Inc,801691.25,FXOption
+MYR/PGK,91.20,Put,2027-09-08,1269,Kunze and Sons,430504.73,FXOption
+WST/HKD,33.64,Put,2029-12-07,1270,Dooley and Sons,778598.29,FXOption
+MZN/MOP,66.62,Put,2030-01-18,1271,"Bosco, Kuhn and Walker",561033.89,FXOption
+GBP/NIO,22.88,Call,2029-11-23,1272,Rempel - King,983512.69,FXOption
+TRY/MXN,34.02,Call,2027-03-01,1273,"Gleason, Lind and Gleichner",248150.52,FXOption
+LAK/PEN,35.23,Call,2027-07-12,1274,Schinner and Sons,391940.24,FXOption
+GYD/CZK,85.59,Call,2029-03-02,1275,"Stark, Toy and Upton",740086.49,FXOption
+UZS/BYR,41.42,Put,2023-03-28,1276,Dibbert LLC,440470.64,FXOption
+XFU/IDR,67.02,Put,2029-02-24,1277,Cartwright Group,236499.77,FXOption
+XPF/AED,94.26,Put,2027-06-12,1278,Yost - Hermann,924010.65,FXOption
+XPD/SYP,12.41,Call,2026-06-23,1279,Schmeler - Wilkinson,43211.98,FXOption
+AUD/KGS,52.63,Call,2025-02-13,1280,Hermiston - Morar,261226.99,FXOption
+MDL/DOP,51.86,Put,2029-04-24,1281,"Morar, Wilkinson and Lynch",69981.97,FXOption
+DOP/FKP,5.87,Put,2025-03-31,1282,Ferry LLC,497895.92,FXOption
+JOD/DZD,9.36,Call,2025-08-07,1283,Daniel Inc,112457.52,FXOption
+MUR/XAU,99.99,Put,2021-04-19,1284,Wehner Group,397726.28,FXOption
+XPD/FJD,39.16,Put,2030-01-03,1285,"Rempel, Kilback and Shanahan",428221.58,FXOption
+PYG/CZK,93.36,Put,2028-03-26,1286,"Huels, Zemlak and Yundt",2911.93,FXOption
+UYU/KWD,88.16,Put,2030-05-04,1287,Harris - Wolf,60020.64,FXOption
+FJD/RWF,42.59,Put,2024-11-01,1288,"Rolfson, Kuphal and Dooley",363235.04,FXOption
+CLP/NIO,97.90,Put,2021-12-16,1289,Stanton Inc,335676.37,FXOption
+MGA/IDR,46.75,Call,2028-08-21,1290,"Roberts, Hegmann and Willms",287689.12,FXOption
+CZK/CRC,35.94,Put,2023-01-22,1291,"Yost, Beier and Hayes",644566.17,FXOption
+KMF/PLN,54.89,Put,2031-01-26,1292,"Hamill, Fay and Sipes",188119.88,FXOption
+NAD/AED,34.24,Call,2029-01-12,1293,Streich - Herzog,931386.02,FXOption
+JMD/SYP,22.73,Call,2026-03-17,1294,"Ankunding, Schiller and Waters",40137.90,FXOption
+KZT/DOP,61.73,Put,2026-04-03,1295,Wyman Inc,784499.28,FXOption
+XOF/XBD,11.56,Call,2027-05-22,1296,"Stracke, Stracke and Schmitt",471824.66,FXOption
+CDF/MDL,61.55,Call,2030-06-22,1297,Nikolaus - Stokes,386526.83,FXOption
+CAD/CUP,86.16,Call,2029-05-28,1298,Kessler and Sons,196903.18,FXOption
+LVL/UAH,2.01,Put,2024-07-31,1299,Turcotte LLC,369661.68,FXOption
+GBP/BYR,9.79,Put,2022-09-05,1300,Hammes Group,122878.82,FXOption
+USD/GHS,23.03,Call,2024-05-13,1301,Metz Inc,273776.52,FXOption
+NZD/BOB,68.07,Put,2021-06-18,1302,Orn - Reichel,615171.52,FXOption
+BTN/TRY,69.06,Put,2025-02-24,1303,Wyman - Corwin,31455.51,FXOption
+BMD/NAD,46.39,Call,2026-12-23,1304,Bergstrom - Cruickshank,295768.17,FXOption
+BZD/CLP,75.24,Put,2027-11-16,1305,Schoen Inc,424124.07,FXOption
+KWD/EGP,40.71,Call,2027-11-23,1306,Metz LLC,882483.60,FXOption
+NGN/KRW,66.99,Call,2029-06-20,1307,Frami - Feeney,280997.79,FXOption
+ANG/XAF,52.71,Put,2023-05-23,1308,"Beahan, Mante and Rice",151277.37,FXOption
+BSD/NIO,80.75,Put,2030-03-01,1309,"Sporer, Yost and Gottlieb",690221.82,FXOption
+TWD/XAU,34.28,Put,2021-02-11,1310,Walker - Towne,420851.82,FXOption
+XBB/USD,62.80,Call,2022-03-28,1311,Muller Group,303760.95,FXOption
+ALL/SRD,68.24,Put,2024-05-26,1312,Pfannerstill - Abshire,915045.33,FXOption
+SYP/HKD,63.55,Call,2031-01-01,1313,"Lindgren, Cronin and Zemlak",628990.54,FXOption
+XAF/PYG,0.38,Call,2021-06-30,1314,Waelchi and Sons,680815.30,FXOption
+AFN/DZD,36.22,Put,2023-04-19,1315,Bode - Kessler,62323.09,FXOption
+GTQ/IRR,45.92,Call,2028-03-31,1316,"Vandervort, Considine and Ritchie",484842.01,FXOption
+LBP/YER,44.50,Call,2022-12-22,1317,"Zboncak, Wuckert and Glover",851857.27,FXOption
+KRW/TMT,50.57,Call,2026-05-18,1318,Gibson Inc,705227.46,FXOption
+TWD/XDR,7.94,Call,2021-04-04,1319,Runolfsson and Sons,546241.16,FXOption
+XOF/THB,4.19,Put,2023-08-20,1320,Wilderman - Gutmann,418734.34,FXOption
+COP/DKK,38.14,Put,2025-08-05,1321,"McGlynn, Medhurst and Baumbach",780543.68,FXOption
+UZS/LSL,56.39,Put,2025-10-07,1322,Gulgowski - Predovic,800257.10,FXOption
+KZT/MVR,0.93,Put,2023-06-11,1323,Cruickshank - Heathcote,772426.82,FXOption
+DZD/SBD,94.03,Call,2029-12-18,1324,"Hammes, Ferry and Ondricka",188826.04,FXOption
+CRC/MYR,11.11,Call,2028-07-03,1325,"Borer, Hartmann and Kerluke",478445.59,FXOption
+GYD/TTD,39.54,Put,2025-10-14,1326,Kessler - Hodkiewicz,306543.61,FXOption
+MDL/RSD,12.85,Put,2027-09-28,1327,Kuhlman Group,943107.85,FXOption
+BMD/KZT,47.94,Call,2027-07-03,1328,Koss Inc,911087.65,FXOption
+FKP/BGN,25.19,Put,2023-10-22,1329,"Streich, Medhurst and Thompson",445975.66,FXOption
+BWP/SRD,61.90,Call,2023-04-06,1330,"Herman, Hoeger and Sipes",227859.13,FXOption
+AED/FKP,4.78,Call,2026-07-07,1331,"Rowe, Heller and Larson",797800.76,FXOption
+NPR/DOP,26.04,Put,2021-07-10,1332,"Shields, Pacocha and Price",664610.23,FXOption
+KMF/SHP,63.60,Put,2029-11-19,1333,"Gerhold, Jakubowski and Denesik",731841.95,FXOption
+GHS/YER,51.49,Call,2021-11-17,1334,Smitham - Gleason,491465.76,FXOption
+XDR/ANG,10.39,Put,2027-11-21,1335,Zulauf - Bartoletti,711665.13,FXOption
+MZN/SEK,28.45,Call,2026-10-14,1336,Muller Group,484832.75,FXOption
+PGK/CNY,75.56,Call,2031-01-17,1337,Schaden and Sons,273483.03,FXOption
+BHD/CAD,17.87,Put,2027-02-01,1338,Deckow - Jerde,694164.79,FXOption
+STN/AWG,46.79,Put,2023-08-20,1339,"Lockman, Kris and Crooks",627935.76,FXOption
+OMR/IDR,29.20,Call,2028-03-17,1340,"Gibson, Lubowitz and DuBuque",717923.32,FXOption
+XPD/MRO,49.58,Call,2023-10-11,1341,Stoltenberg - Will,932799.55,FXOption
+DKK/KZT,2.15,Call,2029-11-21,1342,Ruecker - Haag,980823.10,FXOption
+XCD/XAF,12.81,Call,2029-04-21,1343,Muller Inc,166796.44,FXOption
+LBP/KMF,13.66,Put,2030-10-21,1344,"Predovic, Block and Rippin",852109.26,FXOption
+TJS/ZMK,71.44,Put,2022-04-15,1345,Erdman - Bogan,252255.60,FXOption
+SOS/IDR,13.52,Put,2021-12-19,1346,Hayes Group,696448.76,FXOption
+BWP/MNT,52.08,Call,2026-10-24,1347,Welch Inc,804727.60,FXOption
+LTL/KPW,33.24,Call,2028-12-13,1348,"Vandervort, Smith and Lueilwitz",75676.25,FXOption
+SYP/MXN,53.91,Call,2027-11-02,1349,Kihn - D'Amore,204123.85,FXOption
+LRD/XOF,2.60,Put,2026-03-20,1350,"Heathcote, Howell and Raynor",383649.43,FXOption
+NOK/XBD,20.79,Put,2028-05-01,1351,Lynch LLC,211901.63,FXOption
+MXN/BBD,71.35,Call,2026-02-17,1352,Glover and Sons,404159.88,FXOption
+GMD/MXN,5.09,Call,2025-03-29,1353,"Hammes, Feil and McDermott",857705.58,FXOption
+XCD/NIO,69.02,Put,2026-04-04,1354,Bernier - Collins,458452.45,FXOption
+UYU/TWD,40.93,Put,2030-08-22,1355,Marquardt and Sons,551329.26,FXOption
+XBD/GHS,19.00,Put,2026-02-28,1356,"Senger, O'Hara and Ortiz",980191.67,FXOption
+ALL/FKP,65.45,Put,2022-05-16,1357,"Kemmer, Nitzsche and Lowe",500705.03,FXOption
+BDT/FKP,45.27,Put,2025-08-07,1358,Schulist - Swift,550499.45,FXOption
+UGX/BOB,58.97,Put,2026-07-08,1359,Rutherford - Kirlin,346559.36,FXOption
+BHD/CRC,81.59,Put,2023-03-13,1360,Fahey Inc,731547.68,FXOption
+CHF/GHS,14.22,Call,2025-01-13,1361,Schamberger LLC,578315.17,FXOption
+USD/KHR,11.62,Call,2028-06-19,1362,"Brakus, Metz and Quitzon",460190.55,FXOption
+LKR/LTL,56.29,Put,2030-02-16,1363,Schoen and Sons,911001.07,FXOption
+VND/RUB,42.89,Call,2027-09-13,1364,Reinger - Pouros,734586.22,FXOption
+NAD/PHP,43.89,Call,2022-12-23,1365,"Morar, Cummerata and Doyle",442592.09,FXOption
+MXN/BSD,78.29,Put,2026-12-24,1366,"Hartmann, Hagenes and Witting",446614.00,FXOption
+MAD/TJS,40.11,Call,2023-09-03,1367,Botsford LLC,381651.53,FXOption
+GNF/BSD,8.48,Call,2029-12-04,1368,"Barrows, Bartell and Daugherty",188261.39,FXOption
+CRC/BZD,30.56,Put,2024-02-15,1369,Glover - Barton,299035.41,FXOption
+UYU/TJS,17.18,Call,2028-04-15,1370,Cummings LLC,897674.90,FXOption
+BDT/KZT,35.24,Call,2028-06-10,1371,"Prohaska, Ondricka and McDermott",385220.78,FXOption
+ERN/KHR,13.44,Call,2027-03-15,1372,O'Reilly and Sons,481090.84,FXOption
+PKR/AFN,19.84,Call,2031-01-08,1373,"Jerde, Frami and Donnelly",479697.46,FXOption
+BND/GNF,18.02,Put,2028-02-20,1374,Jacobi Inc,588147.99,FXOption
+CDF/CRC,9.02,Put,2030-04-26,1375,"Wintheiser, Sporer and Shields",404510.87,FXOption
+CAD/XCD,60.46,Put,2026-07-04,1376,Kris - Quigley,170938.64,FXOption
+LAK/DOP,54.39,Call,2028-08-27,1377,Wehner and Sons,873386.41,FXOption
+SEK/FKP,72.43,Put,2021-09-21,1378,Fadel Inc,61353.52,FXOption
+MVR/BIF,51.08,Put,2026-01-07,1379,Spencer - Bayer,300808.27,FXOption
+LYD/SYP,67.67,Put,2026-04-26,1380,Fay - Strosin,664687.63,FXOption
+VND/JOD,7.31,Put,2021-03-31,1381,Borer - Homenick,607963.91,FXOption
+KWD/BHD,97.47,Put,2021-04-21,1382,Kessler - Ruecker,441660.02,FXOption
+INR/ZAR,56.83,Put,2021-09-27,1383,Thompson - Homenick,286028.34,FXOption
+ISK/CVE,33.60,Put,2023-04-06,1384,Jenkins LLC,417978.32,FXOption
+DZD/MRO,39.17,Call,2021-02-21,1385,Wolff - Wuckert,648928.55,FXOption
+LRD/BAM,21.93,Put,2027-07-03,1386,"Batz, Sauer and Schaden",689985.66,FXOption
+TOP/WST,83.72,Put,2027-02-15,1387,Rempel and Sons,39749.29,FXOption
+EEK/BRL,40.85,Put,2021-07-11,1388,Becker LLC,105664.67,FXOption
+XCD/RUB,2.31,Call,2028-07-19,1389,"O'Keefe, Spencer and Trantow",359762.25,FXOption
+TMT/ZMK,24.21,Put,2022-09-02,1390,"Franecki, Hermiston and Cummerata",556532.68,FXOption
+KHR/XBD,99.73,Put,2024-05-01,1391,Sanford and Sons,941026.82,FXOption
+HUF/KES,98.53,Call,2028-03-10,1392,Ortiz - Grady,437414.97,FXOption
+BWP/ISK,87.91,Put,2028-05-14,1393,Kuhn - Hessel,774649.61,FXOption
+ETB/BND,53.90,Call,2021-06-04,1394,"Anderson, Hamill and Fisher",873033.32,FXOption
+BIF/CUC,78.23,Put,2025-07-09,1395,"Krajcik, King and Walker",357096.56,FXOption
+QAR/WST,66.54,Call,2026-11-19,1396,Romaguera LLC,80548.91,FXOption
+CRC/BOB,31.07,Call,2027-04-12,1397,Abshire - Berge,693807.98,FXOption
+SGD/TTD,85.44,Put,2030-04-30,1398,"Barrows, Hartmann and Schmitt",379779.16,FXOption
+KRW/XBD,72.01,Call,2022-06-18,1399,Pfannerstill Group,603381.09,FXOption
+MMK/BYR,38.15,Put,2023-09-12,1400,Mayert Group,587589.88,FXOption
+XAG/NAD,41.23,Call,2025-11-12,1401,"Gleichner, Schultz and Bayer",472499.73,FXOption
+XPF/BMD,57.34,Put,2028-04-28,1402,Stanton - Goldner,807623.02,FXOption
+ZAR/WST,37.97,Put,2028-06-05,1403,Muller - Sanford,458720.40,FXOption
+LAK/ZAR,7.34,Put,2027-08-26,1404,Schowalter - Osinski,998221.53,FXOption
+KRW/MDL,76.01,Put,2027-01-08,1405,"Effertz, Bechtelar and Morissette",26105.01,FXOption
+RON/VEF,21.34,Put,2021-02-24,1406,"Beahan, Kuhn and Wilderman",410954.14,FXOption
+ZAR/RON,54.10,Call,2024-11-16,1407,"Daniel, Bosco and Corwin",189249.11,FXOption
+OMR/MDL,66.35,Put,2028-12-14,1408,Rice and Sons,345958.33,FXOption
+KGS/XTS,74.94,Put,2030-08-17,1409,Wiegand - Effertz,280124.94,FXOption
+BBD/UYU,91.05,Call,2028-12-06,1410,Harris LLC,758223.09,FXOption
+ISK/CZK,66.50,Put,2021-06-24,1411,"Keebler, Becker and Rutherford",967741.98,FXOption
+BDT/OMR,66.75,Put,2029-09-14,1412,Hauck Group,3229.92,FXOption
+TWD/GEL,4.49,Put,2028-11-24,1413,"Pagac, Dicki and Kiehn",19853.88,FXOption
+ISK/SYP,35.61,Put,2026-07-17,1414,Kling - Kerluke,833972.51,FXOption
+AED/TTD,51.83,Call,2024-09-06,1415,"Simonis, Blanda and Rohan",924088.28,FXOption
+GEL/XAG,44.23,Put,2028-03-13,1416,Conroy - Jacobson,985168.70,FXOption
+KMF/BSD,37.20,Put,2024-01-26,1417,Willms LLC,338816.91,FXOption
+BDT/BND,87.71,Put,2029-02-06,1418,Larkin - Fisher,716575.44,FXOption
+XDR/SEK,24.45,Call,2025-02-08,1419,"Gleichner, Kessler and Effertz",294168.17,FXOption
+AZN/BTN,50.80,Call,2027-02-15,1420,Cremin - White,945595.06,FXOption
+SCR/BMD,1.55,Call,2029-07-14,1421,O'Connell - Murazik,552102.84,FXOption
+BBD/MGA,44.16,Put,2026-08-07,1422,"Bernhard, Gulgowski and Brekke",483010.87,FXOption
+BOB/UAH,55.48,Put,2026-09-01,1423,"Ruecker, Mueller and Deckow",723563.82,FXOption
+MZN/GTQ,17.26,Put,2024-02-18,1424,Heller LLC,503728.51,FXOption
+KMF/HRK,96.51,Put,2024-09-18,1425,"Brown, Gottlieb and Bode",627254.05,FXOption
+XFU/MNT,86.84,Put,2025-10-09,1426,"Kemmer, Morar and Schuppe",684844.72,FXOption
+GBP/XBB,46.88,Put,2026-03-01,1427,Terry - Little,460079.07,FXOption
+SHP/TWD,71.14,Put,2024-12-30,1428,Daniel - Trantow,211939.91,FXOption
+XAG/RSD,13.74,Put,2026-10-26,1429,"Roob, Huels and Considine",466862.53,FXOption
+JOD/GBP,85.80,Put,2026-10-12,1430,"Marks, Beahan and Kiehn",706676.39,FXOption
+UGX/LYD,98.80,Put,2023-04-25,1431,"Reichert, Williamson and Shanahan",171593.01,FXOption
+WST/SDG,50.93,Call,2024-02-03,1432,Wiza LLC,854595.70,FXOption
+XOF/PEN,22.40,Put,2025-11-28,1433,Schaden - Collins,334501.53,FXOption
+CAD/MXN,86.99,Put,2023-11-04,1434,Schulist and Sons,955436.44,FXOption
+RWF/XBD,68.36,Put,2026-05-10,1435,Wiza - Nader,388726.23,FXOption
+XAU/ZAR,44.76,Call,2030-03-04,1436,Dickinson LLC,995973.82,FXOption
+ILS/SYP,80.13,Call,2025-03-07,1437,"Howell, Aufderhar and Dooley",947537.02,FXOption
+NPR/XBD,94.02,Put,2024-05-11,1438,Shields Group,984658.51,FXOption
+KGS/SGD,19.99,Call,2023-12-26,1439,Bradtke Inc,650837.20,FXOption
+EGP/MOP,19.59,Put,2029-12-18,1440,Walker and Sons,507833.86,FXOption
+XAG/MDL,25.08,Call,2025-11-08,1441,Balistreri - Goyette,627938.50,FXOption
+XPF/PLN,67.05,Put,2027-06-14,1442,Durgan Group,82538.58,FXOption
+STN/BBD,59.24,Call,2027-03-21,1443,Rippin - Mitchell,480952.78,FXOption
+SEK/BZD,57.07,Call,2024-02-08,1444,"Littel, McLaughlin and Kessler",788807.76,FXOption
+XOF/PHP,15.12,Call,2021-11-26,1445,Emard - Quigley,400041.46,FXOption
+NPR/NPR,73.98,Call,2022-08-05,1446,Wiza Group,837262.37,FXOption
+ANG/GMD,93.20,Put,2025-12-28,1447,"Gottlieb, Effertz and Barton",274343.20,FXOption
+IDR/COP,98.96,Put,2028-04-15,1448,Fritsch - West,378742.34,FXOption
+NAD/JMD,50.22,Call,2026-03-17,1449,O'Reilly - Spencer,596510.15,FXOption
+XTS/RUB,2.14,Put,2023-12-18,1450,"Wyman, Skiles and Beatty",566992.37,FXOption
+MOP/QAR,95.09,Put,2022-09-23,1451,"Parisian, Brakus and Adams",153058.63,FXOption
+ZMK/TTD,50.90,Put,2021-08-07,1452,O'Reilly - Morissette,886872.14,FXOption
+COP/DZD,50.30,Call,2028-11-18,1453,Oberbrunner Group,517436.38,FXOption
+IRR/TJS,6.79,Put,2023-06-16,1454,"Wyman, Predovic and Harber",888037.21,FXOption
+XBD/PKR,4.07,Put,2024-10-22,1455,"Bednar, Hansen and Kessler",340854.04,FXOption
+HTG/BAM,96.35,Call,2022-10-19,1456,Roob and Sons,633591.64,FXOption
+FKP/CRC,89.88,Put,2022-08-11,1457,"Sauer, O'Conner and Runolfsdottir",289903.34,FXOption
+VEF/INR,62.56,Call,2030-02-02,1458,Brekke Group,576774.88,FXOption
+BYR/UGX,31.26,Put,2030-05-25,1459,Mitchell - Lehner,186312.98,FXOption
+NZD/XBB,30.55,Call,2029-11-09,1460,Yundt Group,417421.18,FXOption
+ALL/LYD,26.44,Put,2022-06-19,1461,Bashirian Inc,164073.59,FXOption
+SEK/CLP,75.78,Put,2028-06-27,1462,Daugherty LLC,272122.65,FXOption
+LSL/HTG,64.54,Call,2029-06-20,1463,Mertz - Larson,933359.40,FXOption
+LSL/HNL,33.35,Call,2029-09-17,1464,"Schumm, Kuvalis and Auer",271330.18,FXOption
+ZWL/ZMK,17.86,Put,2028-08-09,1465,McGlynn Inc,921861.43,FXOption
+HUF/XBB,27.94,Call,2026-04-26,1466,"Goodwin, Orn and Okuneva",870728.53,FXOption
+HRK/GYD,31.81,Call,2024-06-18,1467,Skiles LLC,179763.30,FXOption
+SHP/LBP,97.23,Put,2024-10-12,1468,"Mueller, White and Homenick",301815.42,FXOption
+SEK/AUD,88.61,Call,2023-12-05,1469,Weimann - Schmeler,588974.05,FXOption
+TRY/ZAR,79.97,Put,2023-02-06,1470,Pacocha - Hilll,699037.34,FXOption
+PYG/BAM,84.16,Put,2024-03-16,1471,Price - Moen,680066.90,FXOption
+MOP/NZD,0.18,Call,2025-04-20,1472,"Hickle, Weber and Jacobs",372346.75,FXOption
+AOA/CLP,70.40,Put,2025-07-10,1473,Schneider Inc,448549.67,FXOption
+SGD/MWK,66.81,Put,2021-10-16,1474,"Conroy, Jaskolski and Kuvalis",525859.66,FXOption
+CZK/ZMK,91.66,Call,2023-05-04,1475,Rice LLC,404762.03,FXOption
+MVR/MOP,95.34,Call,2030-07-22,1476,Shields Inc,802279.49,FXOption
+PAB/GMD,38.67,Call,2028-02-10,1477,Marks LLC,954589.71,FXOption
+MOP/CLP,13.78,Call,2026-05-18,1478,"Jast, Parisian and Schowalter",870126.07,FXOption
+XOF/LKR,13.90,Put,2028-04-01,1479,Watsica - Klocko,118575.94,FXOption
+TJS/GIP,41.77,Call,2026-02-01,1480,Stark - Wintheiser,572407.06,FXOption
+MAD/MAD,5.39,Put,2029-03-31,1481,Bruen and Sons,18088.40,FXOption
+KHR/AFN,45.54,Call,2026-07-23,1482,Williamson - Luettgen,638927.96,FXOption
+NGN/MVR,35.87,Put,2027-06-24,1483,"Klein, McClure and Kshlerin",483417.41,FXOption
+UYU/TTD,41.35,Call,2021-08-14,1484,"Turcotte, Larson and Klein",40705.59,FXOption
+XCD/PKR,75.59,Put,2023-11-12,1485,Wiegand - Bergnaum,124830.77,FXOption
+XPF/PAB,4.58,Put,2028-06-28,1486,Wilderman - Carroll,232900.22,FXOption
+VUV/CHF,97.66,Put,2027-08-12,1487,Stoltenberg - Koepp,142920.92,FXOption
+NOK/JPY,16.27,Put,2030-03-11,1488,Larkin - Schimmel,606769.50,FXOption
+UGX/GEL,65.64,Put,2023-02-25,1489,Klocko - Macejkovic,838335.13,FXOption
+BOB/YER,78.39,Put,2023-01-04,1490,"Ortiz, Mann and Simonis",994850.06,FXOption
+GBP/RON,25.04,Put,2028-09-21,1491,Bode Group,148213.98,FXOption
+TJS/PYG,28.13,Put,2023-12-23,1492,"Hermann, Rath and Bernier",43663.35,FXOption
+DJF/EUR,98.10,Put,2025-03-24,1493,Daugherty and Sons,664809.39,FXOption
+DKK/ERN,61.87,Call,2028-09-23,1494,Pfeffer - Nitzsche,813979.18,FXOption
+MKD/STN,37.79,Call,2027-01-08,1495,Grant Inc,580033.62,FXOption
+UAH/RUB,99.26,Put,2022-09-14,1496,Lebsack - Beatty,336373.16,FXOption
+EUR/MYR,24.19,Call,2023-04-23,1497,"Johnson, Price and Toy",291079.21,FXOption
+AMD/CRC,97.30,Put,2031-02-07,1498,Kuphal - Shields,424925.43,FXOption
+PAB/ETB,38.23,Put,2030-01-02,1499,Okuneva - Rippin,286904.46,FXOption
+AZN/MAD,81.61,Put,2024-07-22,1500,Stracke Group,821336.21,FXOption
+GEL/MMK,19.30,Put,2021-08-11,1501,Zieme - Volkman,6009.08,FXOption
+RUB/IQD,70.84,Call,2021-12-08,1502,"Boyer, Bartell and Crist",852141.18,FXOption
+BTN/XPF,5.89,Call,2024-09-04,1503,Bode LLC,908719.59,FXOption
+JPY/MVR,0.31,Call,2028-03-08,1504,"Kiehn, Hansen and Mohr",673556.42,FXOption
+SOS/NZD,79.23,Call,2027-01-25,1505,Durgan - Botsford,569169.41,FXOption
+KHR/STN,21.40,Put,2028-02-02,1506,Grady and Sons,347641.01,FXOption
+COP/YER,33.01,Call,2021-10-20,1507,Lockman Inc,219843.44,FXOption
+RUB/QAR,26.37,Put,2028-02-18,1508,Herzog - Romaguera,296309.51,FXOption
+MYR/IDR,3.18,Put,2024-07-26,1509,Langosh Group,297286.78,FXOption
+LAK/SCR,78.08,Call,2030-04-09,1510,Botsford Group,857550.13,FXOption
+EGP/RON,16.77,Call,2024-02-25,1511,Cronin - Barton,124099.33,FXOption
+BHD/SEK,89.51,Call,2022-11-20,1512,Rau LLC,785380.37,FXOption
+UAH/ANG,6.01,Put,2030-11-11,1513,"Schamberger, Witting and Quigley",188090.00,FXOption
+SYP/MAD,87.77,Put,2026-07-13,1514,Treutel - Beatty,515507.71,FXOption
+BRL/SVC,63.07,Call,2024-06-25,1515,"Goldner, Feeney and Christiansen",271077.03,FXOption
+MKD/XBC,12.56,Put,2023-01-03,1516,Dicki Group,282108.68,FXOption
+PGK/RSD,33.90,Call,2023-05-11,1517,"Durgan, Boyer and Daugherty",695390.28,FXOption
+FKP/XBD,63.99,Put,2027-09-20,1518,"Grady, DuBuque and Daniel",74864.01,FXOption
+MYR/YER,34.39,Put,2027-10-18,1519,Keeling - Donnelly,691185.95,FXOption
+CVE/MXN,61.18,Call,2029-04-12,1520,Mohr - Nicolas,314210.74,FXOption
+MNT/KPW,49.36,Put,2023-02-21,1521,Kuphal - Metz,775264.83,FXOption
+FKP/LBP,48.88,Put,2021-12-22,1522,Torphy Inc,604723.31,FXOption
+GHS/AED,72.26,Put,2028-01-19,1523,Jakubowski LLC,730222.63,FXOption
+LAK/KYD,81.99,Call,2022-02-21,1524,Wisoky Inc,605622.46,FXOption
+CVE/IQD,16.16,Put,2024-05-20,1525,Schumm Group,765374.42,FXOption
+UAH/BRL,2.68,Call,2027-02-11,1526,Walter - Hayes,170744.82,FXOption
+AWG/USD,83.91,Call,2023-12-21,1527,Schoen - Ebert,593195.03,FXOption
+CNY/GNF,38.61,Put,2023-10-20,1528,"Jenkins, Kassulke and Marks",784778.17,FXOption
+XTS/DZD,12.33,Call,2028-10-15,1529,DuBuque Inc,568674.52,FXOption
+VND/ARS,32.96,Put,2024-01-27,1530,Conroy Group,578792.17,FXOption
+XBC/BZD,36.56,Call,2030-04-10,1531,Runolfsdottir - Bednar,926272.20,FXOption
+KRW/UYU,38.08,Call,2024-08-25,1532,Connelly Inc,868808.33,FXOption
+XDR/BDT,58.53,Call,2023-08-08,1533,Ferry Inc,369146.67,FXOption
+VUV/IDR,87.66,Put,2026-02-25,1534,"Sipes, MacGyver and Lesch",455255.18,FXOption
+AUD/VUV,9.31,Call,2027-05-18,1535,Grimes Inc,203149.25,FXOption
+MDL/UGX,6.97,Put,2021-09-10,1536,Prosacco Inc,198079.88,FXOption
+QAR/AUD,46.48,Put,2021-12-13,1537,Smith Group,341031.89,FXOption
+MWK/HTG,79.14,Put,2021-06-12,1538,Pfannerstill - Gutmann,520704.24,FXOption
+USD/KWD,50.44,Call,2021-12-01,1539,Barton Inc,501013.24,FXOption
+TTD/PKR,73.62,Put,2027-10-18,1540,"Nicolas, Bechtelar and Prohaska",385556.04,FXOption
+BDT/NOK,94.04,Put,2028-11-20,1541,"Nader, Beahan and Ritchie",961247.73,FXOption
+XCD/XBB,2.27,Put,2026-02-16,1542,Rath and Sons,475947.52,FXOption
+OMR/KYD,74.17,Call,2029-01-25,1543,"Lindgren, Smith and McCullough",655892.18,FXOption
+CUP/AZN,27.69,Call,2022-04-24,1544,Thiel - Shanahan,671348.38,FXOption
+SHP/KPW,24.89,Call,2022-06-27,1545,Kautzer Inc,505098.90,FXOption
+CAD/BMD,66.91,Call,2021-10-06,1546,Satterfield - Kub,789010.23,FXOption
+HRK/TRY,63.97,Put,2023-12-22,1547,Huel Inc,512073.26,FXOption
+PKR/TMT,72.59,Call,2023-09-15,1548,Bauch Inc,421716.20,FXOption
+LRD/DOP,16.51,Put,2021-04-08,1549,"Barton, Brekke and Cormier",407039.38,FXOption
+XBC/DZD,72.82,Put,2022-11-08,1550,"Rippin, Renner and Abernathy",121990.36,FXOption
+QAR/XFU,9.69,Call,2021-03-12,1551,Kiehn Group,440878.50,FXOption
+XAG/XBC,3.06,Put,2021-06-10,1552,Prohaska Inc,881889.97,FXOption
+TZS/NGN,3.33,Call,2026-12-16,1553,"Nolan, Greenfelder and Cummings",784769.01,FXOption
+MUR/MMK,11.77,Call,2024-04-19,1554,Langosh and Sons,54606.49,FXOption
+AFN/XAF,11.74,Put,2027-07-05,1555,"Kuhlman, Kozey and Homenick",213316.69,FXOption
+SRD/MMK,43.97,Put,2030-05-22,1556,"Bosco, Bosco and Thiel",326625.55,FXOption
+AZN/XBC,64.49,Put,2028-04-14,1557,Stiedemann LLC,350168.63,FXOption
+VND/INR,41.36,Call,2026-03-27,1558,Herman - Runolfsson,591703.02,FXOption
+XPD/CRC,73.94,Call,2030-07-30,1559,Crona Group,704684.54,FXOption
+BIF/CUC,66.32,Put,2022-05-16,1560,Bosco - Hahn,22783.80,FXOption
+CLP/LKR,12.83,Call,2026-02-17,1561,"Cartwright, Hand and Gutmann",365416.11,FXOption
+EEK/FKP,36.23,Put,2028-10-26,1562,Fay - Larkin,912997.44,FXOption
+BRL/XBB,1.36,Call,2027-05-16,1563,Volkman - Klein,610765.48,FXOption
+SOS/MUR,55.64,Put,2025-01-05,1564,Gislason - Mayer,928426.54,FXOption
+RUB/QAR,44.63,Call,2028-11-17,1565,"Schiller, Robel and Feest",815497.11,FXOption
+KHR/XBD,78.73,Call,2030-02-02,1566,Block Group,727025.90,FXOption
+MOP/BZD,63.98,Put,2023-06-30,1567,Ebert - Jacobi,351815.70,FXOption
+UYU/HNL,58.78,Call,2030-11-26,1568,Kunde - Windler,356611.72,FXOption
+RON/BWP,89.72,Call,2025-08-02,1569,Boyle Group,949931.54,FXOption
+PYG/CDF,87.87,Call,2028-06-02,1570,"Leuschke, Crona and Armstrong",948303.49,FXOption
+KRW/CHF,87.45,Call,2023-12-09,1571,Doyle - Boyer,175734.91,FXOption
+XBB/RUB,79.96,Put,2027-06-07,1572,"Ferry, Kemmer and Conn",440388.45,FXOption
+XAF/XBC,70.17,Put,2024-07-24,1573,Goldner - Kling,89836.22,FXOption
+NIO/DKK,53.93,Call,2029-03-02,1574,Hackett - DuBuque,962635.21,FXOption
+SRD/PEN,1.73,Call,2024-02-06,1575,"Harvey, Schiller and Schiller",844594.77,FXOption
+GYD/CUP,10.39,Call,2030-12-19,1576,"Bruen, Gleichner and Steuber",518592.40,FXOption
+HKD/SOS,84.59,Call,2027-04-09,1577,Gleichner LLC,813820.85,FXOption
+XAF/GMD,77.03,Call,2028-08-23,1578,"Walter, Turcotte and Boyer",672134.53,FXOption
+PEN/KWD,27.92,Put,2025-08-23,1579,"Kohler, Stracke and Monahan",304430.08,FXOption
+SAR/TOP,65.53,Put,2027-02-07,1580,Jaskolski - Brekke,554035.40,FXOption
+SRD/LAK,47.02,Call,2029-04-08,1581,Breitenberg - Treutel,10094.05,FXOption
+KPW/RUB,27.41,Call,2027-08-13,1582,Wolff - Fadel,546837.74,FXOption
+KZT/JMD,92.80,Call,2027-05-31,1583,Kemmer - Denesik,877093.51,FXOption
+SBD/TND,28.11,Put,2024-04-22,1584,"Heidenreich, Jakubowski and Terry",221850.61,FXOption
+TWD/KMF,68.47,Call,2025-11-12,1585,Cartwright - Corwin,834178.16,FXOption
+ARS/KWD,99.80,Put,2022-10-11,1586,Wolf and Sons,279913.66,FXOption
+BRL/ANG,65.13,Put,2025-10-19,1587,O'Conner - Labadie,82084.96,FXOption
+ILS/LAK,19.61,Put,2023-05-24,1588,"Roob, Leffler and Romaguera",151797.50,FXOption
+XCD/LAK,53.13,Call,2025-09-06,1589,Hintz - Klein,772884.07,FXOption
+MNT/AED,68.59,Call,2027-10-21,1590,Hickle and Sons,223863.80,FXOption
+HUF/TWD,96.73,Put,2028-04-20,1591,Altenwerth - Cartwright,182976.62,FXOption
+UYU/DKK,49.10,Call,2026-10-17,1592,Senger - Bins,819438.00,FXOption
+MZN/MYR,26.37,Call,2025-02-15,1593,Terry LLC,619185.53,FXOption
+LBP/SAR,15.12,Call,2029-05-09,1594,Lemke Group,752618.72,FXOption
+TRY/CVE,52.31,Put,2022-12-23,1595,Johns - Barrows,638150.97,FXOption
+SLL/XTS,58.26,Put,2026-07-16,1596,Friesen LLC,216347.12,FXOption
+XPD/MXN,68.26,Put,2022-12-25,1597,"Romaguera, Keeling and Lubowitz",919153.90,FXOption
+AMD/ZWL,10.65,Call,2022-08-22,1598,Hermiston - Howe,668291.80,FXOption
+JMD/XOF,95.02,Put,2022-08-25,1599,Bernier - Howell,96180.67,FXOption
+XCD/XBA,42.86,Put,2021-10-28,1600,Schmidt Inc,170082.11,FXOption
+ALL/MZN,59.41,Put,2023-11-18,1601,"Kunze, Bogisich and Bernier",123041.85,FXOption
+TTD/CUC,3.76,Call,2028-04-24,1602,Kuphal - Emmerich,626296.01,FXOption
+TND/USD,61.41,Put,2024-12-26,1603,Bashirian - Morar,968925.19,FXOption
+XPF/DJF,27.37,Call,2027-09-05,1604,Kerluke - Kuhn,239763.75,FXOption
+TOP/QAR,2.24,Call,2026-11-08,1605,White - Hirthe,518161.55,FXOption
+COP/BIF,41.42,Call,2028-08-17,1606,"D'Amore, Fadel and Wolf",885566.17,FXOption
+PEN/RON,17.18,Call,2029-07-16,1607,Gusikowski - Feeney,508930.45,FXOption
+CHF/XAU,60.35,Put,2028-10-27,1608,Lowe - Abshire,352613.09,FXOption
+DKK/NZD,76.31,Put,2023-04-03,1609,Feil Group,946504.00,FXOption
+MOP/LAK,5.57,Call,2022-05-28,1610,Lowe - Hahn,145816.55,FXOption
+PEN/TWD,58.39,Put,2023-06-16,1611,Kiehn Group,853024.53,FXOption
+JPY/BZD,27.54,Call,2026-04-07,1612,"Schuster, Bernhard and Bogan",282151.36,FXOption
+KES/ZAR,72.63,Call,2024-01-21,1613,Boehm - Mraz,745799.50,FXOption
+ANG/XAG,40.04,Call,2024-06-04,1614,Ankunding LLC,296963.38,FXOption
+LSL/XFU,91.85,Put,2025-01-17,1615,Mohr Inc,362667.15,FXOption
+FJD/XPD,79.23,Put,2026-08-06,1616,Gleason - Upton,10372.01,FXOption
+XBB/MKD,45.82,Put,2021-07-07,1617,Powlowski - Heaney,878339.17,FXOption
+XAF/BDT,92.86,Put,2031-01-03,1618,Ledner Inc,198852.04,FXOption
+UAH/ALL,35.34,Call,2024-10-10,1619,Erdman Inc,688395.84,FXOption
+MAD/LKR,96.67,Put,2029-04-13,1620,Deckow Group,602290.54,FXOption
+XOF/FJD,62.04,Put,2029-10-22,1621,"Jaskolski, Quigley and Morar",904429.25,FXOption
+GBP/ARS,66.65,Put,2024-05-31,1622,Hoppe Group,81796.85,FXOption
+LYD/EGP,85.63,Put,2030-04-04,1623,"Stroman, Hane and Leffler",535441.87,FXOption
+KRW/BAM,58.22,Put,2023-02-14,1624,Marks Inc,64674.44,FXOption
+CDF/TJS,20.53,Call,2027-07-19,1625,Cruickshank and Sons,206934.04,FXOption
+CAD/CDF,92.21,Put,2028-10-23,1626,Kshlerin LLC,838061.59,FXOption
+IDR/XDR,85.05,Put,2021-03-08,1627,"Dach, Carter and O'Reilly",83823.00,FXOption
+USD/CHF,1.62,Call,2027-08-24,1628,Hyatt Inc,688486.87,FXOption
+UZS/VEF,75.42,Call,2025-06-09,1629,Dare - Rogahn,330165.89,FXOption
+RON/MKD,69.97,Call,2021-05-31,1630,Kassulke Inc,142541.87,FXOption
+GMD/SZL,27.63,Put,2024-05-06,1631,Block - Blanda,282247.18,FXOption
+BYR/LYD,45.12,Call,2022-03-19,1632,Schimmel LLC,682650.19,FXOption
+HRK/XBD,79.40,Put,2027-10-22,1633,Spencer and Sons,809386.93,FXOption
+TTD/SYP,36.69,Call,2026-11-06,1634,"Daugherty, Rempel and Kuphal",988771.19,FXOption
+MMK/VUV,67.09,Call,2027-07-03,1635,Thompson - Wolff,53892.19,FXOption
+MVR/CHF,56.48,Call,2023-01-02,1636,Grimes - McGlynn,691327.04,FXOption
+CUP/KPW,14.55,Put,2023-09-17,1637,"Rohan, Crona and Kuhlman",627524.12,FXOption
+AZN/SLL,48.40,Put,2022-09-09,1638,"Walker, VonRueden and Ruecker",922848.82,FXOption
+COP/GIP,26.11,Call,2025-12-22,1639,"Welch, Okuneva and Gottlieb",392407.67,FXOption
+MMK/TZS,24.04,Call,2030-01-04,1640,Kassulke - Morissette,641514.89,FXOption
+UGX/LRD,58.02,Put,2026-06-04,1641,"Muller, Hoppe and Moen",84853.12,FXOption
+JPY/ISK,89.69,Put,2022-01-10,1642,Shanahan - Pacocha,407286.18,FXOption
+QAR/BHD,24.62,Call,2024-12-02,1643,Koch Group,168518.90,FXOption
+UYU/EEK,36.69,Call,2022-09-28,1644,Feil Inc,813856.29,FXOption
+NIO/SVC,59.82,Call,2029-08-09,1645,Marvin - Kilback,913436.78,FXOption
+PGK/SLL,36.23,Put,2029-01-19,1646,Armstrong - Emard,258908.30,FXOption
+KZT/COP,30.33,Put,2024-01-25,1647,"Klocko, Reilly and Leannon",838616.57,FXOption
+ANG/MWK,51.76,Call,2025-06-14,1648,"Wunsch, Kihn and Bauch",239508.53,FXOption
+MZN/INR,9.10,Put,2021-04-17,1649,"Conn, Marks and Schroeder",741413.41,FXOption
+LKR/SDG,63.37,Put,2029-04-17,1650,Klein - Beahan,435187.53,FXOption
+ANG/INR,22.45,Put,2030-11-16,1651,"Robel, Grant and Kohler",34800.49,FXOption
+NZD/XFU,75.50,Put,2029-12-20,1652,Bernhard Inc,928371.33,FXOption
+SAR/CVE,37.17,Call,2030-06-15,1653,"Gerlach, Borer and Bode",285285.87,FXOption
+TJS/KWD,44.20,Put,2026-11-25,1654,Lemke - Huel,742170.85,FXOption
+ISK/BRL,78.45,Call,2026-06-23,1655,Sawayn - Hodkiewicz,355032.77,FXOption
+TZS/SGD,4.12,Put,2025-11-15,1656,Kertzmann - Labadie,718353.52,FXOption
+PYG/KPW,21.76,Call,2025-03-17,1657,Abbott - Rutherford,838518.13,FXOption
+IDR/BGN,35.01,Call,2022-05-31,1658,"Hansen, Kemmer and Kuhic",169625.17,FXOption
+AUD/UZS,49.74,Put,2026-02-17,1659,"Prosacco, Wisoky and Kutch",153216.01,FXOption
+TMT/MZN,90.18,Call,2028-01-31,1660,"Osinski, Prohaska and Haag",542651.35,FXOption
+DJF/SGD,3.82,Call,2023-10-14,1661,"Collins, Wolff and Pacocha",942626.02,FXOption
+MYR/CVE,69.17,Put,2026-02-15,1662,Kovacek - McLaughlin,641613.49,FXOption
+SLL/CNY,62.65,Put,2022-05-16,1663,"Schoen, Watsica and Rau",560849.13,FXOption
+AED/KYD,76.67,Call,2028-05-09,1664,Ryan - Daugherty,653169.81,FXOption
+EEK/IDR,20.99,Call,2023-07-07,1665,Welch - Hand,810322.20,FXOption
+BDT/GEL,90.18,Call,2024-05-07,1666,Rice and Sons,92205.62,FXOption
+NGN/NOK,9.59,Call,2029-12-05,1667,Johnson - Weissnat,772419.35,FXOption
+TRY/LKR,39.81,Put,2030-07-18,1668,Schumm - McKenzie,189602.11,FXOption
+IDR/LVL,8.84,Call,2026-10-13,1669,Ziemann - Prosacco,368408.78,FXOption
+STN/RUB,43.69,Call,2024-07-25,1670,Greenholt - Price,896335.71,FXOption
+SEK/IDR,96.75,Call,2028-08-07,1671,Schaden - Hettinger,727495.21,FXOption
+SAR/BYR,60.51,Call,2025-05-27,1672,Strosin - Ward,869593.10,FXOption
+RWF/ALL,20.30,Put,2026-02-01,1673,Becker Inc,449849.30,FXOption
+LAK/CNY,4.56,Call,2022-09-09,1674,"Mann, Bergstrom and Veum",752674.09,FXOption
+BBD/NOK,69.73,Put,2025-09-29,1675,"Goyette, Hermann and Jacobs",602257.27,FXOption
+IDR/BWP,29.19,Put,2023-07-09,1676,Mante - Greenfelder,322521.31,FXOption
+SYP/GHS,18.39,Put,2024-09-01,1677,Hegmann LLC,216917.65,FXOption
+ZAR/GIP,68.35,Put,2021-08-01,1678,Koss LLC,648429.13,FXOption
+HKD/SOS,76.88,Call,2030-12-30,1679,Kohler - Hoeger,88085.27,FXOption
+CNY/XDR,14.30,Put,2021-09-03,1680,Roberts LLC,628700.55,FXOption
+KHR/SEK,1.58,Put,2026-11-30,1681,Bergnaum LLC,114745.89,FXOption
+PHP/GNF,16.49,Put,2027-07-05,1682,Wiegand LLC,792.91,FXOption
+KYD/THB,17.18,Put,2030-03-20,1683,Ankunding - Barrows,784699.77,FXOption
+MAD/XCD,32.26,Put,2025-09-27,1684,Kuhn and Sons,775469.30,FXOption
+BDT/SOS,74.50,Call,2028-07-14,1685,Lind - Bayer,666715.19,FXOption
+LAK/MMK,15.00,Call,2027-04-28,1686,Goodwin - Braun,261387.57,FXOption
+MDL/BND,99.90,Put,2022-01-11,1687,"Kertzmann, Morissette and Schuster",942905.85,FXOption
+COP/HKD,79.92,Put,2022-02-17,1688,Kilback LLC,678161.61,FXOption
+SLL/PLN,63.75,Put,2026-03-04,1689,"Weissnat, Greenfelder and Batz",705857.46,FXOption
+WST/ISK,2.64,Put,2024-10-10,1690,Russel LLC,884512.88,FXOption
+PKR/AWG,49.10,Put,2027-01-11,1691,Lind - Maggio,73319.76,FXOption
+KMF/KHR,76.54,Put,2022-02-13,1692,Ward - Weissnat,664586.12,FXOption
+VUV/NOK,24.35,Put,2021-10-12,1693,Vandervort - Bogisich,293301.75,FXOption
+CDF/XPT,25.49,Call,2026-03-08,1694,MacGyver - Schmeler,295150.25,FXOption
+DKK/CAD,80.16,Put,2021-07-17,1695,Stroman LLC,989259.73,FXOption
+THB/SLL,62.98,Call,2025-09-02,1696,"Hessel, Hegmann and DuBuque",119178.98,FXOption
+MZN/BWP,86.53,Call,2021-06-01,1697,Orn Group,829784.02,FXOption
+XCD/DZD,47.42,Call,2023-06-09,1698,Satterfield Group,409744.49,FXOption
+UAH/AMD,42.99,Put,2028-03-06,1699,Predovic - Welch,491698.98,FXOption
+MKD/LYD,79.73,Put,2023-03-03,1700,Kihn - Bahringer,560988.59,FXOption
+IDR/BRL,75.14,Put,2028-07-17,1701,Batz Inc,861906.39,FXOption
+MRO/SLL,22.25,Put,2028-09-18,1702,"Wiegand, Kautzer and Wuckert",644964.09,FXOption
+MUR/KWD,58.81,Put,2021-05-22,1703,"Spencer, White and Jacobs",872910.40,FXOption
+SCR/CDF,19.40,Put,2030-07-05,1704,Kulas LLC,713982.45,FXOption
+DOP/NPR,75.61,Call,2022-08-23,1705,Sipes - Robel,84474.13,FXOption
+GHS/JOD,68.57,Put,2024-11-10,1706,"Kris, Sipes and Gulgowski",736754.66,FXOption
+SHP/AED,53.91,Call,2024-06-10,1707,Hahn Group,524646.06,FXOption
+RUB/KGS,68.29,Put,2021-10-23,1708,"Goyette, Kunde and Heller",789720.13,FXOption
+TND/MUR,90.73,Put,2030-09-22,1709,"Schimmel, Carroll and Hyatt",6861.27,FXOption
+MVR/STN,23.26,Call,2025-07-16,1710,Hamill Inc,775867.22,FXOption
+KHR/KWD,15.93,Call,2024-02-22,1711,Block LLC,272490.50,FXOption
+HNL/XFU,64.76,Call,2029-07-20,1712,Mraz and Sons,600640.10,FXOption
+MZN/MZN,0.92,Call,2025-01-16,1713,"Treutel, Rice and Dare",97304.00,FXOption
+IQD/AZN,67.56,Put,2021-07-25,1714,"Schimmel, Bauch and Kilback",971560.42,FXOption
+VUV/HTG,43.26,Put,2028-05-24,1715,"Wilkinson, Stamm and Kuhlman",417132.57,FXOption
+GYD/MRO,57.27,Put,2029-07-08,1716,Champlin LLC,672876.09,FXOption
+XBA/NGN,33.73,Call,2031-02-10,1717,Powlowski and Sons,48812.98,FXOption
+NPR/HKD,37.61,Call,2030-09-26,1718,Fahey - Goodwin,254595.19,FXOption
+CAD/GEL,40.09,Put,2022-12-02,1719,Rosenbaum Inc,236920.29,FXOption
+TRY/DKK,69.29,Put,2030-07-08,1720,Hills Inc,425851.06,FXOption
+BGN/VUV,16.48,Put,2021-12-05,1721,Ullrich Group,903130.99,FXOption
+ILS/LYD,32.68,Put,2021-12-06,1722,"Simonis, Leffler and Hudson",296780.26,FXOption
+ZWL/EUR,63.10,Put,2021-08-03,1723,"Lubowitz, Champlin and O'Connell",713600.28,FXOption
+LYD/BHD,5.68,Call,2022-01-27,1724,Beier - MacGyver,661894.49,FXOption
+RUB/IDR,6.44,Call,2028-01-14,1725,"Hilll, Bins and Bergnaum",776727.69,FXOption
+BDT/GEL,16.25,Call,2023-09-10,1726,"Ward, Kreiger and Christiansen",941936.77,FXOption
+BHD/PYG,26.85,Put,2029-10-01,1727,"Shanahan, Feest and Carroll",156389.39,FXOption
+JPY/ISK,79.56,Call,2025-12-22,1728,Gulgowski and Sons,984039.49,FXOption
+GBP/ZWL,94.33,Put,2030-05-30,1729,"Hettinger, Ward and Maggio",558803.69,FXOption
+VEF/KPW,85.45,Put,2022-06-05,1730,Emmerich - Walker,799020.56,FXOption
+TOP/VND,47.82,Call,2026-05-27,1731,"Pouros, Bahringer and Bode",200588.50,FXOption
+GIP/XAF,97.83,Put,2023-09-24,1732,"Lynch, Gottlieb and Schiller",811413.44,FXOption
+GBP/RUB,28.74,Put,2026-02-02,1733,"Cronin, Connelly and Rempel",648872.12,FXOption
+MZN/PYG,94.32,Put,2023-12-04,1734,Lowe - Funk,840879.65,FXOption
+CZK/BAM,31.14,Call,2025-05-11,1735,"Predovic, Schimmel and Konopelski",450445.62,FXOption
+KZT/BOB,74.68,Call,2026-08-20,1736,Wuckert - Klocko,592874.02,FXOption
+LSL/NAD,94.32,Call,2022-11-28,1737,Walsh - Carroll,574031.99,FXOption
+NOK/ETB,49.55,Call,2030-11-24,1738,Effertz - Cremin,348473.02,FXOption
+EUR/COP,99.04,Call,2026-10-06,1739,"Pollich, Legros and McGlynn",963617.24,FXOption
+PLN/UZS,80.42,Call,2027-08-07,1740,"Schmeler, Renner and Sipes",105968.49,FXOption
+WST/DKK,95.88,Call,2022-09-14,1741,"Kub, Lakin and Bahringer",759105.22,FXOption
+AZN/VND,76.68,Put,2029-07-31,1742,Boyle and Sons,59626.04,FXOption
+DZD/MAD,70.57,Call,2024-12-01,1743,"Jacobi, Zboncak and Johnston",849295.29,FXOption
+EGP/DJF,18.29,Put,2026-02-27,1744,"Rogahn, Kilback and Stamm",855138.50,FXOption
+CRC/XAG,85.82,Put,2024-04-26,1745,Baumbach Inc,831477.98,FXOption
+TMT/SHP,82.38,Put,2021-09-29,1746,"Frami, Tillman and Abbott",842381.54,FXOption
+LAK/PHP,76.30,Put,2023-08-13,1747,"Funk, Dach and Sipes",911563.28,FXOption
+WST/TZS,18.20,Call,2022-09-12,1748,"Spinka, Parisian and Gislason",19957.73,FXOption
+TRY/TWD,74.68,Call,2027-02-18,1749,"Hickle, Denesik and Barton",601940.96,FXOption
+SDG/MYR,91.96,Call,2023-03-22,1750,Jerde Inc,524969.59,FXOption
+SBD/UZS,93.60,Put,2026-10-03,1751,Little - Casper,607938.93,FXOption
+UAH/SBD,43.28,Call,2021-10-17,1752,"Wisozk, Wintheiser and Littel",665274.52,FXOption
+CLP/CUC,49.17,Put,2025-03-19,1753,Brekke LLC,889251.06,FXOption
+NZD/XAF,78.70,Put,2028-01-16,1754,Lynch and Sons,953540.09,FXOption
+CVE/SZL,63.27,Put,2022-01-30,1755,"Kuhlman, Denesik and O'Reilly",239417.42,FXOption
+TMT/LSL,19.71,Put,2028-05-24,1756,"Hand, Simonis and Goodwin",505664.79,FXOption
+KES/BAM,53.50,Call,2021-04-09,1757,"Johnston, DuBuque and Kessler",240970.81,FXOption
+RSD/MZN,94.90,Put,2026-10-01,1758,Thiel - Cole,856069.32,FXOption
+XBB/QAR,37.24,Call,2024-05-11,1759,Casper - Legros,92081.46,FXOption
+ARS/XAF,33.87,Put,2023-11-28,1760,"Cummings, Murphy and Parisian",58882.61,FXOption
+OMR/SRD,92.19,Call,2029-10-21,1761,Simonis - Cole,230750.45,FXOption
+HNL/GEL,53.24,Call,2025-06-16,1762,"Metz, Walsh and Smith",417682.40,FXOption
+TJS/NOK,84.69,Put,2028-05-17,1763,Ryan Group,85239.50,FXOption
+CZK/BZD,3.91,Put,2024-04-04,1764,"Botsford, Wuckert and Hauck",302106.66,FXOption
+IDR/RWF,1.65,Call,2024-06-11,1765,"Heller, Wunsch and Schimmel",181862.10,FXOption
+AFN/LSL,97.22,Put,2026-09-05,1766,Sanford - Labadie,442219.53,FXOption
+XOF/AWG,9.57,Call,2031-01-20,1767,Nicolas - Russel,15702.81,FXOption
+YER/PHP,52.32,Call,2030-11-18,1768,Nicolas - Gottlieb,289485.33,FXOption
+MGA/MGA,63.43,Put,2021-07-13,1769,"Pfannerstill, Rice and Boyer",578136.51,FXOption
+MZN/GMD,96.29,Call,2023-09-06,1770,Hane - Hane,229091.70,FXOption
+ILS/KHR,39.46,Put,2028-02-06,1771,Bayer - Roberts,86180.06,FXOption
+AOA/PYG,99.02,Call,2029-10-23,1772,Schroeder Group,918988.58,FXOption
+GNF/AFN,50.53,Put,2025-09-05,1773,Beer and Sons,500248.72,FXOption
+AED/ISK,38.21,Call,2027-07-16,1774,Jakubowski LLC,994633.85,FXOption
+CUP/TWD,58.35,Call,2026-11-01,1775,Mills and Sons,672370.84,FXOption
+SEK/GHS,70.67,Put,2023-02-06,1776,"Mosciski, Greenfelder and Ortiz",238911.56,FXOption
+LTL/BMD,29.32,Call,2023-06-19,1777,"Rodriguez, Rice and McClure",900131.72,FXOption
+STN/FKP,63.31,Put,2026-12-13,1778,"Kub, Leuschke and Huel",381631.09,FXOption
+TJS/USD,64.70,Call,2027-05-22,1779,Von - Renner,777100.60,FXOption
+TTD/MNT,50.29,Call,2021-04-23,1780,"Quitzon, Gulgowski and Denesik",497474.92,FXOption
+MAD/KMF,24.32,Put,2021-12-05,1781,Bogan LLC,348466.46,FXOption
+BSD/HNL,44.34,Call,2030-04-15,1782,Kuhlman and Sons,651464.19,FXOption
+BWP/ETB,35.73,Call,2026-03-19,1783,"Schmidt, Berge and Smitham",470380.12,FXOption
+ETB/CHF,39.76,Put,2028-12-31,1784,McDermott Group,248924.73,FXOption
+SVC/STN,34.00,Put,2027-11-28,1785,Fahey - Hermann,536662.44,FXOption
+XAU/MGA,54.43,Call,2023-04-20,1786,Daniel Group,54094.07,FXOption
+CDF/XBD,94.51,Call,2021-07-14,1787,Morissette - Huels,98161.80,FXOption
+SHP/MOP,52.41,Put,2024-08-08,1788,Ferry - Dickinson,495399.26,FXOption
+BYR/KYD,70.84,Call,2024-02-06,1789,Gleason - Haag,90570.07,FXOption
+SCR/AOA,74.07,Call,2021-08-14,1790,Yost - Pouros,335957.36,FXOption
+NIO/SEK,43.42,Call,2030-02-24,1791,Kovacek - Blick,439844.95,FXOption
+MNT/MRO,72.50,Put,2030-07-03,1792,Maggio - Kirlin,324292.44,FXOption
+JMD/UZS,57.75,Call,2026-03-06,1793,Gerhold and Sons,948277.51,FXOption
+SVC/RSD,36.20,Put,2021-02-11,1794,Bradtke - Lesch,162602.87,FXOption
+DZD/AED,35.98,Put,2028-06-18,1795,"Cummerata, Pacocha and McKenzie",656347.79,FXOption
+SZL/BDT,63.01,Put,2029-01-20,1796,Klocko Inc,610912.67,FXOption
+BHD/PYG,81.24,Put,2029-02-22,1797,Bode - Farrell,862314.04,FXOption
+MNT/QAR,1.14,Call,2028-11-06,1798,Schowalter Group,962225.72,FXOption
+AOA/BRL,69.01,Put,2025-01-13,1799,Miller - Gerlach,942423.47,FXOption
+BWP/XAF,67.35,Put,2025-05-10,1800,Kuhn - Runte,86307.13,FXOption
+UYU/KHR,9.84,Put,2022-11-07,1801,Gutmann - McKenzie,931538.03,FXOption
+NOK/ZMK,79.46,Call,2022-03-16,1802,Corwin Group,488407.93,FXOption
+COP/SAR,5.72,Call,2024-07-12,1803,Nader - Bechtelar,114010.23,FXOption
+GIP/BND,86.45,Call,2026-05-15,1804,Bradtke LLC,893673.09,FXOption
+VEF/CUP,57.68,Put,2023-07-08,1805,"McKenzie, Roob and Smith",844042.60,FXOption
+RWF/ERN,79.10,Call,2028-08-02,1806,"Towne, Sanford and Greenfelder",15323.90,FXOption
+BOB/XTS,7.39,Call,2023-07-15,1807,Tremblay Group,502349.86,FXOption
+BND/MKD,43.80,Put,2027-01-22,1808,"Schuppe, Muller and Bins",520931.68,FXOption
+IRR/INR,42.39,Put,2024-09-25,1809,Walter LLC,452203.08,FXOption
+CHF/HTG,79.85,Call,2028-04-05,1810,"Durgan, Bayer and Haley",117195.96,FXOption
+IRR/VEF,35.85,Call,2029-04-10,1811,"Torp, Sauer and Welch",357245.52,FXOption
+AED/MUR,44.53,Call,2026-06-20,1812,Kunze Inc,648868.36,FXOption
+FKP/MYR,1.23,Put,2029-04-17,1813,Conroy - Pfannerstill,597115.13,FXOption
+TRY/CUP,86.85,Call,2030-02-27,1814,Waelchi - Davis,302451.80,FXOption
+NZD/BOB,61.76,Put,2022-11-07,1815,"Ferry, Blanda and Legros",935.86,FXOption
+TRY/ILS,22.24,Call,2022-03-22,1816,Hahn - Mann,708354.54,FXOption
+MWK/IDR,85.17,Call,2030-01-26,1817,Larson and Sons,344993.30,FXOption
+BZD/LAK,29.74,Put,2024-10-17,1818,"Pollich, Bergnaum and Sauer",97269.57,FXOption
+JOD/AZN,42.18,Put,2023-01-16,1819,Blick and Sons,648046.99,FXOption
+BDT/UAH,61.70,Put,2030-01-27,1820,Hodkiewicz Group,582725.97,FXOption
+AOA/SHP,48.36,Put,2030-01-22,1821,"Larson, Dare and Cormier",712040.00,FXOption
+NAD/EUR,96.87,Put,2030-09-29,1822,Kassulke Inc,506917.97,FXOption
+XBC/RWF,69.80,Call,2030-07-11,1823,"Witting, Greenfelder and Collins",156535.54,FXOption
+JPY/UZS,78.90,Call,2031-01-16,1824,"Wilderman, Kshlerin and Frami",852907.84,FXOption
+TRY/LSL,51.75,Put,2030-10-13,1825,VonRueden - Von,158445.04,FXOption
+ANG/PHP,60.15,Call,2024-11-25,1826,"Hansen, Braun and Stracke",820100.64,FXOption
+IQD/XBB,66.35,Call,2028-06-18,1827,Barrows and Sons,788010.97,FXOption
+ZAR/NOK,33.76,Call,2030-08-11,1828,Brakus - Collier,467461.71,FXOption
+SEK/UAH,98.13,Put,2028-12-03,1829,Harris Inc,392078.87,FXOption
+TRY/LKR,76.84,Call,2028-08-24,1830,Olson Inc,214213.87,FXOption
+CAD/ERN,33.66,Put,2026-11-11,1831,Christiansen LLC,254650.78,FXOption
+BGN/NGN,46.81,Put,2021-08-02,1832,"Stokes, Champlin and Gleichner",482548.59,FXOption
+ALL/MYR,7.51,Call,2030-10-05,1833,"Hahn, Lakin and Schoen",595031.80,FXOption
+FJD/DKK,81.90,Put,2026-04-09,1834,Ondricka LLC,222290.92,FXOption
+BAM/CHF,92.22,Put,2028-09-09,1835,Wehner Inc,141795.65,FXOption
+KMF/XDR,90.59,Put,2021-05-15,1836,Conn LLC,334558.09,FXOption
+CNY/IQD,39.71,Call,2025-10-13,1837,Welch Inc,566974.79,FXOption
+FJD/BBD,58.93,Put,2029-09-10,1838,Ullrich Inc,270786.18,FXOption
+FJD/SVC,89.75,Put,2029-05-18,1839,"Dach, Kilback and O'Conner",672779.82,FXOption
+NIO/LYD,57.08,Put,2027-07-12,1840,"Feil, Rutherford and Halvorson",234931.14,FXOption
+SYP/UZS,81.57,Put,2030-03-07,1841,"Paucek, Rodriguez and Medhurst",993809.91,FXOption
+BRL/VEF,17.56,Call,2027-11-08,1842,Rodriguez - Mante,21766.72,FXOption
+MAD/XDR,38.75,Put,2027-01-06,1843,"Schulist, Glover and Little",850192.87,FXOption
+BZD/BOB,42.52,Put,2029-08-15,1844,"Runolfsdottir, Kunze and White",235800.63,FXOption
+NAD/DOP,66.86,Call,2028-08-14,1845,"Jaskolski, Wehner and Zboncak",947114.92,FXOption
+QAR/TTD,49.99,Put,2022-07-01,1846,Johns - Schuster,298644.05,FXOption
+AUD/DZD,11.54,Put,2021-10-13,1847,Bergstrom and Sons,261122.78,FXOption
+HNL/AMD,36.18,Put,2026-10-24,1848,Torphy Inc,430762.54,FXOption
+EUR/PHP,38.79,Call,2025-01-12,1849,Metz Group,281098.43,FXOption
+YER/MNT,75.89,Put,2027-01-01,1850,"Donnelly, Graham and Kautzer",635551.49,FXOption
+XBD/KHR,33.66,Call,2029-10-03,1851,Trantow Group,831693.28,FXOption
+XFU/DOP,54.04,Put,2021-05-22,1852,"Bosco, Schmitt and Wehner",93431.97,FXOption
+COP/VUV,51.27,Call,2030-03-01,1853,"Ritchie, Swift and O'Hara",964216.32,FXOption
+UAH/KHR,98.19,Put,2026-04-10,1854,Tromp LLC,428821.03,FXOption
+KWD/COP,14.01,Call,2023-09-23,1855,"Stiedemann, Waelchi and Rutherford",191010.51,FXOption
+XPF/TJS,79.74,Call,2023-11-07,1856,Johns - Keeling,503236.56,FXOption
+OMR/CLP,4.83,Call,2026-05-14,1857,"Okuneva, Beahan and Vandervort",431392.17,FXOption
+THB/BGN,95.33,Put,2029-12-29,1858,Osinski Group,704734.63,FXOption
+HKD/KGS,83.61,Call,2027-03-05,1859,"Durgan, Schiller and Bartoletti",607675.39,FXOption
+SOS/SEK,10.70,Put,2030-02-22,1860,O'Conner - Barrows,149352.09,FXOption
+PKR/SZL,15.09,Put,2026-04-28,1861,Crona - Bartell,395689.54,FXOption
+UGX/NIO,3.26,Put,2021-03-07,1862,"O'Kon, Kautzer and Ziemann",891521.36,FXOption
+MVR/PLN,90.75,Call,2028-05-12,1863,McKenzie - Auer,777740.71,FXOption
+COP/AFN,39.81,Put,2029-03-08,1864,Ebert - Yost,667059.90,FXOption
+WST/BWP,95.08,Put,2030-10-26,1865,"Considine, Gleichner and Koch",800607.01,FXOption
+LRD/LAK,35.83,Call,2025-10-27,1866,"Donnelly, Lynch and Quitzon",710810.89,FXOption
+BBD/ZWL,33.02,Put,2028-05-04,1867,Roberts - Ritchie,40714.09,FXOption
+XOF/DOP,86.15,Put,2024-09-20,1868,Yundt and Sons,24507.48,FXOption
+GHS/YER,88.41,Put,2030-09-29,1869,"Corkery, O'Hara and Mitchell",681024.44,FXOption
+XDR/KMF,17.81,Call,2021-10-19,1870,Dibbert LLC,647745.97,FXOption
+JPY/XTS,71.78,Call,2027-06-19,1871,Howell Group,541151.87,FXOption
+BSD/LRD,56.99,Put,2024-05-06,1872,Mosciski and Sons,849247.43,FXOption
+ARS/UAH,44.63,Put,2029-02-14,1873,"Berge, Klocko and Bins",185517.98,FXOption
+CDF/KZT,13.51,Put,2027-01-26,1874,Mann - Metz,760763.98,FXOption
+PLN/SCR,71.12,Call,2024-07-22,1875,Friesen - Nitzsche,963180.51,FXOption
+NPR/SBD,30.80,Put,2021-03-03,1876,Bernhard - Fay,77915.67,FXOption
+XPT/CLP,17.51,Put,2024-01-22,1877,Douglas Group,713595.18,FXOption
+NAD/XAG,58.22,Call,2028-04-12,1878,Stiedemann - Hauck,393587.42,FXOption
+LKR/SAR,81.35,Put,2021-04-21,1879,Bradtke Group,369962.38,FXOption
+KYD/CAD,50.53,Call,2030-12-08,1880,Gislason Group,900863.43,FXOption
+TMT/ILS,0.52,Call,2022-06-23,1881,Trantow and Sons,480709.17,FXOption
+XAG/DKK,7.98,Call,2030-03-03,1882,"Bartoletti, Boehm and Heathcote",495707.72,FXOption
+KMF/VND,3.17,Put,2028-06-20,1883,"Rempel, Bins and Tromp",938000.36,FXOption
+LVL/ILS,82.37,Put,2023-01-05,1884,Dicki - Towne,1541.71,FXOption
+DJF/BZD,98.54,Put,2027-08-05,1885,Kling and Sons,338115.79,FXOption
+INR/CVE,66.66,Put,2022-08-18,1886,"Blanda, Paucek and Hintz",239892.48,FXOption
+FKP/LAK,8.09,Call,2025-12-15,1887,Bechtelar - Walter,322553.82,FXOption
+ANG/HRK,59.37,Call,2028-01-09,1888,Stehr Inc,63557.11,FXOption
+TJS/XAU,26.45,Put,2027-09-19,1889,Streich - Ruecker,952552.87,FXOption
+UAH/DJF,83.07,Put,2029-06-25,1890,Wilderman LLC,801819.92,FXOption
+BWP/PLN,84.00,Call,2026-10-06,1891,Christiansen - Botsford,875886.13,FXOption
+PKR/RSD,78.16,Call,2023-11-19,1892,Anderson - Okuneva,40850.69,FXOption
+AZN/NZD,47.29,Put,2021-08-07,1893,Jacobs and Sons,33941.78,FXOption
+EEK/CUC,63.68,Put,2023-03-13,1894,Grady - Barrows,930349.70,FXOption
+BRL/DKK,77.72,Put,2027-06-16,1895,Langworth LLC,110162.66,FXOption
+AMD/MUR,92.10,Call,2027-02-13,1896,Zemlak and Sons,855775.23,FXOption
+JPY/BDT,12.10,Call,2023-04-28,1897,Herman - Bins,485796.01,FXOption
+JPY/KRW,10.99,Put,2025-09-12,1898,Price Group,469457.27,FXOption
+EUR/KMF,96.08,Call,2022-07-14,1899,Carter - Green,56600.94,FXOption
+AFN/PGK,75.29,Put,2023-03-30,1900,Ruecker and Sons,482213.57,FXOption
+ZMK/XAU,93.14,Put,2028-01-09,1901,Smitham - Brown,664628.55,FXOption
+MWK/TMT,37.63,Call,2025-12-02,1902,"Stoltenberg, McGlynn and Stroman",745862.46,FXOption
+FJD/AMD,89.54,Call,2025-09-09,1903,Botsford - O'Connell,524947.43,FXOption
+CUC/MZN,62.12,Put,2027-04-29,1904,Pollich - Corkery,716575.77,FXOption
+LVL/BIF,28.09,Call,2025-10-21,1905,"Christiansen, Hyatt and Cassin",565675.91,FXOption
+CDF/NPR,84.59,Put,2028-09-24,1906,Price LLC,633041.40,FXOption
+KPW/XBC,8.71,Put,2023-07-22,1907,Stanton LLC,93815.01,FXOption
+XOF/BYR,49.62,Put,2024-08-11,1908,Hyatt and Sons,124692.36,FXOption
+LSL/MUR,53.83,Call,2025-07-08,1909,Lehner Inc,433539.71,FXOption
+TZS/TJS,30.89,Call,2029-02-22,1910,"Beer, Ziemann and Bruen",345119.97,FXOption
+ERN/BTN,13.62,Call,2021-11-02,1911,Windler Inc,478626.41,FXOption
+UZS/NPR,23.26,Put,2027-12-02,1912,"Rowe, Mante and Collins",801699.20,FXOption
+CRC/CUP,72.71,Call,2021-06-09,1913,"Botsford, Luettgen and Zemlak",585300.60,FXOption
+FJD/GYD,78.91,Call,2021-05-15,1914,Heathcote - Murray,327202.88,FXOption
+MUR/MWK,33.72,Call,2030-04-26,1915,"Bergnaum, Sporer and Kreiger",468995.46,FXOption
+KPW/XFU,14.03,Put,2025-12-06,1916,Robel LLC,100423.64,FXOption
+BND/AMD,60.08,Call,2026-08-09,1917,Gulgowski - Beer,641863.18,FXOption
+MZN/CRC,76.59,Call,2029-04-03,1918,Terry and Sons,63524.86,FXOption
+UYU/FKP,53.33,Call,2028-11-04,1919,Bogan - Kilback,20998.60,FXOption
+UGX/TZS,39.45,Put,2028-08-25,1920,"Frami, Douglas and Huels",120942.01,FXOption
+ZWL/KRW,9.62,Put,2021-07-24,1921,Robel - Koch,868161.94,FXOption
+OMR/XBC,52.32,Put,2025-01-24,1922,Cruickshank and Sons,334467.41,FXOption
+HRK/SDG,71.86,Put,2024-03-03,1923,Klein - Schiller,108605.05,FXOption
+KMF/XBC,39.15,Call,2023-12-21,1924,"Roob, Okuneva and Frami",183737.23,FXOption
+DOP/UAH,57.70,Call,2022-08-02,1925,King LLC,748281.78,FXOption
+GMD/TMT,30.14,Call,2021-10-06,1926,"McDermott, Kuhic and Metz",435604.14,FXOption
+MDL/ETB,29.00,Put,2021-07-30,1927,Rogahn - Cormier,692679.70,FXOption
+INR/CRC,7.74,Put,2021-05-17,1928,"Wolf, Kautzer and Fahey",621759.96,FXOption
+EGP/JOD,34.06,Call,2024-09-22,1929,Goyette - Romaguera,563310.37,FXOption
+UYU/BGN,87.60,Call,2025-04-01,1930,White and Sons,126833.91,FXOption
+PEN/CNY,50.15,Call,2025-12-12,1931,"Bins, Kutch and Waters",782051.82,FXOption
+NOK/LYD,3.43,Call,2027-09-05,1932,"Feest, Gerlach and Erdman",758025.57,FXOption
+UAH/AED,58.00,Put,2029-08-10,1933,"Grimes, Dach and Torphy",132872.97,FXOption
+HKD/XPF,20.47,Call,2027-07-03,1934,Rodriguez Group,108404.91,FXOption
+LSL/LYD,92.26,Put,2030-10-02,1935,Hyatt LLC,913561.83,FXOption
+DOP/EEK,15.99,Put,2025-09-12,1936,Lehner - Heller,43089.15,FXOption
+NGN/PLN,90.22,Call,2023-04-04,1937,Schmeler - Williamson,621511.77,FXOption
+JMD/VEF,53.64,Put,2026-05-23,1938,Corwin Group,805464.92,FXOption
+DJF/VND,27.25,Call,2030-07-01,1939,Homenick Inc,390438.22,FXOption
+XPF/VND,4.89,Put,2027-01-15,1940,Braun LLC,718782.18,FXOption
+AFN/SZL,37.85,Put,2027-06-27,1941,Lakin - Schowalter,87314.71,FXOption
+SAR/KWD,99.04,Put,2021-11-17,1942,"Smith, Collins and Kunde",506630.01,FXOption
+PLN/HRK,66.99,Put,2022-03-21,1943,McKenzie Inc,349039.44,FXOption
+TOP/ALL,99.66,Put,2021-04-28,1944,Douglas - Bartell,756602.23,FXOption
+MYR/AUD,43.62,Call,2022-02-20,1945,Hilpert and Sons,12004.14,FXOption
+TMT/HTG,37.10,Call,2023-08-19,1946,"Metz, Skiles and Gorczany",958044.64,FXOption
+PYG/TMT,7.07,Put,2027-03-27,1947,Cronin Group,341497.18,FXOption
+RSD/LAK,90.80,Call,2028-03-03,1948,Hauck and Sons,510024.92,FXOption
+MRO/CDF,93.09,Put,2026-03-30,1949,Armstrong Inc,912798.77,FXOption
+KMF/SYP,55.50,Put,2029-09-28,1950,Frami Inc,420780.49,FXOption
+MAD/KPW,62.99,Put,2021-05-05,1951,Barrows Group,225833.19,FXOption
+AWG/BGN,4.88,Call,2022-09-22,1952,Bogisich Inc,812398.08,FXOption
+KES/BZD,2.85,Call,2028-11-29,1953,Franecki - Moore,606466.87,FXOption
+XPT/TTD,64.26,Put,2026-12-03,1954,Okuneva - Upton,714162.23,FXOption
+GHS/MMK,30.26,Call,2027-10-23,1955,Wyman - Langworth,618531.14,FXOption
+IQD/FKP,52.71,Put,2022-10-09,1956,Kris - Dickinson,160058.78,FXOption
+CVE/SGD,6.55,Call,2021-10-07,1957,Reichel LLC,630707.18,FXOption
+LBP/JPY,53.33,Put,2022-11-19,1958,"Lockman, Cole and Hermiston",169813.51,FXOption
+SEK/KPW,30.15,Call,2022-11-10,1959,"Windler, Bogisich and Gutmann",740875.70,FXOption
+CUC/KPW,86.03,Put,2021-09-10,1960,Nikolaus Inc,789131.46,FXOption
+INR/BSD,29.34,Call,2023-06-26,1961,"Schiller, Lueilwitz and Emmerich",159410.08,FXOption
+JOD/PYG,11.98,Put,2025-04-13,1962,"Romaguera, Smitham and Borer",803980.43,FXOption
+BGN/GMD,36.01,Call,2024-07-18,1963,"Ruecker, Johnston and Toy",661178.38,FXOption
+XFU/DOP,74.49,Put,2030-05-28,1964,"Mohr, Heidenreich and O'Connell",390502.36,FXOption
+KYD/PLN,44.81,Call,2026-08-11,1965,Jones - Donnelly,992868.16,FXOption
+CRC/YER,2.46,Put,2024-10-25,1966,Lesch - Haley,443493.99,FXOption
+XPF/BDT,57.31,Call,2022-04-09,1967,Bode - Bergstrom,762366.77,FXOption
+XBC/CUC,47.74,Call,2023-09-16,1968,Prohaska Group,177425.18,FXOption
+PEN/STN,97.71,Put,2030-08-09,1969,Keebler - Kiehn,11616.02,FXOption
+BTN/MWK,55.56,Put,2022-12-31,1970,Cummerata - Cummerata,679363.54,FXOption
+HRK/ERN,25.81,Put,2029-08-10,1971,"Steuber, Kozey and Champlin",419808.11,FXOption
+XCD/LKR,46.04,Call,2030-07-16,1972,Muller Inc,966089.99,FXOption
+AED/KRW,15.19,Call,2030-08-13,1973,Kling - Hamill,785300.24,FXOption
+SGD/HUF,60.42,Call,2025-02-23,1974,Harvey - Hagenes,621777.62,FXOption
+IQD/XBA,46.59,Call,2028-06-09,1975,Adams - Breitenberg,769486.76,FXOption
+XBB/PAB,33.44,Call,2027-07-21,1976,Dooley Inc,203871.99,FXOption
+FKP/ISK,0.14,Put,2028-08-02,1977,Bernier - Kovacek,688159.36,FXOption
+INR/MGA,45.35,Put,2021-05-07,1978,Mertz Group,780941.82,FXOption
+HKD/FKP,43.18,Put,2029-08-28,1979,Ryan Inc,419285.63,FXOption
+BGN/XPF,4.90,Put,2024-06-09,1980,"Hackett, Keebler and Pouros",287403.55,FXOption
+ISK/FKP,13.76,Put,2022-02-28,1981,"Robel, Reilly and Runte",623933.35,FXOption
+DOP/VUV,31.38,Put,2022-06-22,1982,"Rempel, Rohan and Tillman",684408.13,FXOption
+AFN/KRW,8.66,Call,2026-03-17,1983,Gerhold and Sons,632498.19,FXOption
+GBP/CVE,39.12,Call,2021-03-09,1984,"Sipes, Haley and Denesik",902464.80,FXOption
+HTG/XBD,26.54,Put,2026-09-05,1985,Becker Inc,327023.46,FXOption
+XBD/MZN,34.83,Call,2026-01-14,1986,Bergstrom Inc,634199.91,FXOption
+SVC/UGX,28.03,Put,2027-12-12,1987,Rowe Inc,296844.45,FXOption
+UAH/VND,85.65,Put,2022-02-11,1988,Stanton - Mohr,490067.54,FXOption
+SRD/XAG,53.99,Call,2026-02-19,1989,Ward Inc,718691.22,FXOption
+MVR/TJS,86.74,Call,2024-02-12,1990,Dooley - Jacobs,603285.11,FXOption
+AUD/PYG,38.94,Put,2028-04-27,1991,Ritchie and Sons,300570.37,FXOption
+TWD/XAG,27.61,Call,2026-09-29,1992,"Larson, Ferry and Heidenreich",777725.65,FXOption
+EUR/NIO,66.52,Call,2025-12-16,1993,Aufderhar - Gusikowski,756883.83,FXOption
+OMR/NGN,36.10,Put,2025-02-05,1994,"Greenholt, Shanahan and Mueller",528451.88,FXOption
+NPR/NAD,0.19,Call,2023-10-13,1995,"Johnston, Harber and Aufderhar",174991.07,FXOption
+OMR/XDR,22.70,Put,2030-11-08,1996,Reichel - Gottlieb,218921.57,FXOption
+FKP/TJS,41.52,Put,2022-04-01,1997,Rath and Sons,170252.92,FXOption
+MAD/RUB,83.18,Put,2021-07-16,1998,"Reynolds, Dietrich and Klein",485596.12,FXOption
+JOD/BAM,53.74,Call,2023-05-02,1999,Crist and Sons,587847.92,FXOption
+NZD/IRR,35.33,Put,2021-09-21,2000,Adams - Miller,388064.48,FXOption
+LTL/BIF,29.19,Call,2026-06-14,2001,Bergnaum Inc,759742.41,FXOption
+TMT/XAG,22.83,Put,2029-08-09,2002,Feest Group,538486.12,FXOption
+MVR/JOD,50.67,Call,2029-12-25,2003,"Casper, Wyman and Breitenberg",727544.03,FXOption
+KWD/CRC,58.17,Put,2030-11-23,2004,McGlynn - Bins,132307.76,FXOption
+VND/USD,40.21,Call,2030-12-30,2005,Ortiz - Dare,296013.91,FXOption
+SYP/MUR,57.59,Put,2030-06-29,2006,Fadel LLC,159788.93,FXOption
+LSL/CZK,18.18,Put,2022-12-31,2007,Hauck LLC,360222.06,FXOption
+CZK/XBC,47.04,Call,2025-12-15,2008,Bradtke and Sons,359356.41,FXOption
+HNL/MXN,15.76,Put,2025-06-30,2009,Shields - Carter,269185.86,FXOption
+MVR/MAD,66.12,Put,2025-06-30,2010,Denesik - Shields,520435.10,FXOption
+BRL/RSD,19.83,Put,2024-07-05,2011,Abshire LLC,972659.93,FXOption
+GBP/JOD,97.51,Call,2022-03-22,2012,"Quitzon, Bahringer and Schoen",689286.91,FXOption
+MOP/TMT,0.32,Put,2029-03-24,2013,"Anderson, Bruen and Douglas",542319.03,FXOption
+FKP/JOD,47.94,Put,2025-10-22,2014,Shanahan - Price,763602.54,FXOption
+ERN/SHP,64.16,Call,2026-12-31,2015,"Kihn, Bernier and Yost",682041.84,FXOption
+FJD/MWK,63.00,Put,2030-09-20,2016,Cassin - McClure,394683.42,FXOption
+ISK/TOP,34.22,Call,2021-12-25,2017,Kemmer and Sons,672538.57,FXOption
+XDR/HUF,39.79,Put,2030-09-02,2018,Littel and Sons,795231.64,FXOption
+XBA/CVE,50.70,Call,2023-09-12,2019,Kemmer Group,812954.61,FXOption
+KPW/RUB,32.37,Call,2023-01-27,2020,"Keeling, Kertzmann and Dooley",635875.01,FXOption
+SGD/ISK,4.72,Put,2023-02-20,2021,"Paucek, Dibbert and Hayes",158995.07,FXOption
+SYP/NPR,52.91,Call,2029-07-27,2022,Feest Group,306204.28,FXOption
+IRR/IRR,65.69,Call,2026-11-11,2023,Christiansen - Cummerata,128293.64,FXOption
+ALL/CUP,11.93,Call,2029-06-29,2024,"Stokes, Carroll and Mills",150991.06,FXOption
+MAD/DKK,72.94,Call,2025-06-12,2025,"Botsford, Larkin and Corwin",304470.67,FXOption
+ZMK/QAR,25.49,Put,2027-03-01,2026,Bartell - Ullrich,831414.57,FXOption
+CAD/HUF,63.97,Call,2027-02-02,2027,"Willms, Kuvalis and Conroy",324873.83,FXOption
+AWG/EGP,1.74,Put,2030-11-28,2028,"Cartwright, Nitzsche and Runolfsson",437021.86,FXOption
+KWD/PAB,87.38,Call,2030-08-23,2029,Cruickshank - O'Conner,223533.38,FXOption
+MWK/AOA,13.09,Put,2024-01-26,2030,Kuhlman - Rosenbaum,580136.31,FXOption
+PAB/PKR,44.96,Put,2021-03-15,2031,Altenwerth Group,860934.24,FXOption
+PKR/GBP,74.41,Put,2030-05-25,2032,Koss Group,752609.65,FXOption
+FKP/JMD,35.30,Put,2030-12-24,2033,Gottlieb LLC,705158.05,FXOption
+GTQ/STN,28.74,Put,2029-05-18,2034,Lindgren Inc,734308.30,FXOption
+KRW/TZS,60.81,Put,2025-12-15,2035,"Runolfsson, Little and Abernathy",773907.31,FXOption
+JMD/TZS,1.71,Call,2023-08-20,2036,"Spinka, Kub and Smith",635012.39,FXOption
+DZD/LBP,71.97,Call,2026-06-05,2037,"Marks, Lang and Nader",50623.47,FXOption
+UYU/CLP,9.69,Put,2024-03-15,2038,Konopelski Group,304175.15,FXOption
+UZS/BWP,75.35,Put,2028-07-17,2039,Tillman LLC,906416.60,FXOption
+AOA/HTG,23.05,Call,2024-06-02,2040,Heathcote - Kuhlman,735140.60,FXOption
+BGN/HKD,47.21,Call,2025-01-16,2041,"Wilderman, Lubowitz and Wisoky",102381.19,FXOption
+MDL/MGA,98.94,Call,2027-02-20,2042,Zemlak and Sons,292865.58,FXOption
+LRD/SYP,27.68,Put,2022-12-24,2043,Okuneva - Labadie,297094.40,FXOption
+MGA/XBB,18.42,Put,2024-09-05,2044,Keeling and Sons,73745.67,FXOption
+IRR/SLL,73.05,Put,2026-10-04,2045,Sauer LLC,584771.94,FXOption
+SOS/CDF,66.72,Call,2027-02-12,2046,"Bechtelar, Wolff and Fadel",45805.19,FXOption
+XAU/PKR,17.60,Put,2030-09-29,2047,Bernhard - Doyle,825549.75,FXOption
+CDF/MVR,69.42,Call,2029-04-30,2048,Kris LLC,108724.24,FXOption
+XBD/AWG,30.70,Put,2022-06-18,2049,Goyette Group,566519.66,FXOption
+UYU/GNF,77.55,Put,2028-02-15,2050,Hoppe LLC,923843.60,FXOption
+CZK/THB,18.57,Call,2025-09-15,2051,Wilkinson LLC,938327.62,FXOption
+IDR/XBD,65.25,Call,2026-12-30,2052,Welch - Shanahan,664796.58,FXOption
+MKD/SVC,94.89,Put,2022-02-20,2053,Borer - Cremin,152945.44,FXOption
+KYD/RSD,60.30,Put,2029-10-10,2054,"Davis, Nader and Gleichner",333181.00,FXOption
+KZT/TZS,90.75,Put,2023-01-12,2055,Block Group,380816.79,FXOption
+EUR/NAD,13.58,Put,2027-03-27,2056,Bartoletti - Senger,271420.49,FXOption
+CUC/IRR,27.82,Call,2027-02-07,2057,"Kertzmann, Wehner and Yundt",99271.10,FXOption
+AWG/UZS,44.81,Put,2023-07-11,2058,Hintz - Zemlak,748609.14,FXOption
+BDT/SAR,54.60,Put,2030-12-07,2059,"Predovic, Harvey and Moore",563095.34,FXOption
+XPD/QAR,42.96,Call,2029-10-06,2060,Graham - Donnelly,839500.97,FXOption
+THB/MZN,49.95,Call,2025-04-13,2061,"Schneider, Abbott and Daugherty",219217.98,FXOption
+XBB/AOA,60.38,Call,2029-05-15,2062,"Jones, Schowalter and Robel",493249.42,FXOption
+DOP/UYU,41.28,Call,2026-06-13,2063,"Jakubowski, O'Connell and Jacobi",368431.29,FXOption
+FJD/USD,70.80,Call,2026-04-18,2064,Mraz Group,297159.77,FXOption
+DJF/LTL,56.73,Put,2026-07-21,2065,"Wunsch, Mayer and Gottlieb",261890.31,FXOption
+EGP/MYR,15.68,Put,2027-02-17,2066,"Upton, Beier and Mitchell",489877.81,FXOption
+CZK/CDF,43.95,Call,2026-03-26,2067,"Ward, Cummings and Wintheiser",366954.48,FXOption
+ZMK/JOD,33.63,Call,2022-05-25,2068,Dietrich - Larson,488419.50,FXOption
+SDG/NOK,14.31,Call,2021-05-06,2069,Thompson LLC,302409.71,FXOption
+BOB/SDG,11.90,Put,2030-03-04,2070,Beer - Pfeffer,681924.97,FXOption
+AWG/AZN,6.47,Put,2021-08-10,2071,Vandervort - Berge,57662.81,FXOption
+XBB/KWD,77.16,Put,2025-03-29,2072,Marquardt - Morar,95691.92,FXOption
+DZD/CRC,13.51,Call,2030-07-28,2073,Murazik - Koelpin,367738.86,FXOption
+BHD/MZN,72.53,Call,2023-04-18,2074,"Wiza, Borer and Schowalter",369457.74,FXOption
+QAR/VEF,75.26,Call,2025-08-14,2075,Skiles LLC,237754.80,FXOption
+SAR/TJS,77.79,Call,2023-11-27,2076,Crona - Flatley,910314.93,FXOption
+BND/NPR,27.26,Put,2021-11-19,2077,Pfannerstill Group,922440.56,FXOption
+COP/DZD,44.79,Call,2023-12-06,2078,Doyle - Lehner,513727.18,FXOption
+SHP/SLL,54.82,Put,2024-01-25,2079,"Hudson, Schmidt and Lang",471303.82,FXOption
+TRY/EEK,48.21,Call,2026-06-07,2080,Hyatt Inc,591527.60,FXOption
+MZN/DJF,17.06,Put,2023-08-04,2081,Reynolds Group,965130.92,FXOption
+RWF/ARS,88.99,Put,2026-08-15,2082,"Wunsch, Ankunding and Koepp",411833.00,FXOption
+GTQ/SGD,1.48,Put,2023-08-25,2083,Crona Inc,553362.17,FXOption
+SBD/AFN,7.27,Put,2024-09-28,2084,Reilly - Graham,694214.48,FXOption
+LRD/VEF,66.41,Put,2024-04-02,2085,Erdman - Gusikowski,300752.20,FXOption
+XBD/RUB,74.78,Call,2024-04-13,2086,Wyman - Hegmann,554519.53,FXOption
+MXN/XPT,61.79,Call,2027-06-23,2087,Daugherty LLC,243371.82,FXOption
+HTG/HKD,29.40,Call,2025-10-08,2088,Grant - Hamill,453596.67,FXOption
+XAU/ZMK,18.48,Call,2025-04-05,2089,Volkman - Parisian,333866.39,FXOption
+XPD/IRR,72.81,Call,2021-08-29,2090,Bednar Group,604873.55,FXOption
+RWF/UYU,70.59,Call,2021-10-01,2091,Davis LLC,344711.06,FXOption
+FJD/KYD,34.71,Call,2024-03-31,2092,Corkery LLC,24745.53,FXOption
+AZN/CDF,68.65,Put,2025-03-21,2093,Paucek - Green,697924.12,FXOption
+SHP/GHS,13.66,Call,2023-07-13,2094,Ziemann - Heaney,939321.29,FXOption
+UAH/YER,96.57,Put,2023-10-19,2095,"Borer, Feeney and Smitham",627969.42,FXOption
+PGK/ZAR,12.72,Put,2024-10-25,2096,Schinner and Sons,257799.17,FXOption
+GBP/FJD,36.28,Put,2021-10-17,2097,Cartwright - Kutch,658167.22,FXOption
+AMD/CLP,66.70,Call,2023-05-09,2098,Jones and Sons,888092.28,FXOption
+XAG/BAM,22.83,Put,2028-12-08,2099,"Bednar, Kohler and Reynolds",92890.52,FXOption
+ERN/XAG,16.27,Call,2022-12-03,2100,"Quigley, Windler and Metz",913984.37,FXOption

@@ -12,7 +12,7 @@ namespace Cibc.Pricing.ValuationModels
 
     public interface IValuationModel<TTrade> where TTrade : Trade 
     {
-        Task<ValuationResult> CalcAsync(PricingInputs<TTrade> input);
+        ValuationResult Calc(PricingInputs<TTrade> input);
     }
 
     public class PricingInputs<TTrade>
@@ -47,16 +47,17 @@ namespace Cibc.Pricing.ValuationModels
         public IList<string> Errors { get; private set; }
     }
 
-    public abstract class ValuationModelBase<TTrade> : IValuationModel<TTrade> where TTrade:Trade
+    public abstract class ValuationModelBase<TTrade> : IValuationModel<TTrade> where TTrade : Trade
     {
         protected Func<PricingInputs<TTrade>, ValuationMeasure> PayoutFunc { get; set; }
-        public ValuationModelBase(){}
+        public ValuationModelBase() { }
 
-        public async Task<ValuationResult> CalcAsync(PricingInputs<TTrade> input)
+
+        public ValuationResult Calc(PricingInputs<TTrade> input)
         {
-            List<string> errors = input.UnderlyingMarketPrice.HasValue ? null: new List<string>() { "Price must be greater than 0" };               
-            
-            var price = PayoutFunc(input); 
+            List<string> errors = input.UnderlyingMarketPrice.HasValue ? null : new List<string>() { "Price must be greater than 0" };
+
+            var price = PayoutFunc(input);
 
             return new ValuationResult(input.Trade.TradeId, price, errors);
         }

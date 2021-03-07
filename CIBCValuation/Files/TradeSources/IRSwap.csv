@@ -1,0 +1,1001 @@
+Underlying,FixedRate,TradeId,Counterparty,Quantity,TradeType
+OU9AS,0.19,2101,"Marvin, Gleason and Rosenbaum",279951.54,IRSwap
+BFM1M,0.60,2102,Jast - Schneider,363908.23,IRSwap
+ZBTGN,0.13,2103,Kshlerin and Sons,330471.75,IRSwap
+6SPGE,0.04,2104,Kuhic Group,211674.96,IRSwap
+A58LT,0.27,2105,"Watsica, Abshire and Schamberger",147139.50,IRSwap
+3VFAD,0.03,2106,Mann Group,915851.38,IRSwap
+ML6IQ,0.17,2107,"O'Connell, Oberbrunner and Dicki",104661.77,IRSwap
+HL6O5,0.59,2108,Mayert - Schimmel,110006.57,IRSwap
+YA3WA,0.15,2109,"Skiles, Streich and Stroman",920778.07,IRSwap
+CL1OK,0.06,2110,Anderson Group,285646.63,IRSwap
+Z1TMA,0.24,2111,Bogisich Inc,510659.30,IRSwap
+TSB6N,0.30,2112,Effertz - Kertzmann,967871.00,IRSwap
+LKTT4,0.99,2113,Mosciski and Sons,20274.36,IRSwap
+RQRCX,0.91,2114,Zieme LLC,528738.34,IRSwap
+ITK0H,0.58,2115,Kreiger - Moen,36302.63,IRSwap
+ZGN2X,0.42,2116,Stokes Inc,268111.04,IRSwap
+3MMW7,0.07,2117,Wunsch LLC,310304.62,IRSwap
+TL0EH,0.76,2118,Wintheiser Inc,745965.34,IRSwap
+AZBJB,0.10,2119,"Schamberger, Herman and Lindgren",713877.86,IRSwap
+ZAXW7,0.67,2120,"Kemmer, Larson and Parisian",508293.90,IRSwap
+9GDG8,0.58,2121,"Jaskolski, Marks and Hagenes",609485.48,IRSwap
+YLTNA,0.36,2122,Kassulke and Sons,629567.47,IRSwap
+2AMPH,0.59,2123,"Willms, Hahn and Lemke",732877.63,IRSwap
+YEOPV,0.17,2124,Hansen - Witting,945413.38,IRSwap
+8V0P4,0.25,2125,"Strosin, Buckridge and Gleichner",91982.81,IRSwap
+RV75R,0.73,2126,"Hackett, Watsica and Kilback",258058.95,IRSwap
+OZ65Y,0.43,2127,"Zboncak, Moore and Boyer",472586.95,IRSwap
+9NTFL,0.02,2128,Aufderhar Inc,195912.25,IRSwap
+1HPMS,0.48,2129,Heathcote - Nolan,20568.03,IRSwap
+NZR70,0.51,2130,"Jones, Conn and Brekke",124662.21,IRSwap
+C2I8D,0.74,2131,"Greenfelder, Kris and Carter",913739.00,IRSwap
+Y2F69,0.56,2132,Quigley and Sons,647694.93,IRSwap
+VZ2LN,0.06,2133,Kozey - Rempel,764462.06,IRSwap
+15W45,0.65,2134,McDermott LLC,396323.04,IRSwap
+AFPHO,0.92,2135,MacGyver Inc,962224.03,IRSwap
+MTRC1,0.37,2136,Altenwerth LLC,941373.99,IRSwap
+J60LS,0.18,2137,"Turcotte, McKenzie and Hammes",514497.12,IRSwap
+SDRHG,0.27,2138,Bashirian LLC,449475.55,IRSwap
+7UKS8,0.41,2139,Waelchi - Rempel,734799.91,IRSwap
+7YSGQ,0.24,2140,Borer - Sanford,659496.41,IRSwap
+Z4HTG,0.98,2141,"Tillman, Torp and Robel",15922.18,IRSwap
+VLAPM,0.22,2142,"McCullough, Boyer and Hyatt",982035.67,IRSwap
+9Y8TL,0.32,2143,Hudson - Nader,222776.78,IRSwap
+ZP8P2,0.96,2144,"Effertz, Mante and Rath",36048.81,IRSwap
+98375,0.01,2145,"Keeling, Ortiz and Lakin",680522.93,IRSwap
+3SP59,0.00,2146,Kuhic - Ledner,494744.46,IRSwap
+OYVV2,1.00,2147,"O'Reilly, Cartwright and Hilpert",527628.20,IRSwap
+YPKP0,0.71,2148,Gibson - Marks,960263.93,IRSwap
+26JVX,0.53,2149,Dach - Robel,595240.06,IRSwap
+RJ45K,0.28,2150,Shanahan - Williamson,933324.32,IRSwap
+28YJ5,0.08,2151,Harris Inc,11942.82,IRSwap
+GHDRG,0.49,2152,King Inc,290860.78,IRSwap
+FPAM7,0.41,2153,Abbott - Weimann,523866.47,IRSwap
+H22QI,0.86,2154,Keebler - Cassin,720981.65,IRSwap
+E4KOG,0.27,2155,Adams LLC,848303.37,IRSwap
+V8EKK,0.36,2156,Herzog LLC,84638.23,IRSwap
+PBJTE,0.42,2157,"Halvorson, Hayes and Reynolds",497352.71,IRSwap
+E934B,0.14,2158,Gerhold - McKenzie,256208.33,IRSwap
+7P1U8,0.67,2159,Cummerata - Walter,244139.34,IRSwap
+XOZCP,0.80,2160,Cremin - Crooks,933374.08,IRSwap
+I34TH,0.96,2161,Steuber Inc,850306.39,IRSwap
+A5EH9,0.98,2162,King and Sons,216190.86,IRSwap
+WH3NB,0.73,2163,Pfeffer LLC,731641.08,IRSwap
+3S32Q,0.12,2164,Robel and Sons,522028.32,IRSwap
+D2WYN,0.77,2165,Effertz - Herzog,288309.28,IRSwap
+ICACX,0.02,2166,Lakin Inc,718424.43,IRSwap
+OK0Q4,0.51,2167,Kohler and Sons,752090.96,IRSwap
+D2B9C,0.85,2168,Harvey Group,157267.77,IRSwap
+HRNP0,0.74,2169,Corkery - Altenwerth,558242.51,IRSwap
+34PLL,0.81,2170,Ruecker - Conn,699701.56,IRSwap
+QXQXC,0.45,2171,Crona Group,135394.87,IRSwap
+FVGXA,0.91,2172,Armstrong Group,87097.75,IRSwap
+A7218,0.35,2173,"Hand, Renner and Hoppe",22051.16,IRSwap
+BVTJ1,0.75,2174,"Ortiz, Lowe and Schumm",444129.58,IRSwap
+S198O,0.78,2175,Luettgen - Quigley,471399.90,IRSwap
+FF4FQ,0.67,2176,Pouros Group,712203.26,IRSwap
+F9ZJK,0.10,2177,"Bosco, Brakus and Hackett",345993.72,IRSwap
+OJI5S,0.80,2178,"Tillman, Considine and Will",176575.72,IRSwap
+M30VR,0.39,2179,Mante - Huel,976816.10,IRSwap
+E4CSA,0.71,2180,"Hermiston, Thiel and Goodwin",452401.01,IRSwap
+RR8RK,0.94,2181,Padberg LLC,811597.51,IRSwap
+JWDS5,0.96,2182,Torphy - Bernhard,529186.93,IRSwap
+I9OQA,0.43,2183,Schuppe - Rath,893712.85,IRSwap
+GWS5U,0.35,2184,Hilll and Sons,95936.25,IRSwap
+GTQXH,0.76,2185,"Bruen, Donnelly and Klocko",256457.41,IRSwap
+AYPAI,0.07,2186,Morissette - Hayes,42794.08,IRSwap
+7EZ2N,0.13,2187,Kuhlman - Conn,798474.64,IRSwap
+JM9M2,0.46,2188,Wehner Group,192668.50,IRSwap
+Q516X,0.08,2189,"Schoen, Schinner and Ortiz",575319.67,IRSwap
+2N12U,0.68,2190,"Hermann, Gorczany and Flatley",627615.16,IRSwap
+S5HNP,0.07,2191,Hermiston LLC,627009.00,IRSwap
+OG8G8,0.92,2192,Bayer Inc,718389.36,IRSwap
+JYXKL,0.59,2193,"Reichel, Beahan and Hane",584652.39,IRSwap
+4YY0K,0.51,2194,"Muller, Gibson and Leuschke",439188.67,IRSwap
+5IXLF,0.59,2195,Abshire LLC,307842.55,IRSwap
+8197K,0.11,2196,"Von, Schaefer and Lueilwitz",308759.06,IRSwap
+V69C9,0.51,2197,Kub Inc,421441.86,IRSwap
+1O9EF,0.98,2198,Hessel and Sons,505125.18,IRSwap
+HZ4VW,0.68,2199,"Cruickshank, Abbott and Crist",708480.26,IRSwap
+EV9CO,0.24,2200,"Yost, Jast and Brakus",522372.21,IRSwap
+E19JR,0.86,2201,Blick LLC,554555.88,IRSwap
+3PE74,0.46,2202,"McKenzie, Conn and West",483530.12,IRSwap
+YEI9E,0.13,2203,Shields - Keeling,375279.59,IRSwap
+XK52X,0.86,2204,Gusikowski LLC,6136.95,IRSwap
+E951B,0.17,2205,Connelly - Schuppe,40391.18,IRSwap
+956GN,0.75,2206,"Connelly, Maggio and Sanford",789930.86,IRSwap
+AEXKI,0.56,2207,Hirthe LLC,683697.49,IRSwap
+80EZO,0.25,2208,Gislason - Gerhold,130330.31,IRSwap
+XQY7O,0.41,2209,Will - Emmerich,262583.31,IRSwap
+R3C3U,0.22,2210,"Monahan, Greenfelder and Buckridge",49214.40,IRSwap
+VBNK8,0.77,2211,Schaefer - Morar,526955.94,IRSwap
+B5GQJ,0.46,2212,Roob and Sons,266730.71,IRSwap
+Y52GX,0.03,2213,"Toy, Bruen and McDermott",731860.89,IRSwap
+LQ2FA,0.65,2214,"Smitham, Barrows and Abernathy",169160.11,IRSwap
+WUPLM,0.62,2215,Nolan - Rutherford,853302.13,IRSwap
+O1SW5,0.56,2216,Huel - Kulas,587371.41,IRSwap
+XD95J,0.74,2217,Hand LLC,329648.10,IRSwap
+GTV2A,0.36,2218,"Casper, Crooks and Bernier",463750.55,IRSwap
+JEHKX,0.16,2219,"Hackett, Johnson and Hamill",445398.71,IRSwap
+WFXIL,0.56,2220,Ritchie LLC,103714.31,IRSwap
+8F477,0.92,2221,Terry Group,428362.79,IRSwap
+B0HTU,0.66,2222,"Swaniawski, DuBuque and Flatley",14888.26,IRSwap
+ICKDX,0.56,2223,"Schinner, Larkin and Stokes",422342.91,IRSwap
+W74AA,0.35,2224,"Schinner, Schneider and Keeling",473825.73,IRSwap
+B3LFG,0.69,2225,Hartmann and Sons,532963.92,IRSwap
+KTWRN,0.85,2226,"Tromp, Bernhard and Bode",428181.52,IRSwap
+LU49P,0.56,2227,"Gleichner, Cummerata and Jast",438215.13,IRSwap
+GW79Y,0.93,2228,Murray - Rutherford,182831.91,IRSwap
+QC1BE,0.21,2229,Swaniawski - Wisoky,895904.88,IRSwap
+284VI,0.76,2230,Nikolaus - Kutch,50955.79,IRSwap
+IFB83,0.92,2231,Doyle Group,182569.05,IRSwap
+E7IP8,0.80,2232,"Kulas, Pollich and Waelchi",492166.01,IRSwap
+4P48R,0.32,2233,"Steuber, Langosh and Balistreri",736189.82,IRSwap
+SDA1S,0.22,2234,"Doyle, Mueller and Gottlieb",902054.76,IRSwap
+KKO0L,0.17,2235,Kuphal - Bashirian,949116.06,IRSwap
+G5SBL,0.13,2236,Willms LLC,349186.90,IRSwap
+A7HE5,0.41,2237,"Cremin, Howe and Reinger",486802.50,IRSwap
+0ZSJ5,0.45,2238,Ziemann LLC,369575.68,IRSwap
+83XFM,0.58,2239,Crona Inc,494194.17,IRSwap
+4BGAC,0.18,2240,"Kling, Pacocha and Hessel",331426.83,IRSwap
+YXZG5,0.00,2241,Konopelski - Runte,79449.36,IRSwap
+8886A,0.05,2242,"Kautzer, Parker and Nitzsche",995914.55,IRSwap
+71WOB,0.27,2243,"Macejkovic, Johns and Ritchie",323222.80,IRSwap
+EA6YZ,0.47,2244,"Glover, Moen and Pollich",381616.85,IRSwap
+PCV27,0.09,2245,Feeney - Balistreri,991206.79,IRSwap
+CCNPX,0.55,2246,Cassin Group,907084.39,IRSwap
+E1AUT,0.96,2247,Padberg - Kuhn,607924.22,IRSwap
+Z6PBH,0.70,2248,Hauck Inc,319229.88,IRSwap
+R5SS1,0.08,2249,Mitchell Inc,174894.69,IRSwap
+ZWQFK,0.68,2250,Koepp - Adams,441538.67,IRSwap
+2P2IX,0.17,2251,Bahringer and Sons,254010.29,IRSwap
+JVKBU,0.27,2252,Hagenes - Emmerich,238825.81,IRSwap
+BJBMC,0.07,2253,Lebsack Group,742300.95,IRSwap
+O0CU3,0.04,2254,Grimes - Romaguera,816968.84,IRSwap
+GB8RW,0.10,2255,Glover Group,860386.28,IRSwap
+FI7IX,0.53,2256,Keebler - Marquardt,308913.62,IRSwap
+QBKEK,0.53,2257,Kirlin - Dach,858460.92,IRSwap
+7ZNYA,0.00,2258,Raynor - Ernser,809182.62,IRSwap
+Q0QFE,0.16,2259,MacGyver LLC,235212.46,IRSwap
+M3Z44,0.77,2260,"Shanahan, Walsh and MacGyver",647675.29,IRSwap
+7R4FU,0.23,2261,"Douglas, Howell and Mann",616352.54,IRSwap
+QX4PL,0.11,2262,Walter Inc,830122.72,IRSwap
+SN5KW,0.67,2263,Jakubowski LLC,711820.19,IRSwap
+BO4SY,0.33,2264,"Daugherty, Fay and Koch",359277.74,IRSwap
+CTV5V,0.42,2265,"Hamill, Marvin and Mills",999717.69,IRSwap
+NUTJL,0.54,2266,Okuneva - Spinka,797078.15,IRSwap
+PRGF9,0.00,2267,D'Amore - Jacobi,45787.52,IRSwap
+53SBC,0.69,2268,"O'Connell, Sauer and Baumbach",86651.84,IRSwap
+MKNTA,0.26,2269,"Schinner, Johns and Pacocha",570356.09,IRSwap
+6JAKC,0.45,2270,Schaefer - Johnson,145480.56,IRSwap
+SPIQ1,0.22,2271,"Swaniawski, Lakin and Stiedemann",877187.29,IRSwap
+ZD45W,0.78,2272,Stark Group,375956.27,IRSwap
+ZMXYJ,0.49,2273,Purdy - O'Hara,287736.52,IRSwap
+WTOTU,0.13,2274,"Zieme, Flatley and Shields",925093.36,IRSwap
+XLR66,0.18,2275,Gleichner Inc,104816.11,IRSwap
+6UKV6,0.77,2276,Kessler - Pacocha,449814.77,IRSwap
+9LZG2,0.56,2277,Dibbert - Lindgren,459758.96,IRSwap
+DFM62,0.03,2278,Hauck - Bednar,644910.29,IRSwap
+CKKDR,0.05,2279,Ryan and Sons,314516.77,IRSwap
+KVQKU,0.33,2280,Schowalter LLC,82418.26,IRSwap
+Q2D12,0.73,2281,Hamill - Carter,625216.21,IRSwap
+LRT83,0.70,2282,Howe Group,143078.50,IRSwap
+BMOZ2,0.49,2283,Morar LLC,20199.68,IRSwap
+UNQKA,0.18,2284,"Bauch, Hauck and Rempel",421903.87,IRSwap
+UZIHT,0.07,2285,Gutkowski - Bartell,816400.17,IRSwap
+ZM3B4,0.38,2286,Kovacek - Corkery,286876.56,IRSwap
+713PQ,0.12,2287,Wisoky - McGlynn,17447.97,IRSwap
+IBN7G,0.64,2288,O'Hara Group,520900.62,IRSwap
+7K6FF,0.23,2289,Kuhn and Sons,414759.71,IRSwap
+RKP0M,0.81,2290,Kerluke - Kling,902676.13,IRSwap
+UNMSO,0.96,2291,"Sauer, Robel and Pouros",6847.42,IRSwap
+P6TMU,0.66,2292,"Stracke, Krajcik and Dickens",915992.61,IRSwap
+7XQXL,0.65,2293,Larson LLC,632741.01,IRSwap
+RKECX,0.57,2294,Nikolaus - Ruecker,407936.55,IRSwap
+KZPUU,0.54,2295,Rolfson - Gislason,659532.56,IRSwap
+H74DN,0.72,2296,Zemlak Group,222728.44,IRSwap
+8PS55,0.76,2297,"Stiedemann, Bode and Hahn",311964.28,IRSwap
+J9W27,0.21,2298,Price - Greenholt,3348.63,IRSwap
+OJXJF,0.03,2299,"Bernhard, Bednar and King",590837.75,IRSwap
+YCC9X,0.69,2300,"Doyle, Pfeffer and Schmeler",669334.88,IRSwap
+7YY8B,0.43,2301,"Sanford, Roob and Grimes",658990.80,IRSwap
+VPJ6V,0.64,2302,Yost - Schamberger,25041.12,IRSwap
+7VAJP,0.96,2303,"Renner, Rippin and Kunze",605218.22,IRSwap
+OA1BY,0.56,2304,Douglas and Sons,279357.30,IRSwap
+P0N3M,0.81,2305,Reichert and Sons,689931.67,IRSwap
+10S10,0.08,2306,Bergstrom Inc,983614.68,IRSwap
+8SFQ6,0.42,2307,Osinski - Mertz,470489.26,IRSwap
+I0GTW,0.20,2308,Steuber - Tremblay,78054.95,IRSwap
+V75D8,0.67,2309,Emmerich Group,905698.81,IRSwap
+WJ4TG,0.92,2310,Wolf - Haag,890102.13,IRSwap
+A86ZG,0.04,2311,Tromp - Vandervort,202344.43,IRSwap
+UGQOL,0.02,2312,Zemlak - Corwin,816128.19,IRSwap
+XJJ06,0.98,2313,Beahan - Langworth,506310.60,IRSwap
+BBQLM,0.04,2314,"Nikolaus, Herman and Wyman",616747.52,IRSwap
+ITH1G,0.79,2315,Veum Inc,102406.73,IRSwap
+JDE9R,0.68,2316,Ebert - Keeling,282258.65,IRSwap
+XN67I,0.14,2317,Schiller and Sons,157585.18,IRSwap
+G4BEF,0.71,2318,Bogisich Group,982377.77,IRSwap
+FFXP3,0.94,2319,Wisoky LLC,195008.75,IRSwap
+DF16V,0.66,2320,"Kirlin, Simonis and Wilderman",876849.04,IRSwap
+C8GTE,0.07,2321,Larson and Sons,773130.59,IRSwap
+1APHP,0.47,2322,"Stokes, Bergnaum and Mueller",197530.48,IRSwap
+9032P,0.28,2323,McClure Inc,567504.49,IRSwap
+GFF36,0.47,2324,Lubowitz Inc,770716.49,IRSwap
+RBOB5,0.32,2325,"Pfannerstill, Swift and Ullrich",590137.34,IRSwap
+2738C,0.74,2326,"Corkery, Dicki and Daniel",936086.17,IRSwap
+UQMVM,0.32,2327,"Schamberger, Runte and Hackett",13651.74,IRSwap
+BZHOF,0.75,2328,McCullough and Sons,707252.00,IRSwap
+ULIC7,1.00,2329,Will - Luettgen,402757.04,IRSwap
+4ARHX,0.70,2330,"Champlin, Considine and Zemlak",83800.85,IRSwap
+LQ8Q8,0.60,2331,Predovic and Sons,900395.07,IRSwap
+T7W59,0.23,2332,Von - Wyman,136418.25,IRSwap
+4FFM6,0.70,2333,O'Connell LLC,362332.37,IRSwap
+97I8U,0.29,2334,"Doyle, Kunde and Becker",276725.50,IRSwap
+75U9X,0.38,2335,Yundt - Hyatt,405640.52,IRSwap
+M2ZS6,0.31,2336,Fahey - Price,431048.30,IRSwap
+CFXUK,0.02,2337,Lueilwitz - Lemke,858611.46,IRSwap
+NN8YW,0.28,2338,Turner - Jakubowski,947153.67,IRSwap
+5ZSMN,0.19,2339,Hilpert - Glover,320435.57,IRSwap
+O2GJ2,0.79,2340,Reichel Inc,541690.33,IRSwap
+YOTRR,0.97,2341,Zieme LLC,901669.34,IRSwap
+8A7PD,0.63,2342,"Bauch, Swift and Trantow",727938.71,IRSwap
+OTV9L,0.20,2343,Emmerich and Sons,822222.91,IRSwap
+ODCG5,0.04,2344,"Tremblay, Carroll and Beatty",584691.57,IRSwap
+6TGR8,0.82,2345,"Osinski, Hermann and Crona",845237.72,IRSwap
+2AVYH,0.17,2346,"Cronin, VonRueden and Sauer",301718.29,IRSwap
+5JWV9,0.21,2347,"Considine, Considine and Rosenbaum",841939.15,IRSwap
+NUN1T,0.83,2348,Koch - Little,23903.46,IRSwap
+SEA2L,0.20,2349,"Stroman, Dooley and Williamson",131129.80,IRSwap
+03COW,0.86,2350,Parisian - Turner,210843.63,IRSwap
+G8AEG,0.23,2351,Maggio - Kuhn,572175.26,IRSwap
+YSPC5,0.63,2352,"O'Reilly, Heaney and Schoen",275832.79,IRSwap
+NTNRA,0.38,2353,"Padberg, Abernathy and Bartoletti",778433.80,IRSwap
+DOK4V,0.61,2354,"Wiza, McCullough and Haag",710411.85,IRSwap
+3X2AM,0.33,2355,Grimes - Toy,339785.60,IRSwap
+JOLGR,0.70,2356,"Fay, Mayer and Torphy",485180.69,IRSwap
+Y8E1R,0.04,2357,"Lehner, Rohan and Hilll",225085.17,IRSwap
+FJVLG,0.66,2358,"Dietrich, Halvorson and Quitzon",141150.32,IRSwap
+F8UZZ,0.65,2359,Cruickshank LLC,5438.12,IRSwap
+5YVYT,0.87,2360,Upton and Sons,766378.69,IRSwap
+DKRE8,0.05,2361,MacGyver - Rath,474946.38,IRSwap
+HLM7J,0.01,2362,Dare - Ferry,269553.21,IRSwap
+NAVXZ,0.47,2363,Bechtelar - Schinner,393849.91,IRSwap
+HG9MU,0.45,2364,"Veum, Romaguera and McGlynn",68692.07,IRSwap
+XO5AK,0.35,2365,Rodriguez - Walsh,60330.46,IRSwap
+JRBT3,0.69,2366,Jerde - Schuster,306187.84,IRSwap
+FN7Z4,0.35,2367,"Jacobs, Sanford and Hodkiewicz",673556.51,IRSwap
+BVCPM,0.73,2368,Quigley - MacGyver,122272.53,IRSwap
+IXAIP,0.14,2369,Kihn - Carter,20294.37,IRSwap
+1YJDI,0.02,2370,Lehner - Cronin,616482.25,IRSwap
+P968W,0.98,2371,"Green, Kassulke and Zemlak",57042.43,IRSwap
+YNC6H,0.37,2372,Kreiger Group,175213.04,IRSwap
+JX2CB,0.95,2373,"Gorczany, Zieme and VonRueden",65299.09,IRSwap
+04YSO,0.10,2374,Metz Group,368364.24,IRSwap
+17F3B,0.19,2375,Senger Inc,307913.71,IRSwap
+0F2Z5,0.32,2376,Balistreri LLC,284970.46,IRSwap
+XV6TX,0.53,2377,Tremblay LLC,36919.18,IRSwap
+DGUL0,0.35,2378,Hodkiewicz - Schuppe,271642.19,IRSwap
+Q5YHC,0.59,2379,Yost - Barrows,130233.67,IRSwap
+ZE84D,0.17,2380,Witting LLC,353184.15,IRSwap
+SU7DW,0.56,2381,Nicolas Inc,777274.69,IRSwap
+T4VGA,0.77,2382,Kohler - Wuckert,811719.73,IRSwap
+FQGAZ,0.21,2383,"Prosacco, Klein and Heidenreich",482901.37,IRSwap
+T9BWY,0.57,2384,"Fisher, Smitham and Hartmann",868160.36,IRSwap
+ZTJVJ,0.80,2385,Schinner - Abshire,585907.21,IRSwap
+SAD3Q,0.10,2386,"Metz, Frami and Hagenes",182915.70,IRSwap
+HYAM4,0.41,2387,"Herman, Stiedemann and Fadel",142079.26,IRSwap
+WFWXE,0.45,2388,"Hessel, Casper and O'Kon",341658.70,IRSwap
+0O1YY,0.80,2389,Von - Nolan,593392.97,IRSwap
+5DUCL,0.58,2390,Krajcik LLC,443549.86,IRSwap
+6IGEY,0.19,2391,"Pollich, Jacobson and Sauer",884812.00,IRSwap
+KJG99,0.66,2392,"Parker, Kris and White",939865.43,IRSwap
+G76JK,0.56,2393,Moore LLC,884971.56,IRSwap
+IVPU5,0.56,2394,Smith - Legros,714962.55,IRSwap
+S6H7S,0.30,2395,Anderson - Monahan,401641.96,IRSwap
+S6ZPB,0.27,2396,"Harber, Halvorson and Gislason",533691.31,IRSwap
+Y8FPU,0.62,2397,"Hickle, Mueller and Kris",843885.79,IRSwap
+073AP,0.98,2398,Predovic Inc,144577.58,IRSwap
+96QOP,0.12,2399,"Goyette, Pacocha and Abshire",520729.85,IRSwap
+XY89S,0.06,2400,"Greenholt, Predovic and Oberbrunner",987113.95,IRSwap
+5ESZW,0.42,2401,Goodwin - Farrell,619066.89,IRSwap
+YHBO1,0.70,2402,Grant - Brown,85783.03,IRSwap
+EEH09,0.14,2403,Cole and Sons,260355.84,IRSwap
+TESW3,0.79,2404,Kling Inc,689077.88,IRSwap
+0LK1G,0.63,2405,"Powlowski, Schmidt and Prosacco",244855.49,IRSwap
+BSY7R,0.89,2406,Ebert - Bode,23698.78,IRSwap
+3F9JO,0.42,2407,"Rath, Runolfsson and Heller",144107.30,IRSwap
+BS0ET,0.94,2408,Gerlach - Runolfsson,346253.00,IRSwap
+4NHMT,0.69,2409,"Senger, Larkin and Lehner",243806.99,IRSwap
+1C3X5,0.29,2410,Turcotte Inc,983178.32,IRSwap
+YBOZZ,0.95,2411,Rosenbaum - Doyle,952209.81,IRSwap
+9TWYR,0.78,2412,"Wilderman, Wilkinson and Schimmel",886883.59,IRSwap
+LDAFW,0.48,2413,"Thiel, Rice and Funk",358739.19,IRSwap
+BKASZ,0.49,2414,Nolan - Kuhlman,65302.55,IRSwap
+YD3SJ,0.20,2415,Stracke - Swaniawski,380354.68,IRSwap
+GPLPB,0.70,2416,"Jast, Larkin and Maggio",879769.57,IRSwap
+BBTX8,0.61,2417,Barton - Harvey,305988.10,IRSwap
+0VVE8,0.27,2418,Runte and Sons,289553.02,IRSwap
+84X6U,0.88,2419,Turner - Ratke,529715.30,IRSwap
+TJ2M2,0.27,2420,"Borer, Pacocha and Schamberger",87846.13,IRSwap
+89VLT,0.18,2421,"Greenholt, Medhurst and Schaefer",642484.25,IRSwap
+BS26D,0.64,2422,Beahan - Denesik,644110.75,IRSwap
+3I76B,0.80,2423,Hessel Group,73254.58,IRSwap
+4QLWN,0.32,2424,"D'Amore, Zemlak and Padberg",612007.20,IRSwap
+MLFIQ,0.01,2425,Becker LLC,611471.68,IRSwap
+XOPJQ,0.07,2426,Parisian - Nienow,739336.81,IRSwap
+2I172,0.47,2427,"Grady, Balistreri and Jaskolski",308022.24,IRSwap
+BDGGW,0.76,2428,Reynolds and Sons,869677.38,IRSwap
+CXOF1,0.05,2429,"Mertz, Schimmel and Hamill",492651.41,IRSwap
+14AK3,0.41,2430,Mayer LLC,950305.44,IRSwap
+YBVMA,0.25,2431,Ortiz LLC,182693.94,IRSwap
+O83TP,0.58,2432,Shanahan and Sons,993454.80,IRSwap
+35OXA,0.27,2433,Runolfsdottir - Bartoletti,428395.22,IRSwap
+DX94J,0.03,2434,Treutel Group,346539.70,IRSwap
+YC9N9,0.79,2435,Beer Inc,777709.23,IRSwap
+2JM33,0.79,2436,Kuhlman Group,516345.13,IRSwap
+360YM,0.76,2437,Wiegand - Heathcote,26192.68,IRSwap
+AM9GQ,0.89,2438,"Wilkinson, Gleichner and Osinski",510089.63,IRSwap
+O1AAU,0.29,2439,O'Kon and Sons,248006.02,IRSwap
+4P3OS,0.34,2440,Bayer Group,376491.72,IRSwap
+2770R,0.91,2441,Barton LLC,824130.78,IRSwap
+MAUSF,0.15,2442,Nikolaus - Herman,893512.59,IRSwap
+WIAEK,0.52,2443,"Parker, Satterfield and Koss",810793.62,IRSwap
+Z5N6G,0.83,2444,Parisian - Jacobs,601100.79,IRSwap
+IOVQT,0.85,2445,Leannon Group,910676.11,IRSwap
+M9105,0.71,2446,Gibson LLC,605159.51,IRSwap
+YYAN5,0.20,2447,"Moore, Dibbert and Huel",809178.87,IRSwap
+5UKA7,0.64,2448,Wiza - Hammes,447376.19,IRSwap
+B1SZQ,0.12,2449,Marvin - Reinger,187492.85,IRSwap
+OBJ3K,0.74,2450,Ankunding - Ritchie,931887.78,IRSwap
+QAB5G,0.40,2451,Bogisich - Pagac,654434.61,IRSwap
+C1G7H,0.91,2452,Reichert - West,67390.13,IRSwap
+JL8DR,0.83,2453,Gutmann Group,27576.45,IRSwap
+2GW2G,0.02,2454,Klocko LLC,476090.73,IRSwap
+X2OLM,0.87,2455,"Nienow, Lindgren and Hane",638912.09,IRSwap
+95N35,0.05,2456,Mitchell LLC,585545.29,IRSwap
+ZGZV5,0.39,2457,"Homenick, Mosciski and Bode",20605.20,IRSwap
+LDMIK,0.80,2458,"Krajcik, D'Amore and Larson",761826.13,IRSwap
+3WSB8,0.97,2459,Will Group,853892.91,IRSwap
+X8MXL,0.68,2460,Wisozk Group,256332.55,IRSwap
+H2IK9,0.48,2461,"Kunde, Kuhlman and McClure",127176.09,IRSwap
+N35WK,0.20,2462,Kuhn - Carter,240749.12,IRSwap
+IC9UC,0.77,2463,Trantow - Johns,434092.56,IRSwap
+GEQLT,0.29,2464,"VonRueden, Torphy and Boyer",647722.96,IRSwap
+P095G,0.03,2465,"Yost, Kunde and Pfeffer",479628.60,IRSwap
+25M4T,0.67,2466,Kris Inc,600935.16,IRSwap
+L0L6O,0.44,2467,Kulas Group,708013.51,IRSwap
+WXQ0N,0.25,2468,Rosenbaum Group,822825.80,IRSwap
+WEY1E,0.26,2469,Douglas - Hamill,663000.83,IRSwap
+JHPZV,0.67,2470,Kulas Inc,622910.28,IRSwap
+Q9KBP,0.15,2471,Bernhard - Kreiger,11999.13,IRSwap
+3Z64T,0.19,2472,Mertz - Koelpin,563108.36,IRSwap
+CSQA9,0.41,2473,Lockman Group,414658.39,IRSwap
+TIQBX,0.63,2474,Runolfsson Inc,984388.53,IRSwap
+I1GJJ,0.32,2475,"O'Connell, Herman and Friesen",862832.94,IRSwap
+V92OX,0.52,2476,Cummings - Parker,610168.40,IRSwap
+MGHQL,0.27,2477,Bashirian and Sons,939238.90,IRSwap
+6JJTR,0.29,2478,"Dicki, Daugherty and Hettinger",416383.02,IRSwap
+GDY8N,0.63,2479,"Reinger, Bogisich and Mraz",597997.67,IRSwap
+B82JP,0.95,2480,"Brown, Lind and Monahan",68242.51,IRSwap
+B6OQI,0.85,2481,Koch and Sons,990291.61,IRSwap
+7B1Z3,0.79,2482,Fay LLC,311990.61,IRSwap
+2TT48,0.32,2483,Mohr - Feil,192612.89,IRSwap
+M7L56,0.26,2484,"Erdman, McCullough and Schmitt",448553.56,IRSwap
+VZAVZ,0.19,2485,Cremin - Sanford,842166.86,IRSwap
+O77XH,0.39,2486,Kling Group,597903.35,IRSwap
+XNQVK,0.10,2487,Kuhic - Dibbert,92482.73,IRSwap
+UGGC6,0.83,2488,Simonis - Waelchi,531150.95,IRSwap
+ORO7S,0.41,2489,Gaylord - Fritsch,131026.28,IRSwap
+P0YOW,0.24,2490,Paucek LLC,793245.59,IRSwap
+R9JDR,0.21,2491,Kerluke and Sons,891991.73,IRSwap
+A82F6,0.98,2492,"Steuber, Robel and Ondricka",878489.13,IRSwap
+Q64TT,0.49,2493,Boehm - Crooks,82214.92,IRSwap
+YCDF8,0.28,2494,"King, West and McClure",74440.90,IRSwap
+XZWES,0.91,2495,Mann - Oberbrunner,159445.21,IRSwap
+C5T02,0.40,2496,Reynolds and Sons,715307.82,IRSwap
+ES2SC,0.88,2497,Weissnat - Reilly,985314.15,IRSwap
+IIXS6,0.21,2498,"Abbott, Wehner and Predovic",88786.92,IRSwap
+POVQT,0.55,2499,Bartell - Mayert,510261.63,IRSwap
+IUNQ5,0.91,2500,Hauck - Sipes,722445.09,IRSwap
+9SKMU,0.63,2501,Bednar Group,221056.82,IRSwap
+W5HP3,0.22,2502,"Emmerich, Tremblay and Dickens",141252.41,IRSwap
+N3ZKO,0.85,2503,Lindgren and Sons,340551.16,IRSwap
+D4C8X,0.13,2504,O'Keefe and Sons,103029.34,IRSwap
+4FNKL,0.70,2505,Towne Inc,661258.71,IRSwap
+1IKVL,0.69,2506,Becker Inc,689468.81,IRSwap
+PKM3S,0.79,2507,Baumbach - Crona,772394.29,IRSwap
+6CO77,0.46,2508,"Feeney, Ryan and Wuckert",979445.92,IRSwap
+4ML2U,0.54,2509,Yost - Wuckert,668908.65,IRSwap
+6QEYK,0.83,2510,Nitzsche - Fay,540380.72,IRSwap
+YA2PU,0.16,2511,Schneider - Schoen,909021.94,IRSwap
+263LY,0.03,2512,"Osinski, Hoppe and Fay",193695.23,IRSwap
+LJFSG,0.94,2513,Waters Inc,309855.57,IRSwap
+62PUJ,0.88,2514,"Nitzsche, Huel and Turner",589683.03,IRSwap
+9ZC4J,0.31,2515,Pfannerstill LLC,806150.53,IRSwap
+VKLDQ,0.62,2516,Morissette - Schmidt,543970.47,IRSwap
+ZBLV3,0.39,2517,"Hoeger, Emmerich and Dickens",30605.71,IRSwap
+MIBJ3,0.65,2518,"Jacobs, Corkery and Satterfield",245182.45,IRSwap
+CPMGC,0.11,2519,"Nicolas, Hilpert and Bailey",593000.26,IRSwap
+R9OQ9,0.44,2520,"Wilkinson, Stehr and Koss",441734.77,IRSwap
+MX316,0.53,2521,"Medhurst, Emmerich and O'Hara",764231.76,IRSwap
+0EYV9,0.64,2522,Krajcik LLC,818851.15,IRSwap
+XR6Q2,0.87,2523,O'Hara and Sons,193698.57,IRSwap
+STXL3,0.68,2524,Howe - Koepp,718013.14,IRSwap
+ODVMR,0.87,2525,Haley - Waelchi,398990.53,IRSwap
+XQGUU,0.77,2526,"Steuber, Altenwerth and Schneider",877162.16,IRSwap
+W0V17,0.46,2527,Witting - Hahn,179689.99,IRSwap
+QQ2IJ,0.89,2528,Schmeler - Marquardt,263218.45,IRSwap
+HDNUU,0.06,2529,Williamson - Dickinson,166198.42,IRSwap
+0CL7S,0.37,2530,Rosenbaum - Ferry,914310.95,IRSwap
+C2FJ5,0.21,2531,McCullough LLC,414022.66,IRSwap
+ES5OI,0.35,2532,"Weissnat, Green and Windler",215357.19,IRSwap
+MKN9D,0.12,2533,Doyle Inc,974087.34,IRSwap
+ESTFX,0.12,2534,"Renner, Davis and Stoltenberg",970015.63,IRSwap
+9PLKG,0.53,2535,"Murphy, Hudson and Lindgren",468655.77,IRSwap
+FFQIS,0.29,2536,Ankunding Inc,378060.67,IRSwap
+3800B,0.25,2537,"Bogan, Schuppe and Effertz",108947.94,IRSwap
+QF5AY,0.66,2538,Ferry - Harris,575127.04,IRSwap
+ULYC3,0.94,2539,"Olson, Hammes and Klocko",167559.06,IRSwap
+KBC6G,0.58,2540,Simonis Group,544132.93,IRSwap
+ROSO0,0.58,2541,Considine - Graham,699453.79,IRSwap
+FHRX8,0.65,2542,Senger LLC,942358.56,IRSwap
+EEE16,0.11,2543,Olson Inc,315031.45,IRSwap
+I1RE6,0.79,2544,"Brekke, Labadie and Blick",258710.91,IRSwap
+C7Z42,0.57,2545,Hartmann LLC,718669.73,IRSwap
+WXYAD,0.27,2546,Waters - Schmidt,518179.32,IRSwap
+BJOWG,0.00,2547,"Langosh, Tromp and Schmeler",107699.86,IRSwap
+BOL27,0.42,2548,Bednar - Stracke,790786.49,IRSwap
+PKCL2,0.47,2549,"Bradtke, Leuschke and Hickle",177048.12,IRSwap
+FPL0N,0.30,2550,Von Inc,759970.25,IRSwap
+VXQK8,0.37,2551,Moore LLC,869555.09,IRSwap
+EDFXM,1.00,2552,Crist Group,861377.58,IRSwap
+I5U1W,0.97,2553,Hane and Sons,526689.25,IRSwap
+HYHAR,0.83,2554,"Bergstrom, Mann and Carter",698481.80,IRSwap
+25C2A,0.68,2555,"Hegmann, Powlowski and Goldner",871670.27,IRSwap
+71CQ3,0.70,2556,O'Connell - Wiza,887603.24,IRSwap
+Q5XEX,0.63,2557,"Gleason, Howell and Collier",589712.08,IRSwap
+9N2OO,0.83,2558,"Cummerata, Little and Wolff",698757.45,IRSwap
+T9X5K,0.68,2559,"Haag, Ortiz and Von",144865.34,IRSwap
+4ACZF,0.67,2560,Braun Inc,308677.39,IRSwap
+FWISP,0.66,2561,Bechtelar - Lowe,483498.02,IRSwap
+2GOLC,0.65,2562,Armstrong - Stark,581413.15,IRSwap
+1FWE4,0.37,2563,Schamberger - Beier,171483.80,IRSwap
+94FPW,0.75,2564,"Price, Funk and Cronin",334125.29,IRSwap
+49H8O,0.61,2565,Klein Group,279543.77,IRSwap
+ZDGZ0,0.13,2566,"Nitzsche, Sanford and Dibbert",560201.25,IRSwap
+O8TC8,0.87,2567,"Harber, Von and Prohaska",761562.70,IRSwap
+5WW6E,0.16,2568,Treutel - Heller,339348.63,IRSwap
+HYR9Q,0.98,2569,Rowe - Ziemann,57479.50,IRSwap
+ZKCK9,0.40,2570,"Towne, Muller and Koch",121600.35,IRSwap
+VU7UH,0.54,2571,Hills Group,190497.50,IRSwap
+XNAPH,0.57,2572,"Morar, Wintheiser and Fay",570012.48,IRSwap
+9W75B,0.55,2573,Gerlach - Considine,560424.49,IRSwap
+E4VL4,0.55,2574,Corkery - Runolfsson,117321.19,IRSwap
+9N8J2,0.94,2575,Gaylord - Kiehn,924018.61,IRSwap
+Q4QML,0.94,2576,Smitham Group,831677.39,IRSwap
+6G746,0.80,2577,Parisian Inc,985271.69,IRSwap
+CT7AM,0.66,2578,"Pollich, McGlynn and Waelchi",142631.82,IRSwap
+SDXEA,0.39,2579,Borer - Hirthe,483248.88,IRSwap
+Q2GQT,0.46,2580,Yost Inc,549967.09,IRSwap
+D9UOD,0.29,2581,Hilpert and Sons,161303.94,IRSwap
+CLSIE,0.10,2582,Hegmann - Ziemann,279779.90,IRSwap
+JPEDE,0.27,2583,Raynor Group,413043.80,IRSwap
+JAT73,0.54,2584,Kozey - Kozey,153237.33,IRSwap
+VWZW7,0.15,2585,Frami - Aufderhar,984583.34,IRSwap
+7EGUM,0.68,2586,Wilkinson and Sons,711387.13,IRSwap
+1VUQ1,0.77,2587,"Kuhlman, Greenfelder and Breitenberg",932397.69,IRSwap
+0PXJN,0.71,2588,Jacobi - Stehr,589179.82,IRSwap
+E4RY5,0.83,2589,Crona - Frami,982264.15,IRSwap
+YW1U0,0.15,2590,"McLaughlin, Keebler and Parker",22083.77,IRSwap
+JI46P,0.55,2591,Dach and Sons,700619.46,IRSwap
+B14IX,0.11,2592,Wiza Group,365897.40,IRSwap
+Y6K2S,0.87,2593,"McDermott, Emmerich and Schmidt",991706.09,IRSwap
+UAULN,0.78,2594,"Murray, Mann and Hagenes",986186.30,IRSwap
+GBOWS,0.53,2595,Goodwin - Oberbrunner,617732.80,IRSwap
+LPLBJ,0.11,2596,"Ullrich, Gleason and Mertz",955279.86,IRSwap
+2C6UO,0.31,2597,"Pfannerstill, Nicolas and Heathcote",395736.24,IRSwap
+5DIUV,0.16,2598,Bradtke - Conn,941954.59,IRSwap
+P19K9,0.28,2599,"Hauck, Runolfsdottir and Reinger",300103.95,IRSwap
+0929C,0.72,2600,Padberg LLC,587381.03,IRSwap
+G0FC2,0.48,2601,"Steuber, Monahan and Kerluke",165175.36,IRSwap
+M3CBW,0.27,2602,"Wiegand, Waelchi and Heller",870060.49,IRSwap
+LC53F,0.60,2603,Bashirian - Howell,425121.99,IRSwap
+5A490,0.84,2604,Kessler - Becker,481933.44,IRSwap
+QL85N,0.98,2605,Dickens Group,405084.98,IRSwap
+K1QUN,0.29,2606,"Barton, Schneider and Osinski",453665.20,IRSwap
+IVVPB,0.96,2607,Oberbrunner Group,151806.74,IRSwap
+78ZP0,0.12,2608,Grimes Inc,33273.58,IRSwap
+HMD1K,0.24,2609,Kiehn and Sons,677894.11,IRSwap
+0JX97,0.74,2610,Johns - Herzog,556299.70,IRSwap
+UQQM8,0.34,2611,Kassulke - Harris,15106.91,IRSwap
+AS67N,0.88,2612,Batz Group,542509.68,IRSwap
+KNXI1,0.67,2613,Smitham - Collins,81328.60,IRSwap
+QK3FU,0.75,2614,Rempel and Sons,264743.16,IRSwap
+CKT97,0.35,2615,"Roberts, Schaefer and Fisher",179689.78,IRSwap
+A9G6S,0.21,2616,"Mertz, Harvey and Gerhold",532467.69,IRSwap
+JKSPO,0.75,2617,Marvin - Barrows,336301.89,IRSwap
+1WW73,0.12,2618,Turner - Witting,739697.87,IRSwap
+4507A,0.86,2619,Senger and Sons,585463.61,IRSwap
+77USZ,0.02,2620,"Ondricka, Wilderman and Pouros",136185.50,IRSwap
+ODIHE,0.35,2621,Leffler - Moen,363630.76,IRSwap
+S9F7E,0.57,2622,Boehm LLC,969726.61,IRSwap
+PYALU,0.68,2623,Jerde - Senger,754604.82,IRSwap
+OAP7F,0.79,2624,Jaskolski Inc,101502.65,IRSwap
+RK9PC,0.96,2625,Reynolds - Treutel,510941.83,IRSwap
+5PUNQ,0.08,2626,"Nitzsche, Jakubowski and Keeling",434112.30,IRSwap
+ZKAHJ,0.22,2627,"Nitzsche, Quigley and Greenfelder",832067.71,IRSwap
+B04OK,0.25,2628,"Monahan, Blick and Stehr",516144.11,IRSwap
+OILUK,0.70,2629,"VonRueden, Johnson and Abernathy",661571.62,IRSwap
+XLOFV,0.40,2630,"Mayert, Borer and Dickens",220436.38,IRSwap
+KNDUJ,0.06,2631,Thompson - Schimmel,355002.19,IRSwap
+VTBWS,0.89,2632,Olson - Rosenbaum,790377.35,IRSwap
+RB32I,0.99,2633,"Orn, Beier and Turner",498121.42,IRSwap
+J7B3V,0.21,2634,Hudson and Sons,372747.96,IRSwap
+XBEC3,0.26,2635,Adams LLC,183368.95,IRSwap
+TVUTB,0.29,2636,"Nolan, Wiza and Quitzon",878904.99,IRSwap
+AFCM0,0.83,2637,"Bahringer, Bins and Howell",271422.25,IRSwap
+PKFXQ,0.99,2638,"Parisian, Pollich and Okuneva",419544.05,IRSwap
+RHPBG,0.27,2639,Ebert and Sons,415435.15,IRSwap
+KSN1Z,0.01,2640,Von - Feeney,984216.92,IRSwap
+A07E6,0.28,2641,Fisher - Wiegand,735796.64,IRSwap
+RVWUI,0.92,2642,Howe - Lowe,787116.00,IRSwap
+CRGOU,0.93,2643,Gulgowski - Marquardt,560196.92,IRSwap
+09R4Q,0.27,2644,"Hoeger, White and Rice",512352.05,IRSwap
+6DF8P,0.90,2645,Cremin Inc,878515.70,IRSwap
+NEDJK,0.54,2646,"Lindgren, Beer and Huel",175625.56,IRSwap
+FT9QL,0.14,2647,Fisher - Heaney,8802.86,IRSwap
+EO6E0,0.45,2648,"Ruecker, O'Conner and Gutmann",144037.83,IRSwap
+WCCCV,0.37,2649,Bartell Inc,840090.90,IRSwap
+WTVQJ,0.17,2650,Dickens - Renner,765930.56,IRSwap
+RE319,0.71,2651,Braun - Romaguera,55449.15,IRSwap
+E776J,0.47,2652,Collier LLC,96055.44,IRSwap
+KXJ8K,0.81,2653,"Hilpert, Reynolds and Ryan",144535.85,IRSwap
+1932H,0.25,2654,Sporer - Sporer,952207.12,IRSwap
+GNMDP,0.63,2655,Bosco Inc,151997.86,IRSwap
+DZW7H,0.55,2656,"Dibbert, Block and Feeney",124950.52,IRSwap
+P5DX3,0.11,2657,"Price, Treutel and Sanford",289584.61,IRSwap
+KMOXA,0.18,2658,Ernser LLC,278719.18,IRSwap
+RMTOA,0.18,2659,Weber - Brown,250932.40,IRSwap
+9D6XH,0.00,2660,"Ziemann, Prosacco and Labadie",393212.31,IRSwap
+LUSC8,0.27,2661,"Ledner, Mertz and Cartwright",858982.34,IRSwap
+SII3B,0.69,2662,Hirthe and Sons,764797.13,IRSwap
+I4VB8,0.52,2663,Waters - Frami,72047.34,IRSwap
+I4W0Z,0.87,2664,"Schimmel, Daniel and Rowe",410690.74,IRSwap
+8MHUN,0.85,2665,"Wilkinson, McLaughlin and Schiller",328324.43,IRSwap
+C1CGY,0.49,2666,Hackett Inc,592479.11,IRSwap
+7IC9E,0.62,2667,Prohaska and Sons,408357.58,IRSwap
+ZNA6W,0.26,2668,Harvey Group,698276.99,IRSwap
+VMT52,0.56,2669,"Jacobs, Thiel and Connelly",620813.22,IRSwap
+9BD4P,0.27,2670,Aufderhar - Homenick,833542.48,IRSwap
+UHFMP,0.77,2671,Klein Inc,777044.20,IRSwap
+PT4SB,0.88,2672,Marquardt LLC,654759.40,IRSwap
+JBFVQ,0.34,2673,Brekke - Halvorson,52776.90,IRSwap
+YUDSD,0.20,2674,"Beier, Daugherty and Wunsch",630190.55,IRSwap
+YBQ4F,0.18,2675,Konopelski and Sons,411452.22,IRSwap
+34Z8I,0.05,2676,Schinner - Smitham,738314.02,IRSwap
+3EP0R,0.97,2677,Trantow - Herzog,869948.66,IRSwap
+N0NKZ,0.71,2678,"Abshire, Wiegand and Parisian",333641.23,IRSwap
+C8JTV,0.12,2679,"Grimes, Cronin and Gutmann",263653.29,IRSwap
+3FBKL,0.70,2680,Harvey LLC,310096.32,IRSwap
+U5EG4,0.33,2681,Koch - Jast,589872.21,IRSwap
+7KT1H,0.49,2682,"Leffler, Harris and Shields",598425.98,IRSwap
+10JKB,0.98,2683,"Bosco, O'Keefe and Rogahn",615443.22,IRSwap
+RPF6U,0.08,2684,Anderson - Hills,835625.21,IRSwap
+TPWVH,0.53,2685,"Lowe, Keebler and Reynolds",4339.30,IRSwap
+RU84D,0.92,2686,Effertz and Sons,366747.42,IRSwap
+BGRGU,0.41,2687,Altenwerth - Quitzon,123771.37,IRSwap
+80M8B,0.63,2688,"Nicolas, Jast and Gleichner",543910.71,IRSwap
+XGZV6,0.07,2689,"Skiles, Klein and Grady",800163.71,IRSwap
+PLOCY,0.46,2690,Crooks - Brakus,539307.04,IRSwap
+S5TJT,0.62,2691,Blick LLC,483752.45,IRSwap
+9UIIA,0.45,2692,"Bernhard, Green and Trantow",173942.45,IRSwap
+50IEX,0.89,2693,"Fadel, Schimmel and Dare",247559.25,IRSwap
+SSZSN,0.47,2694,Dach - Olson,757582.84,IRSwap
+V7DGR,0.16,2695,Marks Inc,389514.95,IRSwap
+VBJZT,0.02,2696,"O'Keefe, Adams and Bashirian",854279.69,IRSwap
+48EG1,0.52,2697,Pouros - Wyman,706248.28,IRSwap
+LSDYN,0.04,2698,"O'Connell, Yost and Weissnat",653087.39,IRSwap
+5MWXH,0.44,2699,Ruecker - Beier,708058.43,IRSwap
+7ORZY,1.00,2700,"Shields, Kihn and Mraz",877794.61,IRSwap
+379I6,0.04,2701,"Nolan, Boyle and Adams",21632.97,IRSwap
+XZYLI,0.54,2702,Wunsch Group,930294.05,IRSwap
+JBRD3,0.62,2703,Blick - Wehner,819873.84,IRSwap
+YP5IP,0.66,2704,"Pollich, Beahan and Volkman",117922.70,IRSwap
+UYAOS,0.37,2705,"Gislason, Rosenbaum and O'Connell",461036.72,IRSwap
+56HRF,0.88,2706,Klocko - D'Amore,567402.90,IRSwap
+XVTYA,0.81,2707,MacGyver - Bednar,488959.86,IRSwap
+T662H,0.83,2708,Schroeder Group,576966.35,IRSwap
+9LQJS,0.51,2709,Johnston Group,614194.40,IRSwap
+KPP5I,0.97,2710,Rolfson - Gorczany,770976.77,IRSwap
+AMKLR,0.98,2711,Hansen and Sons,985898.16,IRSwap
+SZQF8,0.34,2712,Hyatt and Sons,598207.27,IRSwap
+5BJ40,0.11,2713,Gibson Inc,784093.26,IRSwap
+OR1UB,0.63,2714,Anderson - Luettgen,519581.54,IRSwap
+H9GOZ,0.57,2715,Considine Group,816494.16,IRSwap
+V5LUY,0.09,2716,"Gislason, Walsh and Denesik",838274.08,IRSwap
+0URW0,0.96,2717,McClure - Oberbrunner,508250.07,IRSwap
+GCAVV,0.86,2718,"Brekke, Moen and Hammes",982794.20,IRSwap
+3DOTL,0.43,2719,Kirlin Inc,212981.30,IRSwap
+5BHFO,0.77,2720,"Hoeger, Lind and Mann",565361.87,IRSwap
+VUETB,0.95,2721,"Moen, Bechtelar and Cremin",319088.32,IRSwap
+HAXG3,0.09,2722,Feest and Sons,131494.75,IRSwap
+2RFB1,0.80,2723,Lemke - Vandervort,729201.89,IRSwap
+U32RI,0.83,2724,Daniel - Boehm,172522.44,IRSwap
+AA8FN,0.01,2725,Sauer - Bruen,43903.04,IRSwap
+J25F9,0.11,2726,Will - Moen,686800.98,IRSwap
+HW55A,0.40,2727,Borer - Sawayn,520790.65,IRSwap
+OMFVF,0.76,2728,Cremin Group,261976.30,IRSwap
+8HKEM,0.77,2729,Wyman - Ondricka,24149.18,IRSwap
+BZLJD,0.16,2730,"Nienow, Larkin and Hyatt",387880.02,IRSwap
+FZC0W,0.65,2731,Considine and Sons,777800.70,IRSwap
+GFRA0,0.34,2732,Zemlak and Sons,599399.94,IRSwap
+MKVCN,0.83,2733,"Leannon, Lebsack and Kihn",598765.73,IRSwap
+UE8SI,0.22,2734,Baumbach LLC,418151.13,IRSwap
+N0SXW,0.24,2735,Rempel - Buckridge,682477.94,IRSwap
+KMT6S,0.42,2736,Littel Inc,403908.83,IRSwap
+YYV6M,0.02,2737,O'Reilly - Gleason,824276.99,IRSwap
+DSERY,0.61,2738,Kunde - Kuphal,120062.17,IRSwap
+SZ7U7,0.60,2739,"Weimann, Kling and Jacobs",534543.89,IRSwap
+PGAQP,0.15,2740,Bahringer Inc,751497.06,IRSwap
+S1X1S,0.22,2741,Hamill - Thiel,726047.91,IRSwap
+J7VA6,0.95,2742,Fahey Inc,651848.12,IRSwap
+GFDNB,0.11,2743,"Hauck, Jacobson and Johnson",445888.51,IRSwap
+MKOQQ,0.07,2744,Gerhold and Sons,157854.59,IRSwap
+UUF7I,0.60,2745,Berge Group,551285.15,IRSwap
+AWGAB,0.63,2746,MacGyver LLC,466574.80,IRSwap
+0YPHW,0.64,2747,Howe - Kling,107693.10,IRSwap
+I9EVL,0.62,2748,Lynch and Sons,879334.03,IRSwap
+GIZVP,0.11,2749,"Corkery, Conroy and Renner",111272.14,IRSwap
+SLVJV,0.14,2750,Jacobson - Brekke,513957.28,IRSwap
+4VY0I,0.60,2751,"Haley, Strosin and Jaskolski",444961.40,IRSwap
+QZJGP,0.61,2752,"Quitzon, Nicolas and Jenkins",243611.30,IRSwap
+BDQOI,0.33,2753,Leffler Group,154494.19,IRSwap
+BNCN1,0.88,2754,"Kreiger, Bednar and Sipes",272299.53,IRSwap
+H3JVW,0.98,2755,Larson LLC,692862.65,IRSwap
+CLASI,0.23,2756,Kertzmann - Hammes,115193.86,IRSwap
+8KKYE,0.33,2757,Wyman - Gibson,948253.83,IRSwap
+Z02GU,0.26,2758,Schowalter LLC,737174.96,IRSwap
+B1QPX,0.71,2759,Sawayn LLC,350558.34,IRSwap
+J79RG,0.89,2760,Lowe - Considine,816127.26,IRSwap
+SMRK4,0.34,2761,Mante - Kub,559156.31,IRSwap
+1JCWN,0.19,2762,Simonis - Weimann,238864.56,IRSwap
+NNU7S,0.75,2763,"Stokes, Bayer and Pollich",954366.70,IRSwap
+MA2KP,0.27,2764,Abbott Group,736508.70,IRSwap
+JLWSZ,0.87,2765,Mills LLC,181456.45,IRSwap
+NISL4,0.95,2766,Champlin - Goldner,51660.62,IRSwap
+TZIE9,0.28,2767,"Howe, Harvey and McGlynn",219587.27,IRSwap
+9GIE1,0.76,2768,Welch - VonRueden,686750.02,IRSwap
+6QW23,0.51,2769,DuBuque Group,407110.88,IRSwap
+R90YP,0.63,2770,King - Rogahn,348768.19,IRSwap
+06CDE,0.07,2771,Hilll - Rippin,591900.12,IRSwap
+U6F61,0.10,2772,Donnelly Inc,191471.50,IRSwap
+SW7KX,0.99,2773,Keeling and Sons,743650.63,IRSwap
+CPGBE,1.00,2774,Lockman - Pfeffer,417457.50,IRSwap
+89DKH,0.59,2775,Lockman - O'Reilly,33673.39,IRSwap
+Z1ZS4,0.99,2776,"Senger, Walsh and Mraz",561966.70,IRSwap
+INU5P,0.10,2777,"King, Jerde and Morar",738429.79,IRSwap
+AIJIM,0.07,2778,"Batz, Reichert and Lebsack",765124.81,IRSwap
+2UDNH,0.54,2779,Corkery LLC,621556.16,IRSwap
+9FHRP,0.72,2780,Adams LLC,99398.71,IRSwap
+VW17R,0.47,2781,Thiel - Rohan,46488.86,IRSwap
+49Z4F,0.80,2782,McLaughlin and Sons,707305.89,IRSwap
+H14FI,0.86,2783,Kuvalis - Feest,561381.96,IRSwap
+QGEKQ,0.17,2784,Runte Group,920774.95,IRSwap
+PNVZZ,0.43,2785,"Dach, Swift and Abernathy",282158.31,IRSwap
+UN6KU,0.77,2786,Hane - Upton,258583.15,IRSwap
+HSFZN,0.87,2787,Predovic - Volkman,437880.66,IRSwap
+AM8AS,0.37,2788,Homenick - Glover,988491.18,IRSwap
+OFWNV,0.81,2789,Kiehn LLC,425347.57,IRSwap
+7HYKS,0.92,2790,Bailey Group,397084.77,IRSwap
+1Z1XY,0.21,2791,Vandervort and Sons,121423.98,IRSwap
+J66HR,0.04,2792,Upton - Runte,480431.80,IRSwap
+DHVST,0.67,2793,"Runte, Borer and Stoltenberg",655397.81,IRSwap
+B4EEO,0.39,2794,Kub - Swaniawski,145653.36,IRSwap
+9EV0A,0.47,2795,"Pouros, Pacocha and Huel",303436.30,IRSwap
+GGNH6,0.13,2796,"Romaguera, Batz and Koelpin",821983.10,IRSwap
+WC71R,0.10,2797,Little LLC,425038.82,IRSwap
+EGC43,0.01,2798,O'Keefe Group,75336.25,IRSwap
+UOIOX,0.74,2799,"Langworth, Douglas and Swaniawski",729292.34,IRSwap
+4NVC2,0.65,2800,Doyle Group,536227.22,IRSwap
+5DEZ4,0.53,2801,"Lemke, Hilpert and Purdy",99127.26,IRSwap
+CVP2N,0.70,2802,D'Amore - Herzog,643901.83,IRSwap
+G1JAT,0.47,2803,Skiles - Herzog,899234.36,IRSwap
+T6MOA,0.10,2804,"Barrows, Herzog and Schmidt",980825.61,IRSwap
+HWSR6,0.30,2805,"Senger, DuBuque and Schmeler",32341.49,IRSwap
+0SN3U,0.12,2806,White - McDermott,697411.91,IRSwap
+TKNIP,0.07,2807,Nikolaus Group,363714.68,IRSwap
+053FJ,0.65,2808,Heller - Moen,699743.39,IRSwap
+ME7AT,0.36,2809,Becker - Greenfelder,467554.62,IRSwap
+6FF7X,0.23,2810,"McCullough, Kling and Wolf",521018.80,IRSwap
+2CVOU,0.70,2811,Beier Inc,921809.91,IRSwap
+3CARE,0.34,2812,Mann Inc,626129.53,IRSwap
+SWM6T,0.72,2813,Pollich - Hegmann,84376.21,IRSwap
+7Z6JJ,0.07,2814,Dooley - Mills,417534.46,IRSwap
+Q09CE,0.83,2815,Metz Group,658329.95,IRSwap
+ULP14,0.17,2816,Parker Group,597797.15,IRSwap
+1YSE4,0.18,2817,"Quigley, Stiedemann and Considine",37662.91,IRSwap
+QOCRN,0.28,2818,"Durgan, Hayes and Anderson",782002.36,IRSwap
+0KMA5,0.42,2819,"Zieme, McClure and Wyman",388368.04,IRSwap
+TMP1G,0.94,2820,Hermann - Mueller,741318.95,IRSwap
+HL2U1,0.70,2821,O'Kon and Sons,475139.32,IRSwap
+UK1NY,0.21,2822,Lehner - Keeling,941735.36,IRSwap
+ZD1W2,0.62,2823,"Smith, Barton and Hayes",834322.26,IRSwap
+7IWFI,0.77,2824,"Dach, Hayes and Konopelski",339939.58,IRSwap
+XOV9K,0.08,2825,Kihn Inc,844426.54,IRSwap
+M1NH7,0.03,2826,Gerlach Inc,464383.82,IRSwap
+3HIDJ,0.73,2827,"Willms, Boehm and Nader",358843.28,IRSwap
+LAZ2P,0.16,2828,Ratke - Abshire,585280.00,IRSwap
+W60P5,0.87,2829,Kutch - Lindgren,625865.96,IRSwap
+ACFHT,0.21,2830,Ernser - Kozey,833790.99,IRSwap
+JJ5V1,0.76,2831,Torp - Bahringer,349066.16,IRSwap
+9GJ0G,0.91,2832,Kautzer - Kulas,868149.09,IRSwap
+AB86A,0.23,2833,Schmitt - Durgan,676991.08,IRSwap
+SH62D,0.02,2834,"Labadie, Fay and Kuvalis",796667.93,IRSwap
+0QLKT,0.82,2835,Pfeffer and Sons,217178.11,IRSwap
+KOC18,0.30,2836,Batz - VonRueden,729981.47,IRSwap
+7Z2HZ,0.35,2837,"McCullough, Schinner and Veum",146708.90,IRSwap
+TGALM,0.61,2838,"Block, Trantow and Hermann",113996.64,IRSwap
+BR834,0.14,2839,Johnson - Keeling,465387.11,IRSwap
+H2SQJ,0.06,2840,"Bergnaum, Barton and Lindgren",891605.01,IRSwap
+DGVVR,0.64,2841,"Koepp, Kub and Willms",25946.93,IRSwap
+OV7UE,0.85,2842,"Hintz, Bruen and Hoeger",480712.24,IRSwap
+T8BEH,0.85,2843,Boyle Inc,857469.52,IRSwap
+YIAES,0.24,2844,Lubowitz LLC,955810.33,IRSwap
+NFI0E,0.92,2845,Hudson Inc,398222.39,IRSwap
+8DY6K,0.22,2846,Price - Ortiz,991235.74,IRSwap
+KTHFJ,0.18,2847,Kunze - Gerhold,790232.92,IRSwap
+LTWM7,0.39,2848,Senger - Bayer,153799.80,IRSwap
+EVMPK,0.56,2849,"Hansen, Abbott and Mayer",329963.23,IRSwap
+R4EUU,0.94,2850,Sipes LLC,705029.83,IRSwap
+PNIDF,0.48,2851,Kovacek Inc,318246.58,IRSwap
+7HOG5,0.94,2852,Wiza Inc,514847.81,IRSwap
+ZHGUO,0.50,2853,"Rau, Wisozk and Mosciski",483642.48,IRSwap
+S9MRD,0.25,2854,"Hermiston, Kirlin and Mosciski",857189.56,IRSwap
+N1H9G,0.95,2855,Bode Inc,143834.71,IRSwap
+LUP62,0.53,2856,"Tremblay, Bogisich and Hintz",500912.68,IRSwap
+WCPFT,0.41,2857,"Wyman, Lubowitz and Morissette",725780.46,IRSwap
+ECBFY,0.60,2858,Mitchell - Kertzmann,886677.02,IRSwap
+D8C6F,0.92,2859,Lueilwitz Inc,459743.57,IRSwap
+3OIX5,0.15,2860,Gulgowski - Rau,546616.30,IRSwap
+BHXM7,0.49,2861,Bahringer - Buckridge,264044.50,IRSwap
+HFF5D,0.65,2862,Rodriguez - Carroll,936092.98,IRSwap
+AVWSP,0.81,2863,"Larkin, Abernathy and Upton",832027.73,IRSwap
+7FU5V,0.31,2864,Goodwin - Schmitt,50264.25,IRSwap
+6S2O8,0.37,2865,"Zboncak, Walter and Lockman",831919.56,IRSwap
+07F1L,0.05,2866,Labadie - Crist,31928.30,IRSwap
+BV9ZL,0.01,2867,"Kuhic, Parker and Wiza",472398.28,IRSwap
+2D033,0.83,2868,Heathcote - Fritsch,525064.02,IRSwap
+RN078,0.41,2869,Kshlerin and Sons,833812.92,IRSwap
+I8KCV,0.89,2870,Graham and Sons,915397.96,IRSwap
+5WIXU,0.43,2871,"Padberg, Nienow and Hermann",83035.31,IRSwap
+85POV,0.07,2872,"Kuhic, Emard and Quigley",4397.91,IRSwap
+C0TSN,0.24,2873,"Denesik, Ullrich and Douglas",86003.89,IRSwap
+3RLQI,0.26,2874,Beahan and Sons,845393.14,IRSwap
+17H0F,0.66,2875,Wuckert - Daugherty,799198.94,IRSwap
+GGV2K,0.49,2876,Bailey LLC,914152.70,IRSwap
+96955,0.39,2877,Bednar Group,689631.83,IRSwap
+D7QE1,0.13,2878,Walker and Sons,812707.16,IRSwap
+16BJE,0.64,2879,Schuster - Herzog,984870.11,IRSwap
+B6HJV,0.94,2880,"Lesch, Dare and Balistreri",143722.76,IRSwap
+9OWJ8,0.72,2881,Stoltenberg - Baumbach,559536.33,IRSwap
+APTN2,0.83,2882,Bartell - Kessler,965156.34,IRSwap
+QBO10,0.24,2883,"Runolfsdottir, Lakin and Lebsack",563422.26,IRSwap
+BFRIF,0.99,2884,"Cummings, Dibbert and Davis",960533.89,IRSwap
+Q2UMD,0.84,2885,VonRueden and Sons,501575.90,IRSwap
+CIZIC,0.23,2886,Bauch - Doyle,576130.48,IRSwap
+V9SBD,0.38,2887,Feeney - Kuhic,609857.78,IRSwap
+L4209,0.82,2888,"Lueilwitz, Jacobson and Rogahn",617624.92,IRSwap
+4ZLLS,0.43,2889,Nader - Huel,414217.07,IRSwap
+WFSMH,0.28,2890,Denesik Inc,499719.05,IRSwap
+WMGYR,0.39,2891,Fritsch - Abbott,965975.43,IRSwap
+L37Q9,0.18,2892,"Larkin, Bernhard and Johns",77392.80,IRSwap
+78P5C,0.42,2893,"McLaughlin, Wilderman and Nader",368605.59,IRSwap
+MFIHI,0.65,2894,Ziemann - Gulgowski,163640.58,IRSwap
+SFBCL,0.90,2895,"Jacobs, Kunze and Rempel",115895.29,IRSwap
+1BJF7,0.26,2896,Botsford Group,660201.74,IRSwap
+24WYN,0.68,2897,Batz - Langosh,989821.57,IRSwap
+6GW9F,0.82,2898,Roberts LLC,884545.36,IRSwap
+BWIIK,0.09,2899,Schultz - Runte,519542.86,IRSwap
+DZQ1N,0.51,2900,"Beier, Halvorson and Howell",230486.98,IRSwap
+HKWGL,0.43,2901,Pacocha - Tromp,658772.38,IRSwap
+S9ZO6,0.61,2902,Abshire and Sons,873299.52,IRSwap
+6F5NT,0.47,2903,Howe - Marquardt,708782.22,IRSwap
+15VUU,0.34,2904,Ebert Group,316207.35,IRSwap
+O1XIF,0.09,2905,Bartoletti - Yundt,667487.80,IRSwap
+Y36H1,0.41,2906,"Beer, Strosin and Beatty",98360.66,IRSwap
+282UN,0.40,2907,Oberbrunner Inc,260849.19,IRSwap
+DEW04,0.50,2908,Sporer Group,20697.44,IRSwap
+3CP72,0.04,2909,Erdman - Reynolds,480846.51,IRSwap
+DVEMT,0.86,2910,"Howell, Schamberger and Weber",337913.01,IRSwap
+11PK7,0.18,2911,"Sawayn, Pouros and Stoltenberg",212673.98,IRSwap
+WN5QJ,0.85,2912,Lubowitz - Sanford,37769.55,IRSwap
+WOZJH,0.39,2913,"Morar, Reichel and Roberts",56571.65,IRSwap
+1MWAO,0.50,2914,Nicolas Group,434785.47,IRSwap
+85AH8,0.25,2915,Smitham - Lakin,45540.92,IRSwap
+Z455C,0.73,2916,"Gottlieb, Altenwerth and Ullrich",169498.68,IRSwap
+WTLV0,0.26,2917,Prosacco Group,20711.10,IRSwap
+R7PTQ,0.38,2918,Stamm - Hermann,265490.99,IRSwap
+1M192,0.50,2919,Gutmann - Flatley,503006.21,IRSwap
+4Q0BC,0.70,2920,"Considine, Hauck and Russel",469970.28,IRSwap
+FNNER,0.42,2921,Durgan - Zulauf,452841.91,IRSwap
+QGAZA,0.77,2922,Johnson - Windler,209690.28,IRSwap
+AIKSN,0.49,2923,Schoen - Leannon,516077.23,IRSwap
+381MY,0.41,2924,"Kunze, Huel and Pfannerstill",916059.41,IRSwap
+DKQOF,0.05,2925,"Haag, Bode and Jacobson",727058.48,IRSwap
+OH5X2,0.84,2926,Marvin and Sons,795911.99,IRSwap
+AAM78,0.37,2927,"Glover, Rogahn and Spinka",24550.40,IRSwap
+F4K40,0.06,2928,Hermann and Sons,500296.78,IRSwap
+B4ERW,0.69,2929,"Beahan, Murazik and Kohler",818451.67,IRSwap
+KP393,0.46,2930,"Mante, Buckridge and Bashirian",335900.15,IRSwap
+WA9DL,0.79,2931,Parisian LLC,221658.17,IRSwap
+4D7Y6,0.24,2932,Schaefer Group,221296.54,IRSwap
+SCG3J,0.86,2933,Hayes - Pagac,430063.36,IRSwap
+UYRLF,0.82,2934,Romaguera Group,505892.60,IRSwap
+USBT7,0.18,2935,Huel and Sons,902022.87,IRSwap
+0V0AF,0.54,2936,Considine - Botsford,864185.44,IRSwap
+ATAD6,0.62,2937,"Crist, Schultz and Reynolds",749163.19,IRSwap
+21RL0,0.03,2938,Leannon - Heller,86659.92,IRSwap
+WN3IY,0.94,2939,Torp - Hintz,366103.06,IRSwap
+ZKK5J,0.95,2940,Cronin - Toy,992434.08,IRSwap
+VMQRX,0.83,2941,Keebler Inc,558052.89,IRSwap
+69FDU,0.64,2942,Pollich and Sons,515206.21,IRSwap
+GMC3H,0.48,2943,"Sauer, Kautzer and Fay",145596.04,IRSwap
+7UTH9,0.92,2944,Bayer - Beatty,988061.77,IRSwap
+SQDTQ,0.14,2945,Mann Inc,718563.25,IRSwap
+90TEF,1.00,2946,Gulgowski Group,219971.87,IRSwap
+LNDIY,0.43,2947,Paucek - Kling,343960.76,IRSwap
+F7AIC,0.72,2948,Towne - McGlynn,721300.69,IRSwap
+AB5TQ,0.22,2949,Lowe and Sons,347433.74,IRSwap
+IM4S4,0.14,2950,Jacobson Inc,271758.13,IRSwap
+IBP6S,0.04,2951,Stanton - Sporer,293351.30,IRSwap
+UB319,0.50,2952,"Haag, Bednar and Rau",744039.10,IRSwap
+7UB6S,0.10,2953,Schinner - Rogahn,403226.79,IRSwap
+EP2UZ,0.62,2954,Huels - Effertz,380221.19,IRSwap
+CBIOB,0.01,2955,"Balistreri, Pollich and Langosh",721801.89,IRSwap
+3WAGE,0.99,2956,"Smitham, Nikolaus and Schaefer",52641.38,IRSwap
+UCC48,0.27,2957,Wehner Inc,910167.07,IRSwap
+38OVI,0.79,2958,Ondricka LLC,527788.37,IRSwap
+KKLCL,0.19,2959,Koss - Boyer,771941.16,IRSwap
+0RBTI,0.99,2960,Leffler - Ernser,963372.88,IRSwap
+N639Y,0.86,2961,Lubowitz Inc,736096.32,IRSwap
+HJUFC,0.27,2962,Johnson Group,606644.04,IRSwap
+JFLIC,0.93,2963,"Yundt, Lehner and Bechtelar",727381.67,IRSwap
+EC3DH,0.33,2964,"Hills, Lesch and Miller",957408.07,IRSwap
+LMHGW,0.88,2965,Rodriguez - Wolff,127175.49,IRSwap
+0004Q,0.50,2966,Feil - Franecki,199216.31,IRSwap
+E0I5H,0.32,2967,"McLaughlin, Watsica and Hayes",48001.39,IRSwap
+2LYT3,0.06,2968,"Schaefer, Jenkins and McCullough",784462.52,IRSwap
+AEXDC,0.99,2969,Beatty - Jenkins,133328.04,IRSwap
+TM26L,0.95,2970,Wolff - McLaughlin,813875.60,IRSwap
+GUM8Y,0.41,2971,Keebler LLC,487368.11,IRSwap
+5VXW4,0.61,2972,Upton and Sons,681629.03,IRSwap
+BTTRY,0.44,2973,Schinner - Cole,328269.07,IRSwap
+R0HXO,0.45,2974,Russel - Erdman,153053.92,IRSwap
+QKWOX,0.71,2975,"Prosacco, Jenkins and Weissnat",833804.85,IRSwap
+IA85M,0.01,2976,Blanda Inc,365172.65,IRSwap
+O8X4E,0.00,2977,"Gislason, Larson and Torphy",388992.87,IRSwap
+D6HL8,0.91,2978,Okuneva Group,886666.20,IRSwap
+O7S9P,0.26,2979,Baumbach LLC,356631.36,IRSwap
+W1G1C,0.99,2980,"Beahan, Kiehn and Wehner",438225.48,IRSwap
+F6H43,0.74,2981,Leuschke - Quigley,935497.16,IRSwap
+7SJPH,0.46,2982,Jast - Brakus,744846.59,IRSwap
+67VGH,0.13,2983,Jaskolski - Cole,243530.15,IRSwap
+KI0F9,0.03,2984,Lesch Group,923522.57,IRSwap
+6MC67,0.10,2985,Connelly LLC,525242.72,IRSwap
+B4EGR,0.20,2986,Rohan - Mayer,880816.54,IRSwap
+O1I66,0.71,2987,Bartell LLC,974622.90,IRSwap
+ISL2J,0.88,2988,"Brekke, Johnson and Kiehn",146937.89,IRSwap
+Y0LF3,0.55,2989,"Feeney, Howell and Mohr",299312.42,IRSwap
+NU445,0.01,2990,"Blanda, Reynolds and Goyette",515605.71,IRSwap
+4QSCS,0.40,2991,Harber - Johns,332657.11,IRSwap
+8DD3I,0.58,2992,Hand LLC,798645.82,IRSwap
+PV05R,0.93,2993,"Monahan, Ernser and Kihn",341824.47,IRSwap
+26YT9,0.79,2994,Rau - Pagac,728294.93,IRSwap
+R4H99,0.45,2995,Hackett Inc,456174.98,IRSwap
+W3YZF,0.87,2996,Moore LLC,256741.05,IRSwap
+LX266,0.42,2997,"Dickens, Barrows and Kreiger",787504.76,IRSwap
+A2ZLL,0.39,2998,Feeney Group,668041.80,IRSwap
+4FUY7,0.98,2999,"Thiel, Halvorson and Terry",811069.30,IRSwap
+AOO56,0.41,3000,Jast - Ziemann,896268.92,IRSwap
+DSLL1,0.99,3001,Bradtke Inc,785848.74,IRSwap
+BPLZG,0.52,3002,Smith - Kshlerin,70925.15,IRSwap
+VTSR0,0.39,3003,Farrell Group,444383.15,IRSwap
+MRA3F,0.34,3004,Kihn and Sons,976153.18,IRSwap
+KXXLK,0.08,3005,"Franecki, Vandervort and Feil",574264.45,IRSwap
+5LXK0,0.82,3006,"Pacocha, O'Reilly and Dare",869904.21,IRSwap
+FIFJF,0.51,3007,O'Connell - Orn,957850.13,IRSwap
+BPVBW,0.87,3008,Christiansen - Pfannerstill,987313.76,IRSwap
+RQSRM,0.70,3009,Koelpin and Sons,625836.94,IRSwap
+O9KM4,0.43,3010,Strosin and Sons,14436.58,IRSwap
+5JZ6J,0.44,3011,Beatty - Collins,567621.76,IRSwap
+3C16O,0.70,3012,"Morar, Ortiz and Cole",629578.97,IRSwap
+SOA15,0.25,3013,"Upton, Rice and Hauck",677370.21,IRSwap
+BQH8R,0.61,3014,Kohler and Sons,137835.46,IRSwap
+77DKX,0.53,3015,Dicki Group,558335.14,IRSwap
+5E8GR,0.31,3016,Klocko - Reichert,802397.43,IRSwap
+7QHSL,0.56,3017,"Kuphal, Green and Kohler",443242.38,IRSwap
+RSHKA,0.72,3018,"Volkman, Bosco and Kozey",716581.28,IRSwap
+QLZXI,0.01,3019,Mosciski Group,715307.65,IRSwap
+WI4ZG,0.89,3020,Koelpin - Reinger,708927.34,IRSwap
+MBFNG,0.99,3021,"Heathcote, Wintheiser and Kohler",540480.73,IRSwap
+OMQG5,0.50,3022,Aufderhar Inc,373684.06,IRSwap
+DRT8N,0.48,3023,"Bernhard, Lowe and Kunde",454926.52,IRSwap
+NC639,0.57,3024,Huels Group,781956.40,IRSwap
+FKC8V,0.39,3025,Bergstrom Inc,297340.16,IRSwap
+9EY39,0.57,3026,Gulgowski - Hyatt,945294.55,IRSwap
+1M8L0,0.28,3027,Jacobson - Schaden,507549.99,IRSwap
+K0I70,0.80,3028,Herman - Vandervort,924873.07,IRSwap
+YTZZI,0.24,3029,McCullough - Hilll,277349.21,IRSwap
+YVAI8,0.81,3030,Borer - Stamm,689078.27,IRSwap
+U6DHD,0.27,3031,Roberts Inc,597241.77,IRSwap
+01IJ8,0.63,3032,"Sanford, Bernhard and Kohler",136205.86,IRSwap
+GI7YP,0.72,3033,Boehm Group,889571.75,IRSwap
+ODRFR,0.44,3034,White Inc,479266.96,IRSwap
+M0DJX,0.84,3035,Monahan - Feil,347907.57,IRSwap
+NFPDO,0.17,3036,"Williamson, Bahringer and Davis",57276.85,IRSwap
+TVZGN,0.26,3037,Ondricka - Lueilwitz,875180.73,IRSwap
+NUF9F,0.12,3038,Sauer Group,106467.64,IRSwap
+X0F0X,0.06,3039,"Bartell, Stracke and West",55087.40,IRSwap
+YOHS5,0.40,3040,Brakus and Sons,16187.34,IRSwap
+682ET,0.00,3041,Gorczany LLC,708049.12,IRSwap
+HSLTW,0.84,3042,Walter - Lockman,498031.92,IRSwap
+ZOI3P,0.17,3043,Kautzer - Reichert,201832.21,IRSwap
+RA8VO,0.95,3044,"Kunde, Greenfelder and Reinger",565647.65,IRSwap
+5KRJ5,0.08,3045,Emard Group,632555.82,IRSwap
+OJDPH,0.73,3046,Torp - Hagenes,836529.87,IRSwap
+MTXPI,0.37,3047,"Pouros, Oberbrunner and Bauch",937608.22,IRSwap
+SKU4Q,0.55,3048,"Effertz, Treutel and Lindgren",211374.87,IRSwap
+ZWV7W,0.52,3049,Bogisich - Hackett,608409.95,IRSwap
+KWPIQ,0.84,3050,Windler - Willms,329050.48,IRSwap
+EAGRS,0.87,3051,"Nicolas, Rath and Quitzon",672781.37,IRSwap
+KQBNX,0.04,3052,Zemlak - Kerluke,130092.98,IRSwap
+8X7NW,0.87,3053,Metz - Sporer,562890.17,IRSwap
+XDLXK,0.59,3054,Howell - Toy,732555.38,IRSwap
+0YI70,0.16,3055,Kerluke - Brekke,653454.93,IRSwap
+A1V5F,0.48,3056,Stiedemann - Schmitt,799921.20,IRSwap
+JZ3P7,0.18,3057,Schuster Group,930480.29,IRSwap
+M3H6K,0.28,3058,Huels Inc,337906.22,IRSwap
+IHL3F,0.89,3059,Ankunding - Nicolas,728061.01,IRSwap
+ILK64,0.02,3060,Kirlin - Langworth,93572.04,IRSwap
+YRG67,0.55,3061,"Shanahan, Ziemann and Shanahan",27785.93,IRSwap
+65F2E,0.01,3062,"McKenzie, Considine and Bergstrom",70093.61,IRSwap
+VZT0I,0.31,3063,Halvorson LLC,684825.16,IRSwap
+0TPJP,0.12,3064,Lindgren and Sons,583769.53,IRSwap
+D0FEE,0.76,3065,"Erdman, Hayes and Skiles",861305.12,IRSwap
+O5C3S,0.64,3066,Mosciski Group,556897.09,IRSwap
+1QH1D,0.45,3067,Pfeffer Inc,604994.61,IRSwap
+ZUTIY,0.39,3068,"Heller, Gottlieb and Boyle",50444.61,IRSwap
+XJ0CN,0.36,3069,Carroll - Luettgen,9790.35,IRSwap
+J38TM,0.54,3070,Ward - Kub,752030.71,IRSwap
+PCRIP,0.31,3071,Batz - Willms,871303.02,IRSwap
+KKOL4,0.19,3072,Mayer - Schulist,251544.93,IRSwap
+FFSCI,0.88,3073,Rath - Reichel,91094.74,IRSwap
+ZK5OA,0.58,3074,Anderson - Tillman,420767.61,IRSwap
+V487Y,0.42,3075,"Lebsack, Nienow and Heaney",838073.58,IRSwap
+OBVFA,0.54,3076,Paucek - Kilback,88519.33,IRSwap
+IOE9Z,0.41,3077,Yost - Senger,702544.41,IRSwap
+X2D9K,0.31,3078,Gusikowski LLC,401292.52,IRSwap
+ZBFBB,0.25,3079,Cormier - Macejkovic,461866.59,IRSwap
+DJTNB,0.18,3080,Fritsch Inc,37790.08,IRSwap
+C515L,0.94,3081,"Wolff, DuBuque and Lowe",413555.78,IRSwap
+9FDQ6,0.25,3082,Stracke - Yundt,981223.54,IRSwap
+RAI1E,0.26,3083,Watsica LLC,123261.20,IRSwap
+X01N6,0.40,3084,"Walker, Huel and McDermott",585346.47,IRSwap
+D0233,0.45,3085,Raynor and Sons,672251.09,IRSwap
+GFN1M,0.01,3086,"Cormier, Walker and Olson",44088.72,IRSwap
+EEBFB,0.08,3087,"Heathcote, Dooley and Pouros",470308.87,IRSwap
+GDAGX,0.29,3088,"Stokes, Thompson and Emmerich",433211.41,IRSwap
+JHLDL,0.55,3089,"Senger, Ryan and Kovacek",922950.87,IRSwap
+ZXMNR,0.69,3090,Keebler - Hintz,109389.49,IRSwap
+ST1ZA,0.76,3091,Smith Inc,62479.21,IRSwap
+DXZHU,0.85,3092,Blick and Sons,536110.46,IRSwap
+GUBGG,0.67,3093,"Walter, Kozey and Kiehn",474532.71,IRSwap
+ME5PG,0.61,3094,"Cronin, Moen and Ortiz",987215.83,IRSwap
+YUQ2X,0.13,3095,Stamm and Sons,308859.14,IRSwap
+PLBZP,0.50,3096,"Ward, Stiedemann and Ebert",362991.76,IRSwap
+VEALC,0.14,3097,"Bosco, Hudson and Von",851164.95,IRSwap
+25H0L,0.41,3098,Fadel - Spencer,626927.60,IRSwap
+QGMWT,0.82,3099,Leuschke - Wyman,230409.98,IRSwap
+ZE4YC,0.76,3100,"Roberts, Breitenberg and Feil",754818.37,IRSwap

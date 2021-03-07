@@ -7,7 +7,7 @@ using CsvHelper;
 using System.Globalization;
 using Domain.MarketData;
 
-namespace Core
+namespace Cibc.Core
 {   public class CsvMarketDataProvider<T> : IMarketDataProvider<T> where T: MarketDataItem
     {
         public CsvMarketDataProvider(string filePath)
@@ -20,7 +20,7 @@ namespace Core
                 throw new ArgumentException($"Can only handle csv files{FilePath}");
             }
         }
-        public FileSource MarketDataSource => FileSource.CsvFile;
+        public FileFormat MarketDataSource => FileFormat.CsvFile;
 
         public string FilePath { get; private set; }
         public async IAsyncEnumerable<T> LoadMarketDataAsync()
@@ -39,6 +39,6 @@ namespace Core
     public interface IMarketDataProvider<T> where T : MarketDataItem
     {
         IAsyncEnumerable<T> LoadMarketDataAsync();
-        FileSource MarketDataSource { get;  }
+        FileFormat MarketDataSource { get;  }
     }
 }

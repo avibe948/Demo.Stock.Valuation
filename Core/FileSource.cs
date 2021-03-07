@@ -1,4 +1,4 @@
-﻿namespace Core
+﻿namespace Cibc.Core
 {
-    public enum FileSource {CsvFile}
+    public enum FileFormat {CsvFile}
 }

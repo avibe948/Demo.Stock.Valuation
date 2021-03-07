@@ -1,94 +1,131 @@
 ﻿using Cibc.Pricing.ValuationModels;
-using Core.TradeProviders;
+using Cibc.Core.TradeProviders;
 using Domain.MarketData;
 using Domain.TradeTypes;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
+using System.Runtime.CompilerServices;
+using CsvHelper;
+using System.IO;
+using System.Globalization;
+using System.Reactive.Linq;
+using System.Reactive.Concurrency;
 
-namespace Core
+namespace Cibc.Core
 {
+    public interface IValuationOrchestrator
+    {
+        IAsyncEnumerable<ValuationResult> Evaluate<TTrade>(IFileTradeProvider tradeProvider, [EnumeratorCancellation] CancellationToken cancellationToken = default) where TTrade : Trade;
+        Task<bool> LoadMarketData(CancellationToken cancellationToken = default);
+        IAsyncEnumerable<TTrade> LoadTradesAsync<TTrade>(IFileTradeProvider tradeProvider) where TTrade : Trade;
+    }
+
     public class ValuationOrchestrator : IValuationOrchestrator
     {
         private readonly IMarketDataProvider<MarketDataItem> _marketDataProvider;
-        private readonly IEnumerable<ITradeProvider<Trade>> _tradeProviders;
+        private readonly IFileTradeProvider _tradeProvider;
         private readonly IValuationModelFactory _valuationModelFactory;
         private readonly StandardMktDataCache _marketDataCache;
-        private readonly ILogger<ValuationOrchestrator> _logger;
-       
-        public ValuationOrchestrator(IMarketDataProvider<MarketDataItem> marketDataProvider, 
-                                     IEnumerable<ITradeProvider<Trade>> tradeProviders,
-                                     IValuationModelFactory valuationModelFactory,
+        public readonly ILogger<ValuationOrchestrator> Log;
+
+        public ValuationOrchestrator(IValuationModelFactory valuationModelFactory,
                                      StandardMktDataCache marketDataCache, 
                                      ILogger<ValuationOrchestrator> logger)
         {
-            _marketDataProvider = marketDataProvider ?? throw new ArgumentNullException("marketDataProvider");
-            _tradeProviders = tradeProviders ?? throw new ArgumentNullException("tradeProviders");
             _valuationModelFactory = valuationModelFactory;
             _marketDataCache = marketDataCache;
-            _logger = logger;
-
-
-             
-
+            Log = logger;
         }
-        public async Task<bool> LoadMarketData()
+
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <param name="marketDataProvider">source provider for market data</param>
+        /// <param name="tradefileProviders">a collection of key value pairs where the key is the path of the </param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        public async Task<bool> RunValuations(IMarketDataProvider<MarketDataItem> marketDataProvider,
+                                              IFileTradeProvider tradefileProvider,
+                                              CancellationToken cancellationToken = default)
         {
-            Logger.LogInformation("Loading MarketData....");
+            await LoadMarketData();
+
+            var directory = System.IO.Directory.GetCurrentDirectory();
+                        
+            var  Evaluate<StockTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
+            await Evaluate<IRSwapTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
+            await Evaluate<FxForwardTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
+            await Evaluate<FxOptionTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
+
+            return true;
+        } 
+        public async Task<bool> LoadMarketData(CancellationToken cancellationToken = default)
+        {
+            Log.LogInformation("Loading MarketData....");
 
             var mktDataCollection = _marketDataProvider.LoadMarketDataAsync();
 
-            await foreach (var mktData in mktDataCollection)
+            await foreach (var mktData in mktDataCollection.WithCancellation(cancellationToken).ConfigureAwait(false))
             {
                 _marketDataCache.TryAdd(mktData.Key, mktData.Price);
             }
 
-            return await Task.FromResult(true);
+            return true;
+        }
+        public async Task ReportResults(IAsyncEnumerable<ValuationResult> results, string resultPath)
+        {
+            using (var stream = new StreamWriter(resultPath))
+            using (var csvWriter = new CsvWriter(stream, CultureInfo.InvariantCulture))
+            {
+                await foreach (var record in results)
+                {
+                    csvWriter.WriteRecord(record);
+                }
+            }
         }
 
-
-        public ILogger<ValuationOrchestrator> Logger => _logger;
-
-        public async IAsyncEnumerable<ValuationResult> Evaluate<TTrade>(ITradeProvider<TTrade> tradeProvider) where TTrade: Trade
+        public IObservable<ValuationResult> Evaluate<TTrade>(IMarketDataProvider<MarketDataItem> marketDataProvider,
+                                                             IFileTradeProvider tradeProvider, 
+                                                             Func<TTrade,IValuationModel<TTrade>> valuationModel,
+                                                             string filePath,
+                                                             CancellationToken cancellationToken = default) where TTrade : Trade
         {
-            _logger.LogInformation("Evaluate trades..");
+            marketDataProvider = marketDataProvider ?? throw new ArgumentNullException("marketDataProvider");
+            tradeProvider = tradeProvider ?? throw new ArgumentNullException("tradeProviders");
 
-            await foreach (var trade in LoadTradesAsync(tradeProvider).ConfigureAwait(false))
-            {                
-                if (trade is TTrade)
-                {
-                    var valuationModel = _valuationModelFactory.Create<TTrade>(); /// TODO Reuse this from pool instead of creating a new object every time. 
-                    decimal? underlyingPrice;
-                    if (_marketDataCache.TryGetValue(trade.Underlying, out underlyingPrice))
-                    {
-                        yield return await valuationModel.CalcAsync(new PricingInputs<TTrade>(trade, underlyingPrice));
-                    }
-                    else
-                    {
-                        yield return new ValuationResult(trade.TradeId, null, new List<string>() { $"Market data for underlying {trade.Underlying} is missing" });
-                    }
-                }
-            }      
+            Log.LogInformation("Evaluate trades..");
+
+            return tradeProvider.GetTradeStream<TTrade>(filePath, cancellationToken)
+                                 .SubscribeOn(TaskPoolScheduler.Default)
+                                 .SubscribeOn(TaskPoolScheduler.Default)
+                                 .Select((trade) =>
+                                 {
+                                     decimal? underlyingPrice;
+                                     if (_marketDataCache.TryGetValue(trade.Underlying, out underlyingPrice))
+                                     {
+                                         return valuationModel.Calc(new PricingInputs<TTrade>(trade, underlyingPrice));
+                                     }
+                                     else
+                                     {
+                                         return new ValuationResult(trade.TradeId, null, new List<string>() { $"Market data for underlying {trade.Underlying} is missing" });
+                                     }
+                                 });
+            
         }
   
-        public IAsyncEnumerable<TTrade> LoadTradesAsync<TTrade>(ITradeProvider<TTrade> tradeProvider) where TTrade:Trade
+        public IObservable<TTrade> GetTradeStream<TTrade>(IFileTradeProvider tradeProvider, string filePath) where TTrade:Trade
         {
-            Logger.LogInformation("Loading Trades async....");
+            Log.LogInformation("Loading Trades async....");
 
-            return tradeProvider.LoadTradesAsync();
+            return tradeProvider.GetTradeStream<TTrade>(filePath);
         }
     }
 
-    public class ValuationResults
-    {
-    }
 
-    public interface IValuationOrchestrator
-    {
-    }
 
 
 }

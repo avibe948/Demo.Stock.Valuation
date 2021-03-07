@@ -8,10 +8,6 @@ using System.Threading.Tasks;
 
 namespace Cibc.Pricing.ValuationModels
 {
-    public interface IValuationModelFactory
-    {
-        IValuationModel<TTrade> Create<TTrade>() where TTrade : Trade;
-    }
     public class ValuationModelFactory: IValuationModelFactory
     {
         
