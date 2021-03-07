@@ -1,0 +1,11 @@
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.csprojAssemblyReference.cache
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.AssemblyInfoInputs.cache
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.AssemblyInfo.cs
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\bin\Debug\netcoreapp3.1\Pricing.deps.json
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\bin\Debug\netcoreapp3.1\Pricing.dll
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\bin\Debug\netcoreapp3.1\Pricing.pdb
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.csproj.CopyComplete
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.dll
+C:\Users\avibe\source\repos\Interview\Test\CIBCValuation\Pricing\obj\Debug\netcoreapp3.1\Pricing.pdb
