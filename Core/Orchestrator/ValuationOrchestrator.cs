@@ -15,29 +15,32 @@ using System.Globalization;
 using System.Reactive.Linq;
 using System.Reactive.Concurrency;
 
+
 namespace Cibc.Core
 {
     public interface IValuationOrchestrator
     {
-        IAsyncEnumerable<ValuationResult> Evaluate<TTrade>(IFileTradeProvider tradeProvider, [EnumeratorCancellation] CancellationToken cancellationToken = default) where TTrade : Trade;
         Task<bool> LoadMarketData(CancellationToken cancellationToken = default);
-        IAsyncEnumerable<TTrade> LoadTradesAsync<TTrade>(IFileTradeProvider tradeProvider) where TTrade : Trade;
     }
 
     public class ValuationOrchestrator : IValuationOrchestrator
     {
         private readonly IMarketDataProvider<MarketDataItem> _marketDataProvider;
-        private readonly IFileTradeProvider _tradeProvider;
-        private readonly IValuationModelFactory _valuationModelFactory;
+        private readonly IEnumerable<IFileTradeProvider<Trade>> _tradeProviders;
+        private readonly Func<TradeType, IValuationModel> _valuationModelCreator;
         private readonly StandardMktDataCache _marketDataCache;
-        public readonly ILogger<ValuationOrchestrator> Log;
+        public  readonly ILogger<ValuationOrchestrator> Log;
 
-        public ValuationOrchestrator(IValuationModelFactory valuationModelFactory,
+        public ValuationOrchestrator(IMarketDataProvider<MarketDataItem> marketDataProvider,
+                                     IEnumerable<IFileTradeProvider<Trade>> tradeProviders,
+                                     Func<TradeType,IValuationModel> valuationModelCreator,
                                      StandardMktDataCache marketDataCache, 
                                      ILogger<ValuationOrchestrator> logger)
         {
-            _valuationModelFactory = valuationModelFactory;
-            _marketDataCache = marketDataCache;
+            marketDataProvider = marketDataProvider ?? throw new ArgumentNullException(nameof(marketDataProvider));
+            _tradeProviders = tradeProviders ?? throw new ArgumentNullException(nameof(tradeProviders));
+            _valuationModelCreator = valuationModelCreator ?? throw new ArgumentNullException(nameof(_valuationModelCreator));
+            _marketDataCache = marketDataCache ?? throw new ArgumentNullException(nameof(marketDataCache));
             Log = logger;
         }
 
@@ -46,21 +49,16 @@ namespace Cibc.Core
         /// </summary>
         /// <param name="marketDataProvider">source provider for market data</param>
         /// <param name="tradefileProviders">a collection of key value pairs where the key is the path of the </param>
-        /// <param name="cancellationToken"></param>
+        /// <param name="cancellationToken">Cancellation token to cancel the operation</param>
         /// <returns></returns>
-        public async Task<bool> RunValuations(IMarketDataProvider<MarketDataItem> marketDataProvider,
-                                              IFileTradeProvider tradefileProvider,
-                                              CancellationToken cancellationToken = default)
-        {
+        public async Task<bool> RunValuations(string resultsFilePath, CancellationToken cancellationToken = default)
+        {            
             await LoadMarketData();
 
-            var directory = System.IO.Directory.GetCurrentDirectory();
-                        
-            var  Evaluate<StockTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
-            await Evaluate<IRSwapTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
-            await Evaluate<FxForwardTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
-            await Evaluate<FxOptionTrade>(marketDataProvider, tradefileProvider, System.IO.Path.Combine(directory, "Stock.csv"), cancellationToken);
+            var resultsAsAsyncEnumerable = GetValuationResults().ToAsyncEnumerable();
 
+            await ReportResults(resultsAsAsyncEnumerable, resultsFilePath);            
+            
             return true;
         } 
         public async Task<bool> LoadMarketData(CancellationToken cancellationToken = default)
@@ -88,26 +86,24 @@ namespace Cibc.Core
             }
         }
 
-        public IObservable<ValuationResult> Evaluate<TTrade>(IMarketDataProvider<MarketDataItem> marketDataProvider,
-                                                             IFileTradeProvider tradeProvider, 
-                                                             Func<TTrade,IValuationModel<TTrade>> valuationModel,
-                                                             string filePath,
-                                                             CancellationToken cancellationToken = default) where TTrade : Trade
+        public IObservable<Trade> GetAllTrades(CancellationToken cancellationToken=default)
         {
-            marketDataProvider = marketDataProvider ?? throw new ArgumentNullException("marketDataProvider");
-            tradeProvider = tradeProvider ?? throw new ArgumentNullException("tradeProviders");
+            var tradeStreams = _tradeProviders.Select(t => t.GetTradeStream(cancellationToken)).ToArray();
+            return Observable.Concat<Trade>(tradeStreams); 
+        }
+        public IObservable<ValuationResult> GetValuationResults(CancellationToken cancellationToken = default)
+        {
+            
+            Log.LogInformation("Evaluate trades async ..");
 
-            Log.LogInformation("Evaluate trades..");
-
-            return tradeProvider.GetTradeStream<TTrade>(filePath, cancellationToken)
-                                 .SubscribeOn(TaskPoolScheduler.Default)
+                return           GetAllTrades(cancellationToken)
                                  .SubscribeOn(TaskPoolScheduler.Default)
                                  .Select((trade) =>
                                  {
                                      decimal? underlyingPrice;
                                      if (_marketDataCache.TryGetValue(trade.Underlying, out underlyingPrice))
                                      {
-                                         return valuationModel.Calc(new PricingInputs<TTrade>(trade, underlyingPrice));
+                                         return _valuationModelCreator(trade.TradeType).Calc(new PricingInputs(trade, underlyingPrice));
                                      }
                                      else
                                      {
@@ -117,12 +113,6 @@ namespace Cibc.Core
             
         }
   
-        public IObservable<TTrade> GetTradeStream<TTrade>(IFileTradeProvider tradeProvider, string filePath) where TTrade:Trade
-        {
-            Log.LogInformation("Loading Trades async....");
-
-            return tradeProvider.GetTradeStream<TTrade>(filePath);
-        }
     }
 
 

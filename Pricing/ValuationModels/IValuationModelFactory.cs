@@ -5,7 +5,7 @@ namespace Cibc.Pricing.ValuationModels
 {
     public interface IValuationModelFactory
     {
-        IValuationModel<TTrade> Create<TTrade>() where TTrade : Trade;
+        IValuationModel Create(TradeType type);
         
     }
 }

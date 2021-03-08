@@ -10,19 +10,15 @@ using FluentValidation;
 namespace Cibc.Pricing.ValuationModels
 {
 
-    public interface IValuationModel<TTrade> where TTrade : Trade 
+    
+    public class PricingInputs
     {
-        ValuationResult Calc(PricingInputs<TTrade> input);
-    }
-
-    public class PricingInputs<TTrade>
-    {
-        public PricingInputs(TTrade trade, decimal? underlyingMarketPrice)
+        public PricingInputs(Trade trade, decimal? underlyingMarketPrice)
         {
             Trade = trade;
             UnderlyingMarketPrice = underlyingMarketPrice;
         }
-        public TTrade Trade { get; private set; }
+        public Trade Trade { get; private set; }
         public decimal? UnderlyingMarketPrice { get; private set;}
     }
 
@@ -47,59 +43,69 @@ namespace Cibc.Pricing.ValuationModels
         public IList<string> Errors { get; private set; }
     }
 
-    public abstract class ValuationModelBase<TTrade> : IValuationModel<TTrade> where TTrade : Trade
+    public abstract class ValuationModelBase : IValuationModel
     {
-        protected Func<PricingInputs<TTrade>, ValuationMeasure> PayoutFunc { get; set; }
         public ValuationModelBase() { }
 
+        protected Func<PricingInputs, ValuationMeasure> PriceFunc { get; set; }
+     
 
-        public ValuationResult Calc(PricingInputs<TTrade> input)
+        public ValuationResult Calc(PricingInputs input)
         {
             List<string> errors = input.UnderlyingMarketPrice.HasValue ? null : new List<string>() { "Price must be greater than 0" };
 
-            var price = PayoutFunc(input);
+            var price = PriceFunc(input);
 
             return new ValuationResult(input.Trade.TradeId, price, errors);
         }
     }
-    public class StockValuationModel : ValuationModelBase<StockTrade>
+    public class StockValuationModel : ValuationModelBase
     {       
         public StockValuationModel()
         {
-            PayoutFunc = (PricingInputs<StockTrade> pricingInputs) => new ValuationMeasure(pricingInputs.Trade.Quantity * pricingInputs.UnderlyingMarketPrice);
+            PriceFunc = (PricingInputs pricingInputs) => new ValuationMeasure(pricingInputs.Trade.Quantity * pricingInputs.UnderlyingMarketPrice);
         }
     }
    
-    public class FxOptionValuationModel : ValuationModelBase<FxOptionTrade>
+    public class FxOptionValuationModel : ValuationModelBase
     {
         public FxOptionValuationModel()
         {
-            PayoutFunc = (PricingInputs<FxOptionTrade> pricingInputs) =>
+            PriceFunc = (PricingInputs pricingInputs) =>
             {
-                decimal payoff = pricingInputs.Trade.OptionType == OptionType.Call ?
-                                 pricingInputs.Trade.Quantity * Math.Min(pricingInputs.UnderlyingMarketPrice.Value, pricingInputs.Trade.Strike) :
-                                 pricingInputs.Trade.Quantity * Math.Max(pricingInputs.UnderlyingMarketPrice.Value, pricingInputs.Trade.Strike);
+                var trade = pricingInputs.Trade as FxOptionTrade ?? throw new ArgumentNullException(nameof(pricingInputs));
+                
+                decimal payoff = trade.OptionType == OptionType.Call ?
+                                 trade.Quantity * Math.Min(pricingInputs.UnderlyingMarketPrice.Value, trade.Strike) :
+                                 trade.Quantity * Math.Max(pricingInputs.UnderlyingMarketPrice.Value, trade.Strike);
 
                 return new ValuationMeasure(payoff);
             };
         }
     }
 
-    public class FxForwardValuationModel : ValuationModelBase<FxForwardTrade>
+    public class FxForwardValuationModel : ValuationModelBase
     {
         public FxForwardValuationModel(){
 
-            PayoutFunc = (PricingInputs<FxForwardTrade> pricingInputs) => new ValuationMeasure(pricingInputs.Trade.Quantity * pricingInputs.UnderlyingMarketPrice);
+            PriceFunc = (PricingInputs pricingInputs) => new ValuationMeasure(pricingInputs.Trade.Quantity * pricingInputs.UnderlyingMarketPrice);
 
         }
 
     }
 
-    public class IRSwapValuationModel : ValuationModelBase<IRSwapTrade>
+    public class IRSwapValuationModel : ValuationModelBase
     {
+  
         public IRSwapValuationModel()
         {
-            PayoutFunc = (PricingInputs<IRSwapTrade> pricingInputs) => new ValuationMeasure(pricingInputs.Trade.Quantity * pricingInputs.Trade.FixedRate / pricingInputs.UnderlyingMarketPrice);
+          
+            PriceFunc = (PricingInputs pricingInputs) =>
+            {
+                var trade = pricingInputs.Trade as IRSwapTrade ?? throw new ArgumentNullException(nameof(pricingInputs));
+
+                return new ValuationMeasure(trade.Quantity * trade.FixedRate / pricingInputs.UnderlyingMarketPrice);
+            };
         }
     }
 

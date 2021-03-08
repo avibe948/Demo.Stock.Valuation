@@ -8,7 +8,7 @@ using Cibc.PricingValidators.Trades;
 using System;
 using System.Threading.Tasks;
 using Autofac.Extensions.DependencyInjection;
-using Core.Infrastracture.Autofac;
+using Cibc.Core.Infrastracture.Autofac;
 using Cibc.Pricing.ValuationModels;
 
 namespace CIBC.Valuation
@@ -22,7 +22,6 @@ namespace CIBC.Valuation
 
                 var services = host.Services;
                 var logger = services.GetService<ILoggerFactory>().CreateLogger<Program>();
-                var valuationService = services.GetService<IValuationModel<StockTrade>>();
                 
                 logger.LogInformation("Starting CIBC Valuation console");                
                 logger.LogInformation("All done!");

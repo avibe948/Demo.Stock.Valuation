@@ -11,14 +11,14 @@ namespace Cibc.Pricing.ValuationModels
     public class ValuationModelFactory: IValuationModelFactory
     {
         
-        public  IValuationModel<TTrade> Create<TTrade>()  where TTrade:Trade
+        public  IValuationModel Create(TradeType tradeType)
         {
-            return nameof(TTrade) switch
+            return tradeType  switch
             {
-                nameof(StockTrade) => new StockValuationModel() as IValuationModel<TTrade>,
-                nameof(FxForwardTrade) => new FxForwardValuationModel() as IValuationModel<TTrade>,
-                nameof(FxOptionTrade) => new FxOptionValuationModel() as IValuationModel<TTrade>,
-                nameof(IRSwapTrade) => new IRSwapValuationModel() as IValuationModel<TTrade>,
+                TradeType.Stock => new StockValuationModel(),
+                TradeType.FxForward => new FxForwardValuationModel(),
+                TradeType.FxOption=> new FxOptionValuationModel(),
+                TradeType.IRSwap => new IRSwapValuationModel(),
                 _ => null,
             };
         }

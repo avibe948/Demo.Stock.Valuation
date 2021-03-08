@@ -13,32 +13,37 @@ using Microsoft.Extensions.Logging;
 
 namespace Cibc.Core.TradeProviders
 {
-    public class CsvFileTradeProvider : IFileTradeProvider
+    public class CsvFileTradeProvider<T> : IFileTradeProvider<T> where T:Trade
     {
-        private readonly ILogger<CsvFileTradeProvider> _logger;
+        private readonly ILogger<CsvFileTradeProvider<T>> _logger;
 
-        public CsvFileTradeProvider(ILogger<CsvFileTradeProvider> logger){
+        private readonly string _filePath;
+
+        public CsvFileTradeProvider(string filePath, ILogger<CsvFileTradeProvider<T>> logger){
+            _filePath = filePath;
             _logger = logger;
         }
         public FileFormat FileFormat => FileFormat.CsvFile;
 
-        public IObservable<T> GetTradeStream<T>(string filePath, CancellationToken cancellationToken= default) where T : Trade
+        public string FilePath => _filePath;
+
+        public IObservable<T> GetTradeStream(CancellationToken cancellationToken= default)
         {
 
             return Observable.Create<T>(async obs =>
                {
-                   if (filePath == null)
+                   if (FilePath == null)
                        obs.OnError(new ArgumentNullException("filePath must not be null"));
 
-                   if (!File.Exists(filePath))
-                       obs.OnError(new FileNotFoundException($"File path doesn't exist :  {filePath}"));
+                   if (!File.Exists(FilePath))
+                       obs.OnError(new FileNotFoundException($"File path doesn't exist :  {FilePath}"));
 
-                   if (!filePath.EndsWith(".csv"))
+                   if (!FilePath.EndsWith(".csv"))
                    {
-                       obs.OnError(new ArgumentException($"Can only handle csv files. file name : {filePath}"));
+                       obs.OnError(new ArgumentException($"Can only handle csv files. file name : {FilePath}"));
 
                    }
-                   using (var stream = new StreamReader(filePath))
+                   using (var stream = new StreamReader(FilePath))
                    using (var csvReader = new CsvReader(stream, CultureInfo.InvariantCulture))
                    {
                        await foreach (var record in csvReader.GetRecordsAsync<T>(cancellationToken))
@@ -46,19 +51,9 @@ namespace Cibc.Core.TradeProviders
                            obs.OnNext(record);
                        }
                    }
-                   return Disposable.Create(() => _logger.LogInformation($"Disposing treade stream , completed reading file {filePath}") );
+                   return Disposable.Create(() => _logger.LogInformation($"Disposing read stream , completed reading file {FilePath}") );
                });
         }
-    }
-
-    public interface IFileTradeProvider
-    {
-        // loading sync will be faster, but the idea  to use AsyncEnumerable to show that I understand the concept. In real scenarios (Network rather than local machine disk) using async may be more efficient if the network is slow.   
-        // This is a pull model and in real applications normally a push model is much better, 
-        IObservable<TTrade> GetTradeStream<TTrade>(string filePath, CancellationToken cancellationToken = default) where TTrade : Trade;
-
-        FileFormat FileFormat { get;  }
-
     }
 
 }
