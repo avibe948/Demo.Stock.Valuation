@@ -1,5 +1,5 @@
 ﻿using Cibc.Pricing.ValuationModels;
-using Domain.TradeTypes;
+using Domain.Trade;
 
 namespace Cibc.Pricing.ValuationModels
 {

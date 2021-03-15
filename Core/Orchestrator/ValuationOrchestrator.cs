@@ -1,7 +1,7 @@
 ﻿using Cibc.Pricing.ValuationModels;
 using Cibc.Core.TradeProviders;
 using Domain.MarketData;
-using Domain.TradeTypes;
+using Domain.Trade;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -14,13 +14,18 @@ using System.IO;
 using System.Globalization;
 using System.Reactive.Linq;
 using System.Reactive.Concurrency;
-
+using Core.Validators.Trades;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace Cibc.Core
 {
     public interface IValuationOrchestrator
     {
         Task<bool> LoadMarketData(CancellationToken cancellationToken = default);
+        Task<bool> RunValuations(string resultsFilePath, CancellationToken cancellationToken = default);
+        IObservable<Trade> GetAllTrades(CancellationToken cancellationToken = default);
+        void ReportResults(IObservable<ValuationResult> results, string resultPath, CancellationToken cancellationToken = default);
     }
 
     public class ValuationOrchestrator : IValuationOrchestrator
@@ -29,38 +34,34 @@ namespace Cibc.Core
         private readonly IEnumerable<IFileTradeProvider<Trade>> _tradeProviders;
         private readonly Func<TradeType, IValuationModel> _valuationModelCreator;
         private readonly StandardMktDataCache _marketDataCache;
-        public  readonly ILogger<ValuationOrchestrator> Log;
+        private readonly IValidator<Trade> _tradeValidator;
+        public readonly  ILogger<ValuationOrchestrator> Log;
 
         public ValuationOrchestrator(IMarketDataProvider<MarketDataItem> marketDataProvider,
                                      IEnumerable<IFileTradeProvider<Trade>> tradeProviders,
-                                     Func<TradeType,IValuationModel> valuationModelCreator,
-                                     StandardMktDataCache marketDataCache, 
+                                     Func<TradeType, IValuationModel> valuationModelCreator,
+                                     StandardMktDataCache marketDataCache,
+                                     IValidator<Trade> tradeValidator,
                                      ILogger<ValuationOrchestrator> logger)
         {
-            marketDataProvider = marketDataProvider ?? throw new ArgumentNullException(nameof(marketDataProvider));
+            _marketDataProvider = marketDataProvider ?? throw new ArgumentNullException(nameof(marketDataProvider));
             _tradeProviders = tradeProviders ?? throw new ArgumentNullException(nameof(tradeProviders));
             _valuationModelCreator = valuationModelCreator ?? throw new ArgumentNullException(nameof(_valuationModelCreator));
             _marketDataCache = marketDataCache ?? throw new ArgumentNullException(nameof(marketDataCache));
+            _tradeValidator = tradeValidator;
             Log = logger;
         }
 
-        /// <summary>
-        /// /
-        /// </summary>
-        /// <param name="marketDataProvider">source provider for market data</param>
-        /// <param name="tradefileProviders">a collection of key value pairs where the key is the path of the </param>
-        /// <param name="cancellationToken">Cancellation token to cancel the operation</param>
-        /// <returns></returns>
         public async Task<bool> RunValuations(string resultsFilePath, CancellationToken cancellationToken = default)
-        {            
+        {
             await LoadMarketData();
 
-            var resultsAsAsyncEnumerable = GetValuationResults().ToAsyncEnumerable();
+            var resultsObservable = GetValuationResults();
 
-            await ReportResults(resultsAsAsyncEnumerable, resultsFilePath);            
-            
+            ReportResults(resultsObservable, resultsFilePath, cancellationToken);
+
             return true;
-        } 
+        }
         public async Task<bool> LoadMarketData(CancellationToken cancellationToken = default)
         {
             Log.LogInformation("Loading MarketData....");
@@ -74,48 +75,66 @@ namespace Cibc.Core
 
             return true;
         }
-        public async Task ReportResults(IAsyncEnumerable<ValuationResult> results, string resultPath)
+        public void ReportResults(IObservable<ValuationResult> valuationResultsStream, string resultPath, CancellationToken cancellation)
         {
-            using (var stream = new StreamWriter(resultPath))
-            using (var csvWriter = new CsvWriter(stream, CultureInfo.InvariantCulture))
-            {
-                await foreach (var record in results)
-                {
-                    csvWriter.WriteRecord(record);
-                }
-            }
+            if (valuationResultsStream == null)
+                throw new ArgumentNullException(nameof(valuationResultsStream));
+
+            if (string.IsNullOrEmpty(resultPath))
+                throw new ArgumentNullException(nameof(valuationResultsStream));
+
+            var csv = new System.Text.StringBuilder();
+            csv.AppendLine("TradeId, Pv, ErrorMessage");
+            
+            valuationResultsStream
+            .ObserveOn(TaskPoolScheduler.Default)
+            .Subscribe(result =>
+            { 
+                    var tradeId = result.TradeId.ToString();
+                    var pv = result?.ValuationMeasure?.PV.ToString() ?? string.Empty;
+                    var errorMessage = (result.Errors != null && result.Errors.Any())?  string.Join(';', result?.Errors) :string.Empty;
+                    var line = $"{tradeId},{pv},{errorMessage}";
+                    csv.AppendLine(line);
+                    
+            },
+                onError: (error) => Log.LogError($"Error during result reporting, exception: {error}"),
+                onCompleted: () => {
+                    Log.LogError("Completed writing results to file");
+                    File.WriteAllTextAsync(resultPath, csv.ToString());
+                }, cancellation);
         }
 
-        public IObservable<Trade> GetAllTrades(CancellationToken cancellationToken=default)
+        public IObservable<Trade> GetAllTrades(CancellationToken cancellationToken = default)
         {
             var tradeStreams = _tradeProviders.Select(t => t.GetTradeStream(cancellationToken)).ToArray();
-            return Observable.Concat<Trade>(tradeStreams); 
+            return Observable.Concat<Trade>(tradeStreams);
         }
         public IObservable<ValuationResult> GetValuationResults(CancellationToken cancellationToken = default)
         {
-            
-            Log.LogInformation("Evaluate trades async ..");
 
-                return           GetAllTrades(cancellationToken)
-                                 .SubscribeOn(TaskPoolScheduler.Default)
-                                 .Select((trade) =>
+            return GetAllTrades(cancellationToken)
+                             .ValidateTrades(_tradeValidator)
+                             .Do(x => Log.LogInformation("Evaluate trades async .."))
+                             .Select(tradeValidation =>
+                            {
+                                 var trade = tradeValidation.Trade;
+
+                                 if (!tradeValidation.ValidationResults.IsValid)
                                  {
-                                     decimal? underlyingPrice;
-                                     if (_marketDataCache.TryGetValue(trade.Underlying, out underlyingPrice))
-                                     {
-                                         return _valuationModelCreator(trade.TradeType).Calc(new PricingInputs(trade, underlyingPrice));
-                                     }
-                                     else
-                                     {
-                                         return new ValuationResult(trade.TradeId, null, new List<string>() { $"Market data for underlying {trade.Underlying} is missing" });
-                                     }
-                                 });
-            
+                                     return new ValuationResult(tradeValidation.Trade.TradeId, null, tradeValidation.ValidationResults.Errors.Select(v => v.ErrorMessage).ToList());
+                                 }
+                                 decimal? underlyingPrice;
+                                 if (_marketDataCache.TryGetValue(trade.Underlying, out underlyingPrice))
+                                 {
+                                    
+                                     return _valuationModelCreator(trade.TradeType).Calc(new PricingInputs(trade, underlyingPrice));
+                                 }
+                                 else
+                                 {
+                                     return new ValuationResult(trade.TradeId, null, new List<string>() { $"Market data errror: Price for underlying {trade.Underlying} is missing" });
+                                 }
+                             });
         }
-  
+
     }
-
-
-
-
 }

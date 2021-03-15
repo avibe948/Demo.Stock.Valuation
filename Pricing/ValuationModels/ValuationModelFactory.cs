@@ -1,5 +1,5 @@
 ﻿using Cibc.Pricing.ValuationModels;
-using Domain.TradeTypes;
+using Domain.Trade;
 using Cibc.Pricing;
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ namespace Cibc.Pricing.ValuationModels
             return tradeType  switch
             {
                 TradeType.Stock => new StockValuationModel(),
-                TradeType.FxForward => new FxForwardValuationModel(),
+                TradeType.FXForward => new FxForwardValuationModel(),
                 TradeType.FxOption=> new FxOptionValuationModel(),
                 TradeType.IRSwap => new IRSwapValuationModel(),
                 _ => null,

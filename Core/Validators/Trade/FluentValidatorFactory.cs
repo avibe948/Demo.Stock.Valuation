@@ -1,14 +1,13 @@
 ﻿using Autofac;
 using FluentValidation;
 using System;
+using Cibc.Core.Validators.Trades;
 
-namespace Cibc.PricingValidators.Trades
-{
-    public class AutofacValidatorFactory : ValidatorFactoryBase
+public class FluentValidatorFactory : ValidatorFactoryBase
     {
         private readonly IComponentContext container;
 
-        public AutofacValidatorFactory(IComponentContext container)
+        public FluentValidatorFactory(IComponentContext container)
         {
             this.container = container;
         }
@@ -24,6 +23,7 @@ namespace Cibc.PricingValidators.Trades
 
             return null;
         }
+
     }
 
-}
+

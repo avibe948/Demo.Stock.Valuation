@@ -1,17 +1,18 @@
-﻿using Domain.TradeTypes;
+﻿using Domain.Trade;
 using FluentValidation;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Cibc.PricingValidators.Trades
+namespace Cibc.Core.Validators.Trades
 {
-
-    public class IRSwapTradeValidator : TradeBaseValidator<IRSwapTrade>
+    public class IRSwapTradeValidator : AbstractValidator<IRSwapTrade>
     {
         public IRSwapTradeValidator()
         {
+            RuleFor(x => x.FixedRate).NotEmpty().GreaterThan(-1);
+            RuleFor(x => x.Counterparty).NotEmpty();
+            RuleFor(x => x.Quantity).NotEmpty();
+            RuleFor(x => x.TradeId).NotEmpty();
+            RuleFor(x => x.TradeType).NotEmpty();
             RuleFor(x => x.Underlying).NotEmpty();
-            RuleFor(x => x.FixedRate).NotEmpty();
         }
     }
 

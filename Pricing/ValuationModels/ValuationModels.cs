@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.MarketData;
-using Domain.TradeTypes;
+using Domain.Trade;
+using Domain.Trade;
 using FluentValidation;
 
 namespace Cibc.Pricing.ValuationModels
 {
 
-    
+
     public class PricingInputs
     {
         public PricingInputs(Trade trade, decimal? underlyingMarketPrice)
@@ -29,6 +30,8 @@ namespace Cibc.Pricing.ValuationModels
             PV = pv;
         }
         public decimal? PV { get; private set; }
+
+        public string Errors { get; set; }
     }
     public class ValuationResult
     {
@@ -102,9 +105,13 @@ namespace Cibc.Pricing.ValuationModels
           
             PriceFunc = (PricingInputs pricingInputs) =>
             {
+                if (Math.Abs((double)pricingInputs.UnderlyingMarketPrice.Value) < 10E-16)
+                    return new ValuationMeasure(null) {Errors = "IR Swap market price must not be 0"};
+
                 var trade = pricingInputs.Trade as IRSwapTrade ?? throw new ArgumentNullException(nameof(pricingInputs));
 
                 return new ValuationMeasure(trade.Quantity * trade.FixedRate / pricingInputs.UnderlyingMarketPrice);
+                
             };
         }
     }

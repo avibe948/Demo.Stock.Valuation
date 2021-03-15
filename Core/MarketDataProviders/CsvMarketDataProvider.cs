@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using CsvHelper;
 using System.Globalization;
 using Domain.MarketData;
+using CsvHelper.Configuration;
 
 namespace Cibc.Core
-{   public class CsvMarketDataProvider<T> : IMarketDataProvider<T> where T: MarketDataItem
+{
+    public class CsvMarketDataProvider<T> : IMarketDataProvider<T> where T: MarketDataItem
     {
         public CsvMarketDataProvider(string filePath)
         {
@@ -26,19 +28,23 @@ namespace Cibc.Core
         public async IAsyncEnumerable<T> LoadMarketDataAsync()
         {
             using(var reader = new StreamReader(FilePath))
-            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                await foreach ( var record in csv.GetRecordsAsync<T>())
+                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
-                    yield return record;
+                    HasHeaderRecord = false,
+                    Delimiter = ","
+                   
+                };
+
+                using (var csv = new CsvReader(reader, config))
+                {
+                    
+                    await foreach (var record in csv.GetRecordsAsync<T>())
+                    {
+                        yield return record;
+                    }
                 }
             }
         }
-    }
-
-    public interface IMarketDataProvider<T> where T : MarketDataItem
-    {
-        IAsyncEnumerable<T> LoadMarketDataAsync();
-        FileFormat MarketDataSource { get;  }
     }
 }
